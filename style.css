@@ -164,13 +164,25 @@ body, html {
   left: 20%;
   opacity: 0.05;
 }
+.lines-wrapper span.horizontal:nth-child(1) {
+  left: 80%;
+}
 .lines-wrapper span.horizontal:nth-child(2) {
-  left: 40%;
+  left: 80%;
 }
 .lines-wrapper span.horizontal:nth-child(3) {
-  left: 60%;
+  left: 80%;
 }
 .lines-wrapper span.horizontal:nth-child(4) {
+  left: 80%;
+}
+.lines-wrapper span.horizontal:nth-child(5) {
+  left: 80%;
+}
+.lines-wrapper span.horizontal:nth-child(6) {
+  left: 80%;
+}
+.lines-wrapper span.horizontal:nth-child(7) {
   left: 80%;
 }
 
