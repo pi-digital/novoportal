@@ -146,13 +146,25 @@ body, html {
   top: 11%;
   left: calc(20% - 2px);
 }
+.lines-wrapper .croses span:nth-child(1) {
+  left: calc(80% - 2px);
+}
 .lines-wrapper .croses span:nth-child(2) {
-  left: calc(40% - 2px);
+  left: calc(80% - 2px);
 }
 .lines-wrapper .croses span:nth-child(3) {
-  left: calc(60% - 2px);
+  left: calc(80% - 2px);
 }
 .lines-wrapper .croses span:nth-child(4) {
+  left: calc(80% - 2px);
+}
+.lines-wrapper .croses span:nth-child(5) {
+  left: calc(80% - 2px);
+}
+.lines-wrapper .croses span:nth-child(6) {
+  left: calc(80% - 2px);
+}
+.lines-wrapper .croses span:nth-child(7) {
   left: calc(80% - 2px);
 }
 .lines-wrapper span.horizontal {
