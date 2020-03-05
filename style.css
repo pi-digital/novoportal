@@ -450,6 +450,7 @@ body, html {
   cursor: pointer;
   margin-right: 5rem;
   top: 135px;
+  font-size: 18px;
 }
 .slider-content .title-wrapper span.gallery::before {
   content: "";
@@ -459,7 +460,7 @@ body, html {
   width: 1px;
   height: 2.5rem;
   background: white;
-  top: -0.5rem;
+  top: 0;
   opacity: 0.9;
 }
 .slider-content .title-wrapper span.gallery::after {
@@ -470,7 +471,7 @@ body, html {
   width: 1px;
   height: 2.5rem;
   background: white;
-  top: -0.5rem;
+  top: 0;
   opacity: 0.9;
 }
 
