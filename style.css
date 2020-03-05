@@ -276,8 +276,8 @@ body, html {
   width: 100%;
   height: 100%;
   background-blend-mode: multiply;
-  background-size: auto 125%;
-  background-position: 0px -45px;
+  background-size: 100%;
+  background-position: 100% 50%;
   background-repeat: no-repeat;
 }
 .slider-content .fake-bg.white {
