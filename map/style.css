@@ -1,3 +1,9 @@
+#body {
+    scale: 125%;
+    margin: 100px 0 0 0;
+    text-align: center;
+}
+
 #map {
     display: none;
 }
