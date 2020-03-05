@@ -146,9 +146,6 @@ body, html {
   top: 11%;
   left: calc(20% - 2px);
 }
-.lines-wrapper .croses span:nth-child(0) {
-  left: calc(80% - 2px);
-}
 .lines-wrapper .croses span:nth-child(1) {
   left: calc(80% - 2px);
 }
@@ -170,6 +167,9 @@ body, html {
 .lines-wrapper .croses span:nth-child(7) {
   left: calc(80% - 2px);
 }
+.lines-wrapper .croses span:nth-child(8) {
+  left: calc(80% - 2px);
+}
 .lines-wrapper span.horizontal {
   position: absolute;
   width: 1px;
@@ -178,9 +178,6 @@ body, html {
   z-index: 1;
   left: 20%;
   opacity: 0.05;
-}
-.lines-wrapper span.horizontal:nth-child(0) {
-  left: 80%;
 }
 .lines-wrapper span.horizontal:nth-child(1) {
   left: 80%;
@@ -201,6 +198,9 @@ body, html {
   left: 80%;
 }
 .lines-wrapper span.horizontal:nth-child(7) {
+  left: 80%;
+}
+.lines-wrapper span.horizontal:nth-child(8) {
   left: 80%;
 }
 
