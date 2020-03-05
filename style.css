@@ -146,6 +146,9 @@ body, html {
   top: 11%;
   left: calc(20% - 2px);
 }
+.lines-wrapper .croses span:nth-child(0) {
+  left: calc(80% - 2px);
+}
 .lines-wrapper .croses span:nth-child(1) {
   left: calc(80% - 2px);
 }
@@ -175,6 +178,9 @@ body, html {
   z-index: 1;
   left: 20%;
   opacity: 0.05;
+}
+.lines-wrapper span.horizontal:nth-child(0) {
+  left: 80%;
 }
 .lines-wrapper span.horizontal:nth-child(1) {
   left: 80%;
@@ -237,6 +243,9 @@ body, html {
   opacity: 1;
 }
 .slider-content .slide.red {
+  background-image: url("pin-inpi-50-resized.png");
+}
+.slider-content .slide.red {
   background-color: #EE4654;
 }
 .slider-content .slide.blue {
@@ -270,6 +279,10 @@ body, html {
   background-size: auto 125%;
   background-position: 0px -45px;
   background-repeat: no-repeat;
+}
+.slider-content .fake-bg.white {
+  background-image: url("pin-inpi-50-resized.png");
+  background-color: #EE4654;
 }
 .slider-content .fake-bg.red {
   background-image: url();
