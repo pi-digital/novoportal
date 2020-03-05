@@ -43,7 +43,7 @@ var mySlider = {
     var w = $(mySlider.config.activeSlide).width();
     var h = $(mySlider.config.activeSlide).height();
     var img = document.createElement('IMG'); 
-    img.src = "http://www.inpi.gov.br/ouvid/mask-red.jpg";
+    img.src = "pin-inpi-50.png";
     var position = {
         x: 150,
         alpha:1,
