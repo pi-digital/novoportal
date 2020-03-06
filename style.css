@@ -592,7 +592,7 @@ body, html {
   border: none;
 }
 .footer-wrapper li.active .hover-box {
-  opacity: 0.75;
+  opacity: 0.55;
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }
