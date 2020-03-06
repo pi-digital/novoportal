@@ -592,9 +592,9 @@ body, html {
   border: none;
 }
 .footer-wrapper li.active .hover-box {
-  opacity: 1;
-  -webkit-transform: scale(1.15);
-          transform: scale(1.15);
+  opacity: 0.75;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 .footer-wrapper li .hover-box {
   position: absolute;
@@ -603,7 +603,7 @@ body, html {
   background: #000;
   top: 0;
   left: 0;
-  opacity: 1;
+  opacity: 0;
   -webkit-transition: all 0.3s ease-in;
   transition: all 0.3s ease-in;
   z-index: 1;
