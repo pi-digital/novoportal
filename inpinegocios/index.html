@@ -1,7 +1,18 @@
 <style>
+@import "https://fonts.googleapis.com/css?family=Montserrat";
+@font-face {
+  font-family: Narziss;
+  src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/42764/Narziss_Bold_Drops.woff2);
+}
+@font-face {
+  font-family: Narziss-medium;
+  src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/42764/Narziss_Bold_Drops.woff2);
+}
+  
 #chartdiv {
   width: 100%;
   height: 500px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 </style>
@@ -39,8 +50,8 @@ chart.zoomControl = new am4maps.ZoomControl();
 // Set initial zoom
 chart.homeZoomLevel = 5.5;
 chart.homeGeoPoint = {
-  latitude: -10.1835604,
-  longitude: -48.3337793
+  latitude: -22.9110137,
+  longitude: -43.2093727
 };
 
 // Create map polygon series
