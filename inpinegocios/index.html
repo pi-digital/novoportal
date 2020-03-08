@@ -78,11 +78,11 @@ imageSeries.mapImages.template.tooltipText = "{title}";
 imageSeries.mapImages.template.propertyFields.url = "url";
 
 var circle = imageSeries.mapImages.template.createChild(am4core.Circle);
-circle.radius = 3;
+circle.radius = 2;
 circle.propertyFields.fill = "color";
 
 var circle2 = imageSeries.mapImages.template.createChild(am4core.Circle);
-circle2.radius = 3;
+circle2.radius = 2;
 circle2.propertyFields.fill = "color";
 
 
@@ -105,20 +105,21 @@ imageSeries.data = [ {
   "latitude": -22.9110137,
   "longitude": -43.2093727,
   "url": "http://www.inpi.gov.br/",
+  "scale": 5,
   "color":colorSet.next()
 }, {
   "title": "Regional, INPI (São Paulo, SP)",
   "latitude": -23.5506507,
   "longitude": -46.6333824,
   "url": "http://www.inpi.gov.br/",
-  "scale": 0.5,
+  "scale": 1,
   "color":colorSet.next()
 }, {
   "title": "Regional, INPI (Brasília, DF)",
   "latitude": -15.7934036,
   "longitude": -47.8823172,
   "url": "http://www.inpi.gov.br/",
-  "scale": 0.5,
+  "scale": 1,
   "color":colorSet.next()
 }, {
   "title": "Regional, INPI (Goiânia, GO)",
