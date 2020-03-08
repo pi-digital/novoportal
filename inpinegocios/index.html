@@ -32,18 +32,14 @@ am4core.ready(function() {
 am4core.useTheme(am4themes_animated);
 // Themes end
 
-// Define marker path
-var targetSVG = "M9,0C4.029,0,0,4.029,0,9s4.029,9,9,9s9-4.029,9-9S13.971,0,9,0z M9,15.93 c-3.83,0-6.93-3.1-6.93-6.93S5.17,2.07,9,2.07s6.93,3.1,6.93,6.93S12.83,15.93,9,15.93 M12.5,9c0,1.933-1.567,3.5-3.5,3.5S5.5,10.933,5.5,9S7.067,5.5,9,5.5 S12.5,7.067,12.5,9z";
-
 // Create map instance
 var chart = am4core.create("chartdiv", am4maps.MapChart);
-var interfaceColors = new am4core.InterfaceColorSet();
 
 // Set map definition
 chart.geodata = am4geodata_worldLow;
 
 // Set projection
-chart.projection = new am4maps.projections.Mercator();
+chart.projection = new am4maps.projections.Miller();
 
 // Add zoom control
 chart.zoomControl = new am4maps.ZoomControl();
@@ -57,234 +53,224 @@ chart.homeGeoPoint = {
 
 // Create map polygon series
 var polygonSeries = chart.series.push(new am4maps.MapPolygonSeries());
+
+// Exclude Antartica
 polygonSeries.exclude = ["AQ"];
+
+// Make map load polygon (like country names) data from GeoJSON
 polygonSeries.useGeodata = true;
-polygonSeries.mapPolygons.template.nonScalingStroke = true;
 
-// Add images
+// Configure series
+var polygonTemplate = polygonSeries.mapPolygons.template;
+polygonTemplate.tooltipText = "{name}";
+polygonTemplate.polygon.fillOpacity = 0.6;
+
+
+// Create hover state and set alternative fill color
+var hs = polygonTemplate.states.create("hover");
+hs.properties.fill = chart.colors.getIndex(0);
+
+// Add image series
 var imageSeries = chart.series.push(new am4maps.MapImageSeries());
-var imageTemplate = imageSeries.mapImages.template;
-imageTemplate.tooltipText = "{title}";
-imageTemplate.nonScaling = true;
+imageSeries.mapImages.template.propertyFields.longitude = "longitude";
+imageSeries.mapImages.template.propertyFields.latitude = "latitude";
+imageSeries.mapImages.template.tooltipText = "{title}";
+imageSeries.mapImages.template.propertyFields.url = "url";
 
-var marker = imageTemplate.createChild(am4core.Sprite);
-marker.path = targetSVG;
-marker.horizontalCenter = "middle";
-marker.verticalCenter = "middle";
-marker.scale = 0.7;
-marker.fill = interfaceColors.getFor("alternativeBackground");
+var circle = imageSeries.mapImages.template.createChild(am4core.Circle);
+circle.radius = 3;
+circle.propertyFields.fill = "color";
 
-imageTemplate.propertyFields.latitude = "latitude";
-imageTemplate.propertyFields.longitude = "longitude";
+var circle2 = imageSeries.mapImages.template.createChild(am4core.Circle);
+circle2.radius = 3;
+circle2.propertyFields.fill = "color";
+
+
+circle2.events.on("inited", function(event){
+  animateBullet(event.target);
+})
+
+
+function animateBullet(circle) {
+    var animation = circle.animate([{ property: "scale", from: 1, to: 5 }, { property: "opacity", from: 1, to: 0 }], 1000, am4core.ease.circleOut);
+    animation.events.on("animationended", function(event){
+      animateBullet(event.target.object);
+    })
+}
+
+var colorSet = new am4core.ColorSet();
+
 imageSeries.data = [ {
-  "id": "Rio de Janeiro",
-  "svgPath": targetSVG,
   "title": "Sede, INPI (Rio de Janeiro, RJ)",
   "latitude": -22.9110137,
   "longitude": -43.2093727,
-  "scale": 2
+  "url": "http://www.inpi.gov.br/",
+  "color":colorSet.next()
 }, {
-  "svgPath": targetSVG,
   "title": "Regional, INPI (São Paulo, SP)",
   "latitude": -23.5506507,
   "longitude": -46.6333824,
-  "scale": 0.5
+  "url": "http://www.inpi.gov.br/",
+  "color":colorSet.next()
 }, {
-  "svgPath": targetSVG,
   "title": "Regional, INPI (Brasília, DF)",
   "latitude": -15.7934036,
   "longitude": -47.8823172,
-  "scale": 0.5
+  "url": "http://www.inpi.gov.br/",
+  "color":colorSet.next()
 }, {
-  "svgPath": targetSVG,
   "title": "Regional, INPI (Goiânia, GO)",
   "latitude": -16.680882,
   "longitude": -49.2532691,
-  "scale": 0.5
+  "url": "http://www.inpi.gov.br/",
+  "color":colorSet.next()
 }, {
-  "svgPath": targetSVG,
   "title": "Regional, INPI (Recife, PE)",
   "latitude": -8.04255435,
   "longitude": -34.92770629,
-  "scale": 0.5
+  "url": "http://www.inpi.gov.br/",
+  "color":colorSet.next()
 }, {
-  "svgPath": targetSVG,
   "title": "Regional, INPI (Fortaleza, CE)",
   "latitude": -3.7304512,
   "longitude": -38.5217989,
-  "scale": 0.5
+  "url": "http://www.inpi.gov.br/",
+  "color":colorSet.next()
 }, {
-  "svgPath": targetSVG,
   "title": "Regional, INPI (João Pessoa, PB)",
   "latitude": -7.15181265,
   "longitude": -34.85239128,
-  "scale": 0.5
+  "url": "http://www.inpi.gov.br/",
+  "color":colorSet.next()
 }, {
-  "svgPath": targetSVG,
   "title": "Regional, INPI (Aracaju, SE)",
   "latitude": -11.01868955,
   "longitude": -37.0944378,
-  "scale": 0.5
+  "url": "http://www.inpi.gov.br/",
+  "color":colorSet.next()
 }, {
-  "svgPath": targetSVG,
   "title": "Regional, INPI (Belo Horizonte, MG)",
   "latitude": -19.9227318,
   "longitude": -43.9450948,
-  "scale": 0.5
+  "url": "http://www.inpi.gov.br/",
+  "color":colorSet.next()
 }, {
-  "svgPath": targetSVG,
   "title": "Regional, INPI (Vitória, ES)",
   "latitude": -20.2872412,
   "longitude": -40.32680602,
-  "scale": 0.5
+  "url": "http://www.inpi.gov.br/",
+  "color":colorSet.next()
 }, {
-  "svgPath": targetSVG,
   "title": "Regional, INPI (Porto Alegre, RS)",
   "latitude": -30.10091665,
   "longitude": -51.18878819,
-  "scale": 0.5
+  "url": "http://www.inpi.gov.br/",
+  "color":colorSet.next()
 }, {
-  "svgPath": targetSVG,
   "title": "Regional, INPI (Curitiba, PR)",
   "latitude": -25.4295963,
   "longitude": -49.2712724,
-  "scale": 0.5
+  "url": "http://www.inpi.gov.br/",
+  "color":colorSet.next()
 }, {
-  "svgPath": targetSVG,
   "title": "Regional, INPI (Florianópolis, SC)",
   "latitude": -27.5973002,
   "longitude": -48.5496098,
-  "scale": 0.5
+  "url": "http://www.inpi.gov.br/",
+  "color":colorSet.next()
 }, {
-  "svgPath": targetSVG,
-  "title": "Assunção, PY",
+  "title": "DINAPI (Assunção, PY)",
   "latitude": -25.2800459,
   "longitude": -57.6343814,
-  "scale": 0.5
+  "url": "https://www.dinapi.gov.py/",
+  "color":colorSet.next()
 }, {
-  "svgPath": targetSVG,
-  "title": "Montevidéu, UY",
+  "title": "DNPI (Montevidéu, UY)",
   "latitude": -34.9059039,
   "longitude": -56.1913569,
-  "scale": 0.5
+  "url": "https://www.miem.gub.uy/marcas-y-patentes",
+  "color":colorSet.next()
 }, {
-  "svgPath": targetSVG,
-  "title": "Buenos Aires, AR",
+  "title": "INPI (Buenos Aires, AR)",
   "latitude": -34.6075682,
   "longitude": -58.4370894,
-  "scale": 0.5
+  "url": "https://www.argentina.gob.ar/inpi",
+  "color":colorSet.next()
 }, {
-  "svgPath": targetSVG,
-  "title": "La Paz, BO",
+  "title": "SENAPI (La Paz, BO)",
   "latitude": -16.4955455,
   "longitude": -68.1336229,
-  "scale": 0.5
+  "url": "https://www.senapi.gob.bo/",
+  "color":colorSet.next()
 }, {
-  "svgPath": targetSVG,
-  "title": "Organização Regional Africana de Propriedade Intelectual (ARIPO)",
-  "latitude": 40.43,
-  "longitude": -74,
-  "scale": 0.5
+  "title": "INAPI (Santiago, CL)",
+  "latitude": -33.4377968,
+  "longitude": -70.6504451,
+  "url": "https://inapi.cl/",
+  "color":colorSet.next()
+}, {
+  "title": "INPI (Paris, FR)",
+  "latitude": 48.8588897,
+  "longitude": 2.32004103,
+  "url": "https://www.inpi.fr/",
+  "color":colorSet.next()
+}, {
+  "title": "UKIPO (Londres, GB)",
+  "latitude": 51.5073219,
+  "longitude": -0.1276474,
+  "url": "https://www.gov.uk/government/organisations/intellectual-property-office",
+  "color":colorSet.next()
+}, {
+  "title": "JPO (Tóquio, JP)",
+  "latitude": 35.6828387,
+  "longitude": 139.7594549,
+  "url": "https://www.jpo.go.jp/e/",
+  "color":colorSet.next()
+}, {
+  "title": "CNIPA (Beijing, CN)",
+  "latitude": 39.906217,
+  "longitude": 116.3912757,
+  "url": "http://english.sipo.gov.cn/",
+  "color":colorSet.next()
+}, {
+  "title": "ROSPATENT (Moscou, RU)",
+  "latitude": 55.7504461,
+  "longitude": 37.6174943,
+  "url": "https://rupto.ru/en",
+  "color":colorSet.next()
+}, {
+  "title": "DKPTO (Copenhage, DK)",
+  "latitude": 55.6867243,
+  "longitude": 12.5700724,
+  "url": "https://www.dkpto.org/",
+  "color":colorSet.next()
+}, {
+  "title": "INDECOPI (Lima, PE)",
+  "latitude": -12.0621065,
+  "longitude": -77.0365256,
+  "url": "https://indecopi.gob.pe/",
+  "color":colorSet.next()
+}, {
+  "title": "SENADI (Quito, EC)",
+  "latitude": -0.2201641,
+  "longitude": -78.5123274,
+  "url": "https://www.derechosintelectuales.gob.ec/",
+  "color":colorSet.next()
+}, {
+  "title": "IPOS (Singapura, SG)",
+  "latitude": 1.340863,
+  "longitude": 103.83039182,
+  "url": "https://www.ipos.gov.sg/",
+  "color":colorSet.next()
+}, {
+  "title": "KIPO (Santiago, CL)",
+  "latitude": 37.5666791,
+  "longitude": 126.9782914,
+  "url": "https://www.kipo.go.kr/en/",
+  "color":colorSet.next()
 } ];
 
-// Add lines
-var lineSeries = chart.series.push(new am4maps.MapLineSeries());
-lineSeries.dataFields.multiGeoLine = "multiGeoLine";
 
-var lineTemplate = lineSeries.mapLines.template;
-lineTemplate.nonScalingStroke = true;
-lineTemplate.arrow.nonScaling = true;
-lineTemplate.arrow.width = 4;
-lineTemplate.arrow.height = 6;
-lineTemplate.stroke = interfaceColors.getFor("alternativeBackground");
-lineTemplate.fill = interfaceColors.getFor("alternativeBackground");
-lineTemplate.line.strokeOpacity = 0.4;
-
-lineSeries.data = [{
-  "multiGeoLine": [
-    [
-      { "latitude": -22.9110137, "longitude": -43.2093727 },
-      { "latitude": 50.4422, "longitude": 30.5367 }
-    ]
-  ]
-}, {
-  "multiGeoLine": [
-    [
-      { "latitude": -22.9110137, "longitude": -43.2093727 },
-      { "latitude": 40.4300, "longitude": -74.0000 }
-    ]
-  ]
-}, {
-  "multiGeoLine": [
-    [
-      { "latitude": -22.9110137, "longitude": -43.2093727 },
-      { "latitude": 64.1353, "longitude": -21.8952 }
-    ]
-  ]
-}, {
-  "multiGeoLine": [
-    [
-      { "latitude": -22.9110137, "longitude": -43.2093727 },
-      { "latitude": 37.9792, "longitude": 23.7166 }
-    ]
-  ]
-}, {
-  "multiGeoLine": [
-    [
-      { "latitude": -22.9110137, "longitude": -43.2093727 },
-      { "latitude": 38.7072, "longitude": -9.1355 }
-    ]
-  ]
-}, {
-  "multiGeoLine": [
-    [
-      { "latitude": -22.9110137, "longitude": -43.2093727 },
-      { "latitude": 55.7558, "longitude": 37.6176 }
-    ]
-  ]
-}, {
-  "multiGeoLine": [
-    [
-      { "latitude": -22.9110137, "longitude": -43.2093727 },
-      { "latitude": 44.8048, "longitude": 20.4781 }
-    ]
-  ]
-}, {
-  "multiGeoLine": [
-    [
-      { "latitude": -22.9110137, "longitude": -43.2093727 },
-      { "latitude": 48.2116, "longitude": 17.1547 }
-    ]
-  ]
-}, {
-  "multiGeoLine": [
-    [
-      { "latitude": -22.9110137, "longitude": -43.2093727 },
-      { "latitude": 46.0514, "longitude": 14.5060 }
-    ]
-  ]
-}, {
-  "multiGeoLine": [
-    [
-      { "latitude": -22.9110137, "longitude": -43.2093727 },
-      { "latitude": 40.4167, "longitude": -3.7033 }
-    ]
-  ]
-}, {
-  "multiGeoLine": [
-    [
-      { "latitude": -22.9110137, "longitude": -43.2093727 },
-      { "latitude": 59.3328, "longitude": 18.0645 }
-    ]
-  ]
-}, {
-  "multiGeoLine": [
-    [
-      { "latitude": -22.9110137, "longitude": -43.2093727 },
-      { "latitude": 46.9480, "longitude": 7.4481 }
-    ]
-  ]
-}];
 
 }); // end am4core.ready()
 </script>
