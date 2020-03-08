@@ -45,7 +45,7 @@ chart.projection = new am4maps.projections.Miller();
 chart.zoomControl = new am4maps.ZoomControl();
 
 // Set initial zoom
-chart.homeZoomLevel = 5.5;
+chart.homeZoomLevel = 2.5;
 chart.homeGeoPoint = {
   latitude: -22.9110137,
   longitude: -43.2093727
@@ -64,7 +64,6 @@ polygonSeries.useGeodata = true;
 var polygonTemplate = polygonSeries.mapPolygons.template;
 polygonTemplate.tooltipText = "{name}";
 polygonTemplate.polygon.fillOpacity = 0.6;
-
 
 // Create hover state and set alternative fill color
 var hs = polygonTemplate.states.create("hover");
@@ -92,7 +91,7 @@ circle2.events.on("inited", function(event){
 
 
 function animateBullet(circle) {
-    var animation = circle.animate([{ property: "scale", from: 1, to: 5 }, { property: "opacity", from: 1, to: 0 }], 1000, am4core.ease.circleOut);
+    var animation = circle.animate([{ property: "scale", from: 1, to: 3 }, { property: "opacity", from: 1, to: 0 }], 1000, am4core.ease.circleOut);
     animation.events.on("animationended", function(event){
       animateBullet(event.target.object);
     })
@@ -100,6 +99,14 @@ function animateBullet(circle) {
 
 var colorSet = new am4core.ColorSet();
 
+var marker = imageTemplate.createChild(am4core.Sprite);
+marker.path = circle;
+marker.horizontalCenter = "middle";
+marker.verticalCenter = "middle";
+marker.scale = 0.7;
+marker.fill = interfaceColors.getFor("alternativeBackground");
+
+  
 imageSeries.data = [ {
   "title": "Sede, INPI (Rio de Janeiro, RJ)",
   "latitude": -22.9110137,
@@ -112,7 +119,6 @@ imageSeries.data = [ {
   "latitude": -23.5506507,
   "longitude": -46.6333824,
   "url": "http://www.inpi.gov.br/",
-  "scale": 1,
   "color":colorSet.next()
 }, {
   "title": "Regional, INPI (Brasília, DF)",
@@ -258,6 +264,18 @@ imageSeries.data = [ {
   "latitude": -0.2201641,
   "longitude": -78.5123274,
   "url": "https://www.derechosintelectuales.gob.ec/",
+  "color":colorSet.next()
+}, {
+  "title": "IPOS (Singapura, SG)",
+  "latitude": 1.340863,
+  "longitude": 103.83039182,
+  "url": "https://www.ipos.gov.sg/",
+  "color":colorSet.next()
+}, {
+  "title": "KIPO (Seul, CL)",
+  "latitude": 37.5666791,
+  "longitude": 126.9782914,
+  "url": "https://www.kipo.go.kr/en/",
   "color":colorSet.next()
 }, {
   "title": "IPOS (Singapura, SG)",
