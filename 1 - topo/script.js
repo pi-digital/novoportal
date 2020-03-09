@@ -43,7 +43,7 @@ var mySlider = {
     var w = $(mySlider.config.activeSlide).width();
     var h = $(mySlider.config.activeSlide).height();
     var img = document.createElement('IMG'); 
-    img.src = "pin-inpi-50.png";
+    img.src = "";
     var position = {
         x: 150,
         alpha:1,
