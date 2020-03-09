@@ -72,97 +72,184 @@ function animateBullet(circle) {
 var colorSet = new am4core.ColorSet();
 
 imageSeries.data = [ {
-  "title": "Brussels",
-  "latitude": 50.8371,
-  "longitude": 4.3676,
-  "color":"#e03e96",
-  "radius": 20
-}, {
-  "title": "Copenhagen",
-  "latitude": 55.6763,
-  "longitude": 12.5681,
+  "title": "Sede, INPI (Rio de Janeiro, RJ)",
+  "latitude": -22.9110137,
+  "longitude": -43.2093727,
+  "url": "http://www.inpi.gov.br/",
   "color":colorSet.next()
 }, {
-  "title": "Paris",
-  "latitude": 48.8567,
-  "longitude": 2.3510,
+  "title": "Regional, INPI (São Paulo, SP)",
+  "latitude": -23.5506507,
+  "longitude": -46.6333824,
+  "url": "http://www.inpi.gov.br/",
   "color":colorSet.next()
 }, {
-  "title": "Reykjavik",
-  "latitude": 64.1353,
-  "longitude": -21.8952,
+  "title": "Regional, INPI (Brasília, DF)",
+  "latitude": -15.7934036,
+  "longitude": -47.8823172,
+  "url": "http://www.inpi.gov.br/",
   "color":colorSet.next()
 }, {
-  "title": "Moscow",
-  "latitude": 55.7558,
-  "longitude": 37.6176,
+  "title": "Regional, INPI (Goiânia, GO)",
+  "latitude": -16.680882,
+  "longitude": -49.2532691,
+  "url": "http://www.inpi.gov.br/",
   "color":colorSet.next()
 }, {
-  "title": "Madrid",
-  "latitude": 40.4167,
-  "longitude": -3.7033,
+  "title": "Regional, INPI (Recife, PE)",
+  "latitude": -8.04255435,
+  "longitude": -34.92770629,
+  "url": "http://www.inpi.gov.br/",
   "color":colorSet.next()
 }, {
-  "title": "London",
-  "latitude": 51.5002,
-  "longitude": -0.1262,
-  "url": "http://www.google.co.uk",
+  "title": "Regional, INPI (Fortaleza, CE)",
+  "latitude": -3.7304512,
+  "longitude": -38.5217989,
+  "url": "http://www.inpi.gov.br/",
   "color":colorSet.next()
 }, {
-  "title": "Peking",
-  "latitude": 39.9056,
-  "longitude": 116.3958,
+  "title": "Regional, INPI (João Pessoa, PB)",
+  "latitude": -7.15181265,
+  "longitude": -34.85239128,
+  "url": "http://www.inpi.gov.br/",
   "color":colorSet.next()
 }, {
-  "title": "New Delhi",
-  "latitude": 28.6353,
-  "longitude": 77.2250,
+  "title": "Regional, INPI (Aracaju, SE)",
+  "latitude": -11.01868955,
+  "longitude": -37.0944378,
+  "url": "http://www.inpi.gov.br/",
   "color":colorSet.next()
 }, {
-  "title": "Tokyo",
-  "latitude": 35.6785,
-  "longitude": 139.6823,
-  "url": "http://www.google.co.jp",
+  "title": "Regional, INPI (Belo Horizonte, MG)",
+  "latitude": -19.9227318,
+  "longitude": -43.9450948,
+  "url": "http://www.inpi.gov.br/",
   "color":colorSet.next()
 }, {
-  "title": "Ankara",
-  "latitude": 39.9439,
-  "longitude": 32.8560,
+  "title": "Regional, INPI (Vitória, ES)",
+  "latitude": -20.2872412,
+  "longitude": -40.32680602,
+  "url": "http://www.inpi.gov.br/",
   "color":colorSet.next()
 }, {
-  "title": "Buenos Aires",
-  "latitude": -34.6118,
-  "longitude": -58.4173,
+  "title": "Regional, INPI (Porto Alegre, RS)",
+  "latitude": -30.10091665,
+  "longitude": -51.18878819,
+  "url": "http://www.inpi.gov.br/",
   "color":colorSet.next()
 }, {
-  "title": "Brasilia",
-  "latitude": -15.7801,
-  "longitude": -47.9292,
+  "title": "Regional, INPI (Curitiba, PR)",
+  "latitude": -25.4295963,
+  "longitude": -49.2712724,
+  "url": "http://www.inpi.gov.br/",
   "color":colorSet.next()
 }, {
-  "title": "Ottawa",
-  "latitude": 45.4235,
-  "longitude": -75.6979,
-  "color":"#e03e96"
-}, {
-  "title": "Washington",
-  "latitude": 38.8921,
-  "longitude": -77.0241,
+  "title": "Regional, INPI (Florianópolis, SC)",
+  "latitude": -27.5973002,
+  "longitude": -48.5496098,
+  "url": "http://www.inpi.gov.br/",
   "color":colorSet.next()
 }, {
-  "title": "Kinshasa",
-  "latitude": -4.3369,
-  "longitude": 15.3271,
+  "title": "DINAPI (Assunção, PY)",
+  "latitude": -25.2800459,
+  "longitude": -57.6343814,
+  "url": "https://www.dinapi.gov.py/",
   "color":colorSet.next()
 }, {
-  "title": "Cairo",
-  "latitude": 30.0571,
-  "longitude": 31.2272,
+  "title": "DNPI (Montevidéu, UY)",
+  "latitude": -34.9059039,
+  "longitude": -56.1913569,
+  "url": "https://www.miem.gub.uy/marcas-y-patentes",
   "color":colorSet.next()
 }, {
-  "title": "Pretoria",
-  "latitude": -25.7463,
-  "longitude": 28.1876,
+  "title": "INPI (Buenos Aires, AR)",
+  "latitude": -34.6075682,
+  "longitude": -58.4370894,
+  "url": "https://www.argentina.gob.ar/inpi",
+  "color":colorSet.next()
+}, {
+  "title": "SENAPI (La Paz, BO)",
+  "latitude": -16.4955455,
+  "longitude": -68.1336229,
+  "url": "https://www.senapi.gob.bo/",
+  "color":colorSet.next()
+}, {
+  "title": "INAPI (Santiago, CL)",
+  "latitude": -33.4377968,
+  "longitude": -70.6504451,
+  "url": "https://inapi.cl/",
+  "color":colorSet.next()
+}, {
+  "title": "INPI (Paris, FR)",
+  "latitude": 48.8588897,
+  "longitude": 2.32004103,
+  "url": "https://www.inpi.fr/",
+  "color":colorSet.next()
+}, {
+  "title": "UKIPO (Londres, GB)",
+  "latitude": 51.5073219,
+  "longitude": -0.1276474,
+  "url": "https://www.gov.uk/government/organisations/intellectual-property-office",
+  "color":colorSet.next()
+}, {
+  "title": "JPO (Tóquio, JP)",
+  "latitude": 35.6828387,
+  "longitude": 139.7594549,
+  "url": "https://www.jpo.go.jp/e/",
+  "color":colorSet.next()
+}, {
+  "title": "CNIPA (Beijing, CN)",
+  "latitude": 39.906217,
+  "longitude": 116.3912757,
+  "url": "http://english.sipo.gov.cn/",
+  "color":colorSet.next()
+}, {
+  "title": "ROSPATENT (Moscou, RU)",
+  "latitude": 55.7504461,
+  "longitude": 37.6174943,
+  "url": "https://rupto.ru/en",
+  "color":colorSet.next()
+}, {
+  "title": "DKPTO (Copenhage, DK)",
+  "latitude": 55.6867243,
+  "longitude": 12.5700724,
+  "url": "https://www.dkpto.org/",
+  "color":colorSet.next()
+}, {
+  "title": "INDECOPI (Lima, PE)",
+  "latitude": -12.0621065,
+  "longitude": -77.0365256,
+  "url": "https://indecopi.gob.pe/",
+  "color":colorSet.next()
+}, {
+  "title": "SENADI (Quito, EC)",
+  "latitude": -0.2201641,
+  "longitude": -78.5123274,
+  "url": "https://www.derechosintelectuales.gob.ec/",
+  "color":colorSet.next()
+}, {
+  "title": "IPOS (Singapura, SG)",
+  "latitude": 1.340863,
+  "longitude": 103.83039182,
+  "url": "https://www.ipos.gov.sg/",
+  "color":colorSet.next()
+}, {
+  "title": "KIPO (Seul, CL)",
+  "latitude": 37.5666791,
+  "longitude": 126.9782914,
+  "url": "https://www.kipo.go.kr/en/",
+  "color":colorSet.next()
+}, {
+  "title": "IPOS (Singapura, SG)",
+  "latitude": 1.340863,
+  "longitude": 103.83039182,
+  "url": "https://www.ipos.gov.sg/",
+  "color":colorSet.next()
+}, {
+  "title": "KIPO (Seul, CL)",
+  "latitude": 37.5666791,
+  "longitude": 126.9782914,
+  "url": "https://www.kipo.go.kr/en/",
   "color":colorSet.next()
 } ];
 
