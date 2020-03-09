@@ -3,7 +3,7 @@
 .wordCarousel {
   font-size: 36px;
   font-weight: 100;
-  color: #939393;
+  color: #000;
 }
 .wordCarousel div {
   overflow: hidden;
@@ -15,7 +15,7 @@
 }
 .wordCarousel div li {
   font-family: 'Poppins';
-  color: #ccc;
+  color: #000;
   font-weight: 700;
   padding: 0 10px;
   height: 45px;
@@ -216,5 +216,4 @@ body {
           align-items: center;
   -webkit-box-pack: center;
           justify-content: center;
-  background: #333;
 }
