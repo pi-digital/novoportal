@@ -42,7 +42,7 @@ p {
   word-break: break-all;
 }
 
-.letter:nth-child(1):before, .letter:hover {
+.letter:nth-child(1):hover {
   content: "4893075261";
   margin-top: -48px;
   -webkit-animation-name: letter1;
