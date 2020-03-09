@@ -1,1 +1,0 @@
-A seção "Notícias" da homepage do novo Portal do INPI foi desenvolvida no próprio sistema de gerenciamento de conteúdo (CMS) Plone. O diretório "2 - Noticias" consta deste repositório apenas para indicar o posicionamento da seção e facilitar a comunicação da distribuição do conteúdo digital.
