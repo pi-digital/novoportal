@@ -38,8 +38,8 @@
 }
 
 .flip4 {
-  -webkit-animation: flip4 10s cubic-bezier(0.23, 1, 0.32, 1.2) infinite;
-          animation: flip4 10s cubic-bezier(0.23, 1, 0.32, 1.2) infinite;
+  -webkit-animation: flip4 20s cubic-bezier(0.23, 1, 0.32, 1.2) infinite;
+          animation: flip4 20s cubic-bezier(0.23, 1, 0.32, 1.2) infinite;
 }
 
 @-webkit-keyframes flip2 {
