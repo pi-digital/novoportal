@@ -36,8 +36,10 @@ body, html {
   height: inherit;
   background: #ffb510;
   position: absolute;
-  animation: mainBlock 2s cubic-bezier(0.74, 0.06, 0.4, 0.92) forwards;
   display: flex;
+}
+.container:hover {
+  animation: mainBlock 2s cubic-bezier(0.74, 0.06, 0.4, 0.92) forwards;
 }
 .container .box .title h1 {
   font-family: 'Poppins';
