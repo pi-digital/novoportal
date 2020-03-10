@@ -43,6 +43,13 @@ polygonTemplate.polygon.fillOpacity = 0.6;
 var hs = polygonTemplate.states.create("hover");
 hs.properties.fill = chart.colors.getIndex(0);
 
+var hs = polygonTemplate.states.create("hover");
+hs.properties.fill = am4core.color("#367B25");
+
+chart.events.on("ready", function(ev) {
+  chart.zoomToMapObject(polygonSeries.getPolygonById("BR"));
+});
+
 // Add image series
 var imageSeries = chart.series.push(new am4maps.MapImageSeries());
 imageSeries.mapImages.template.propertyFields.longitude = "longitude";
@@ -275,7 +282,7 @@ polygonSeries.data = [{
 // Add line series
 var lineSeries = chart.series.push(new am4maps.MapLineSeries());
 lineSeries.mapLines.template.strokeWidth = 1;
-lineSeries.mapLines.template.stroke = am4core.color("#e03e96");
+lineSeries.mapLines.template.stroke = am4core.color("#ffff00");
 lineSeries.mapLines.template.nonScalingStroke = true;
 
 var line = lineSeries.mapLines.create();
