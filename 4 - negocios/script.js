@@ -41,13 +41,22 @@ polygonTemplate.polygon.fillOpacity = 0.6;
 
 // Create hover state and set alternative fill color
 var hs = polygonTemplate.states.create("hover");
-hs.properties.fill = chart.colors.getIndex(0);
+hs.properties.fill = am4core.color("#ccedc4");
 
-var hs = polygonTemplate.states.create("hover");
-hs.properties.fill = am4core.color("#367B25");
+// Create active state
+var as = polygonTemplate.states.create("active");
+as.properties.fill = am4core.color("#80b3ff");
 
 chart.events.on("ready", function(ev) {
-  chart.zoomToMapObject(polygonSeries.getPolygonById("BR"));
+  var brazil = polygonSeries.getPolygonById("BR");
+  
+  // Pre-zoom
+  chart.zoomToMapObject(brazil);
+  
+  // Set active state
+  setTimeout(function() {
+    brazil.isActive = true;
+  }, 1000);
 });
 
 // Add image series
