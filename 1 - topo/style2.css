@@ -1,10 +1,11 @@
 @import "https://fonts.googleapis.com/css?family=Montserrat";
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
 @font-face {
-  font-family: Narziss;
+  font-family: Raleway;
   src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/42764/Narziss_Bold_Drops.woff2);
 }
 @font-face {
-  font-family: Narziss-medium;
+  font-family: Raleway;
   src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/42764/Narziss_Bold_Drops.woff2);
 }
 *, *::after, *::before {
@@ -279,7 +280,8 @@ body, html {
   background-repeat: no-repeat;
 }
 .slider-content .fake-bg.white {
-  background-image: linear-gradient(to right,#8080ff 0%,#ffeb99 100%),url("pin-inpi-50.png");
+  background-color: rgb(7, 29, 65, 0.25)
+  background-image: url("pin-inpi-50.png");
 }
 .slider-content .fake-bg.red {
   background-image: url();
