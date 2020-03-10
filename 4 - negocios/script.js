@@ -283,6 +283,7 @@ line.multiGeoLine = [[
   { "latitude": 48.856614, "longitude": 2.352222 },
   { "latitude": 40.712775, "longitude": -74.005973 },
   { "latitude": 49.282729, "longitude": -123.120738 }
+]];
 
 var line = lineSeries.mapLines.create();
 line.multiGeoLine = [[
