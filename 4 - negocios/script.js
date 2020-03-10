@@ -260,6 +260,13 @@ imageSeries.data = [ {
   "color":colorSet.next()
 } ];
 
+"listeners": [{
+  "event": "clickItem",
+  "method": function(event) {
+    window.open(event.serialDataItem.dataContext.url, '_blank');
+  }
+}]
+
 // Configure series
 var polygonTemplate = polygonSeries.mapPolygons.template;
 polygonTemplate.tooltipText = "{name}";
