@@ -1,11 +1,11 @@
 @import "https://fonts.googleapis.com/css?family=Montserrat";
-@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@import "https://fonts.googleapis.com/css?family=Raleway";
 @font-face {
-  font-family: Raleway;
+  font-family: Narziss;
   src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/42764/Narziss_Bold_Drops.woff2);
 }
 @font-face {
-  font-family: Raleway;
+  font-family: Narziss-medium;
   src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/42764/Narziss_Bold_Drops.woff2);
 }
 *, *::after, *::before {
