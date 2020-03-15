@@ -1,13 +1,12 @@
 @font-face {
-  font-family: 'ecoicon';
-  src:  url('fonts/ecoicon.eot?wgp6fr');
-  src:  url('fonts/ecoicon.eot?wgp6fr#iefix') format('embedded-opentype'),
-    url('fonts/ecoicon.ttf?wgp6fr') format('truetype'),
-    url('fonts/ecoicon.woff?wgp6fr') format('woff'),
-    url('fonts/ecoicon.svg?wgp6fr#ecoicon') format('svg');
-  font-weight: normal;
-  font-style: normal;
-  font-display: block;
+	font-family: 'ecoicon';
+	src:url('fonts/ecoicons/ecoicon.eot');
+	src:url('fonts/ecoicons/ecoicon.eot?#iefix') format('embedded-opentype'),
+		url('fonts/ecoicons/ecoicon.woff') format('woff'),
+		url('fonts/ecoicons/ecoicon.ttf') format('truetype'),
+		url('fonts/ecoicons/ecoicon.svg#ecoicon') format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
 
 [class^="icon-"], [class*=" icon-"] {
