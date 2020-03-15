@@ -1,4 +1,31 @@
 @font-face {
+  font-family: 'ecoicon';
+  src:  url('fonts/ecoicon.eot?wgp6fr');
+  src:  url('fonts/ecoicon.eot?wgp6fr#iefix') format('embedded-opentype'),
+    url('fonts/ecoicon.ttf?wgp6fr') format('truetype'),
+    url('fonts/ecoicon.woff?wgp6fr') format('woff'),
+    url('fonts/ecoicon.svg?wgp6fr#ecoicon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'ecoicon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
 	font-family: 'ecoicon';
 	src:url('fonts/ecoicons/ecoicon.eot');
 	src:url('fonts/ecoicons/ecoicon.eot?#iefix') format('embedded-opentype'),
@@ -8092,7 +8119,7 @@ table td {
   .child-theme .menu-item-home a:before {
     content: "";
     font-size: 17px;
-    font-family: 'icomoon'; }
+    font-family: 'ecoicon'; }
 
 .align-center {
   align-items: center; }
@@ -9075,7 +9102,7 @@ table td {
           -moz-transform: translateY(-50%);
           -ms-transform: translateY(-50%);
           content: "";
-          font-family: 'icomoon';
+          font-family: 'ecoicon';
           font-style: normal;
           font-weight: 400;
           font-variant: normal;
@@ -9292,7 +9319,7 @@ table td {
           font-size: 16px;
           content: "";
           color: #19224D;
-          font-family: 'icomoon';
+          font-family: 'ecoicon';
           width: 20px;
           height: 20px;
           line-height: 23px;
@@ -9489,7 +9516,7 @@ table td {
   display: block;
   font-size: 0; }
   .ui-datepicker .ui-icon:before {
-    font-family: 'icomoon';
+    font-family: 'ecoicon';
     font-size: 20px; }
   .ui-datepicker .ui-icon.ui-icon-circle-triangle-w:before {
     content: ""; }
@@ -10019,7 +10046,7 @@ table td {
         -moz-transform: translateX(-50%) translateY(-50%) rotate(45deg);
         -ms-transform: translateX(-50%) translateY(-50%) rotate(45deg);
         content: "";
-        font-family: 'icomoon';
+        font-family: 'ecoicon';
         font-size: 25px;
         position: absolute;
         left: 50%;
@@ -10061,7 +10088,7 @@ table td {
           color: #222222;
           width: 50px;
           height: 50px;
-          font-family: 'icomoon';
+          font-family: 'ecoicon';
           line-height: 50px;
           display: block;
           text-align: center;
@@ -10286,7 +10313,7 @@ table td {
         content: "";
         font-size: 20px;
         color: #222222;
-        font-family: 'icomoon';
+        font-family: 'ecoicon';
         text-align: center;
         position: absolute;
         left: 50%;
@@ -10381,7 +10408,7 @@ table td {
         right: 0;
         text-align: center;
         top: 50%;
-        font-family: 'icomoon'; }
+        font-family: 'ecoicon'; }
 
 @media (min-width: 320px) and (max-width: 1150px) {
   #main-single > .container > .row {
@@ -11014,7 +11041,7 @@ table td {
 
 .icon-lei-incentivo:before {
   content: "";
-  font-family: "icomoon" !important;
+  font-family: "ecoicon" !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -11025,7 +11052,7 @@ table td {
 
 .icon-search_b:before {
   content: "";
-  font-family: "icomoon" !important;
+  font-family: "ecoicon" !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -11036,7 +11063,7 @@ table td {
 
 .icon-smartphone:before {
   content: "";
-  font-family: "icomoon" !important;
+  font-family: "ecoicon" !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -11047,7 +11074,7 @@ table td {
 
 .icon-settings:before {
   content: "";
-  font-family: "icomoon" !important;
+  font-family: "ecoicon" !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -11058,7 +11085,7 @@ table td {
 
 .icon-eye:before {
   content: "";
-  font-family: "icomoon" !important;
+  font-family: "ecoicon" !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -11069,7 +11096,7 @@ table td {
 
 .icon-checkmark:before {
   content: "";
-  font-family: "icomoon" !important;
+  font-family: "ecoicon" !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -11080,7 +11107,7 @@ table td {
 
 .icon-double-checkmark:before {
   content: "";
-  font-family: "icomoon" !important;
+  font-family: "ecoicon" !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -11091,7 +11118,7 @@ table td {
 
 .icon-home:before {
   content: "";
-  font-family: "icomoon" !important;
+  font-family: "ecoicon" !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -11102,7 +11129,7 @@ table td {
 
 .icon-less:before {
   content: "";
-  font-family: "icomoon" !important;
+  font-family: "ecoicon" !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -11113,7 +11140,7 @@ table td {
 
 .icon-plus:before {
   content: "";
-  font-family: "icomoon" !important;
+  font-family: "ecoicon" !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -11124,7 +11151,7 @@ table td {
 
 .icon-calendar:before {
   content: "";
-  font-family: "icomoon" !important;
+  font-family: "ecoicon" !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -11135,7 +11162,7 @@ table td {
 
 .icon-editais:before {
   content: "";
-  font-family: "icomoon" !important;
+  font-family: "ecoicon" !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -11146,7 +11173,7 @@ table td {
 
 .icon-clock:before {
   content: "";
-  font-family: "icomoon" !important;
+  font-family: "ecoicon" !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -11157,7 +11184,7 @@ table td {
 
 .icon-location:before {
   content: "";
-  font-family: "icomoon" !important;
+  font-family: "ecoicon" !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -11168,7 +11195,7 @@ table td {
 
 .icon-search:before {
   content: "";
-  font-family: "icomoon" !important;
+  font-family: "ecoicon" !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -11179,7 +11206,7 @@ table td {
 
 .icon-libras:before {
   content: "";
-  font-family: "icomoon" !important;
+  font-family: "ecoicon" !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -11190,7 +11217,7 @@ table td {
 
 .icon-contrast:before {
   content: "";
-  font-family: "icomoon" !important;
+  font-family: "ecoicon" !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -11201,7 +11228,7 @@ table td {
 
 .icon-play_btn:before {
   content: "";
-  font-family: "icomoon" !important;
+  font-family: "ecoicon" !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -11212,7 +11239,7 @@ table td {
 
 .icon-arrow_down:before {
   content: "";
-  font-family: "icomoon" !important;
+  font-family: "ecoicon" !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -11223,7 +11250,7 @@ table td {
 
 .icon-arrow_top:before {
   content: "";
-  font-family: "icomoon" !important;
+  font-family: "ecoicon" !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -11234,7 +11261,7 @@ table td {
 
 .icon-arrow_left:before {
   content: "";
-  font-family: "icomoon" !important;
+  font-family: "ecoicon" !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -11245,7 +11272,7 @@ table td {
 
 .icon-arrow_right:before {
   content: "";
-  font-family: "icomoon" !important;
+  font-family: "ecoicon" !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -11256,7 +11283,7 @@ table td {
 
 .icon-angle_left:before {
   content: "";
-  font-family: "icomoon" !important;
+  font-family: "ecoicon" !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -11267,7 +11294,7 @@ table td {
 
 .icon-angle_up:before {
   content: "";
-  font-family: "icomoon" !important;
+  font-family: "ecoicon" !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -11278,7 +11305,7 @@ table td {
 
 .icon-angle_right:before {
   content: "";
-  font-family: "icomoon" !important;
+  font-family: "ecoicon" !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -11289,7 +11316,7 @@ table td {
 
 .icon-angle_down:before {
   content: "";
-  font-family: "icomoon" !important;
+  font-family: "ecoicon" !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -11300,7 +11327,7 @@ table td {
 
 .icon-economia-criativa:before {
   content: "";
-  font-family: "icomoon" !important;
+  font-family: "ecoicon" !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -11311,7 +11338,7 @@ table td {
 
 .icon-dados-br:before {
   content: "";
-  font-family: "icomoon" !important;
+  font-family: "ecoicon" !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -11322,7 +11349,7 @@ table td {
 
 .icon-ouvidoria:before {
   content: "";
-  font-family: "icomoon" !important;
+  font-family: "ecoicon" !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -11333,7 +11360,7 @@ table td {
 
 .icon-consultas-publicas:before {
   content: "";
-  font-family: "icomoon" !important;
+  font-family: "ecoicon" !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -11344,7 +11371,7 @@ table td {
 
 .icon-fale-conosco:before {
   content: "";
-  font-family: "icomoon" !important;
+  font-family: "ecoicon" !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -11355,7 +11382,7 @@ table td {
 
 .icon-multimidia:before {
   content: "";
-  font-family: "icomoon" !important;
+  font-family: "ecoicon" !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -11366,7 +11393,7 @@ table td {
 
 .icon-publicacoes:before {
   content: "";
-  font-family: "icomoon" !important;
+  font-family: "ecoicon" !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -11377,7 +11404,7 @@ table td {
 
 .icon-noticias:before {
   content: "";
-  font-family: "icomoon" !important;
+  font-family: "ecoicon" !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -11388,7 +11415,7 @@ table td {
 
 .icon-assessoria:before {
   content: "";
-  font-family: "icomoon" !important;
+  font-family: "ecoicon" !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -11399,7 +11426,7 @@ table td {
 
 .icon-escritorios-regionais:before {
   content: "";
-  font-family: "icomoon" !important;
+  font-family: "ecoicon" !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -11410,7 +11437,7 @@ table td {
 
 .icon-legislacao:before {
   content: "";
-  font-family: "icomoon" !important;
+  font-family: "ecoicon" !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -11421,7 +11448,7 @@ table td {
 
 .icon-acoes-programadas:before {
   content: "";
-  font-family: "icomoon" !important;
+  font-family: "ecoicon" !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -11432,7 +11459,7 @@ table td {
 
 .icon-internacional:before {
   content: "";
-  font-family: "icomoon" !important;
+  font-family: "ecoicon" !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -11443,7 +11470,7 @@ table td {
 
 .icon-vinculadas:before {
   content: "";
-  font-family: "icomoon" !important;
+  font-family: "ecoicon" !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -11454,7 +11481,7 @@ table td {
 
 .icon-secretarias:before {
   content: "";
-  font-family: "icomoon" !important;
+  font-family: "ecoicon" !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -11465,7 +11492,7 @@ table td {
 
 .icon-ministerio:before {
   content: "";
-  font-family: "icomoon" !important;
+  font-family: "ecoicon" !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -11476,7 +11503,7 @@ table td {
 
 .icon-ministro:before {
   content: "";
-  font-family: "icomoon" !important;
+  font-family: "ecoicon" !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -11487,7 +11514,7 @@ table td {
 
 .icon-pontos-cultura:before {
   content: "";
-  font-family: "icomoon" !important;
+  font-family: "ecoicon" !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -11498,7 +11525,7 @@ table td {
 
 .icon-centros-culturais:before {
   content: "";
-  font-family: "icomoon" !important;
+  font-family: "ecoicon" !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -11509,7 +11536,7 @@ table td {
 
 .icon-patrimonio:before {
   content: "";
-  font-family: "icomoon" !important;
+  font-family: "ecoicon" !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -11520,7 +11547,7 @@ table td {
 
 .icon-apoio:before {
   content: "";
-  font-family: "icomoon" !important;
+  font-family: "ecoicon" !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -11531,7 +11558,7 @@ table td {
 
 .icon-lei-rouanet:before {
   content: "";
-  font-family: "icomoon" !important;
+  font-family: "ecoicon" !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -11542,7 +11569,7 @@ table td {
 
 .icon-snc:before {
   content: "256222222222222";
-  font-family: "icomoon" !important;
+  font-family: "ecoicon" !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -11552,8 +11579,8 @@ table td {
   font-size: 32px; }
 
 @font-face {
-  font-family: 'icomoon';
-  src: url("../../fonts//icomoon.ttf?rydnse") format("truetype"), url("../../fonts//icomoon.woff?rydnse") format("woff"), url("../../fonts//icomoon.svg?rydnse#icomoon") format("svg");
+  font-family: 'ecoicon';
+  src: url("../../fonts//ecoicon.ttf?rydnse") format("truetype"), url("../../fonts//ecoicon.woff?rydnse") format("woff"), url("../../fonts//ecoicon.svg?rydnse#ecoicon") format("svg");
   font-weight: normal;
   font-style: normal; }
 
@@ -11967,7 +11994,7 @@ p img.alignright, p img.alignleft {
           -moz-transform: translateY(-50%);
           -ms-transform: translateY(-50%);
           content: "";
-          font-family: 'icomoon';
+          font-family: 'ecoicon';
           font-size: 19px;
           color: #FFF;
           width: 30px;
@@ -13501,6 +13528,6 @@ p img.alignright, p img.alignleft {
 .icon-svg:before {
   content: "\eae9";
 }
-.icon-IcoMoon:before {
+.icon-ecoicon:before {
   content: "\eaea";
 }
