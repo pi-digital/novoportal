@@ -11490,7 +11490,7 @@ table td {
   font-size: 32px; }
 
 .icon-ministerio:before {
-  content: "";
+  content: "\eae2";
   font-family: "ecoicon" !important;
   speak: none;
   font-style: normal;
