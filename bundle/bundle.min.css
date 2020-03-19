@@ -11490,8 +11490,8 @@ table td {
   font-size: 32px; }
 
 .icon-ministerio:before {
-  content: "\eae2";
-  font-family: "ecoicon" !important;
+  content: "\f000";
+  font-family: FontAwesome;
   speak: none;
   font-style: normal;
   font-weight: normal;
