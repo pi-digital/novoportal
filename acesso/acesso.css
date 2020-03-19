@@ -7661,7 +7661,6 @@ body {
   box-sizing: inherit; }
 
 body {
-  background: #F8F8F8;
   font-family: "Raleway";
   position: relative; }
   body.high-contrast {
@@ -11050,7 +11049,7 @@ table td {
   font-size: 32px; }
 
 .icon-acoes-e-programas:before {
-  content: "\f277";
+  content: "\f018";
   font-family: FontAwesome;
   speak: none;
   font-style: normal;
@@ -11061,7 +11060,7 @@ table td {
   font-size: 32px; }
 
 .icon-participacao-social:before {
-  content: "\f27b";
+  content: "\f0e5";
   font-family: FontAwesome;
   speak: none;
   font-style: normal;
@@ -11127,7 +11126,7 @@ table td {
   font-size: 32px; }
 
 .icon-servidores:before {
-  content: "\f256";
+  content: "\f007";
   font-family: FontAwesome;
   speak: none;
   font-style: normal;
