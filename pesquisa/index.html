@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en" >
 <head>
-  <meta charset="UTF-8">
-  <title>CodePen - Materialize AutoComplete with id</title>
-        <!--Import Google Icon Font-->
-      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"><link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css'>
-
+<title>CodePen - Materialize AutoComplete with id</title>
+<script src="//code.jquery.com/jquery-1.9.1.js"></script>
+<script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+<!--Import Google Icon Font-->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"><link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css'>
 </head>
 <body>
 <!-- partial:index.partial.html -->
@@ -23,8 +23,19 @@
     </div>
   </div>
 <!-- partial -->
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
 <script src='https://codepen.io/arg3ni5/pen/VPQZwe.js'></script><script  src="./script.js"></script>
-
+  <script>
+  $(function() {
+   var availableTags = [{label:"Basic", the_link:"http://www.msn.com"},{label:"C++", the_link:"http://www.ibm.com"},{label:"Fortran", the_link:"http://www.yahoo.com"}];
+    $( "#tags" ).autocomplete({
+      source: availableTags,
+      select:function(e,ui) { 
+      location.href = ui.item.the_link;
+    //  console.log(ui.item.the_link);
+      }
+    });
+});
+  </script>
 </body>
 </html>
