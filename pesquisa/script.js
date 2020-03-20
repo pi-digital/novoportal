@@ -9,7 +9,3 @@ $(document).ready(function() {
     ]
   });
 });
-
-  function getId() {
-    alert($('#autocomplete').data('url'));
-  }
