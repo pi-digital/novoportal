@@ -25,17 +25,5 @@
 <!-- partial -->
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
 <script src='https://codepen.io/arg3ni5/pen/VPQZwe.js'></script><script  src="./script.js"></script>
-  <script>
-  $(function() {
-   var availableTags = [{label:"Basic", the_link:"http://www.msn.com"},{label:"C++", the_link:"http://www.ibm.com"},{label:"Fortran", the_link:"http://www.yahoo.com"}];
-    $( "#tags" ).autocomplete({
-      source: availableTags,
-      select:function(e,ui) { 
-      location.href = ui.item.the_link;
-    //  console.log(ui.item.the_link);
-      }
-    });
-});
-  </script>
 </body>
 </html>
