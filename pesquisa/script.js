@@ -2,10 +2,20 @@ $(document).ready(function() {
   $('.modal').modal();
   $('select').material_select();
   $('input.autocomplete').autocomplete2({
-    data: [
-      {id:1,text:'Apple',img:'http://placehold.it/250x250',link:'http://placehold.it/250x250'},
-      {id:2,text:'Microsoft',img:'http://placehold.it/250x250',link:'http://placehold.it/250x250'},
-      {id:3,text:'Google',img:'http://placehold.it/250x250',link:'http://placehold.it/250x250'},
-    ]
-  });
+var data = [ { value: "www.foo.com",
+                 label: "Spencer Kline"
+               },
+               { value: "www.example.com",
+                 label: "James Bond"
+               },
+               ...
+             ];
+$(document).ready(function() {
+    $("input#autocomplete").autocomplete({
+        source: source,
+        select: function( event, ui ) { 
+            window.location.href = ui.item.value;
+        }
+    });
+});
 });
