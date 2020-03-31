@@ -39,6 +39,20 @@ body, html {
   }
 }
 
+iframe {
+  font-size: 11px;
+}
+@media (min-width: 860px) {
+  iframe {
+    font-size: 13px;
+  }
+}
+@media (min-width: 1200px) {
+  iframe {
+    font-size: 15px;
+  }
+}
+
 .header-wrapper {
   position: absolute;
   top: 0;
