@@ -1,4 +1,5 @@
 @import "https://fonts.googleapis.com/css?family=Montserrat";
+@import 'https://cdn.rawgit.com/h-ibaldo/Raleway_Fixed_Numerals/master/css/rawline.css';
 @font-face {
   font-family: Narziss;
   src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/42764/Narziss_Bold_Drops.woff2);
@@ -13,16 +14,16 @@
 
 body, html {
   background: transparent;
-  font-size: 15px;
+  font-size: 11px;
   padding: 4rem 2rem;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'rawline', sans-serif;
   overflow: hidden;
 }
 @media (min-width: 860px) {
   body, html {
-    font-size: 15px;
+    font-size: 13px;
     padding: 3rem 5rem;
   }
 }
