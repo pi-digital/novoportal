@@ -1,8 +1,19 @@
+@import "https://fonts.googleapis.com/css?family=Montserrat";
+@import 'https://cdn.rawgit.com/h-ibaldo/Raleway_Fixed_Numerals/master/css/rawline.css';
+@font-face {
+  font-family: Narziss;
+  src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/42764/Narziss_Bold_Drops.woff2);
+}
+@font-face {
+  font-family: Narziss-medium;
+  src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/42764/Narziss_Bold_Drops.woff2);
+}
+
 body {
   text-align: center;
   background: #071d41;
   color: white;
-  font-family: Futura, sans-serif;
+  font-family: 'rawline', sans-serif; 
 }
 
 .container {
