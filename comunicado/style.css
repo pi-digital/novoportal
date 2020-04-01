@@ -11,9 +11,9 @@
 
 body {
   text-align: center;
-  background: #071d41;
   color: white;
   font-family: 'rawline', sans-serif; 
+  overflow: hidden;
 }
 
 .container {
