@@ -14096,7 +14096,7 @@ fieldset legend,
   font-weight: 800;
   height: 44px;
   padding: 0 24px;
-  width: 100%;
+  width: auto;
   transition: 0.3s;
 }
 
