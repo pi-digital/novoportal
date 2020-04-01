@@ -14,7 +14,21 @@ body {
   color: white;
   font-family: 'rawline', sans-serif; 
   overflow: hidden;
+  left: 0;
   padding: 0 20%;
+  font-size: 11px;
+}
+
+@media (min-width: 860px) {
+  body {
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 1200px) {
+  body {
+    font-size: 15px;
+  }
 }
 
 .container {
