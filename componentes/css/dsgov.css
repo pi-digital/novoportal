@@ -13277,7 +13277,9 @@ fieldset legend,
   .template-site,
   .template-authentication {
     display: grid;
-    grid-template-areas: "header" "wrapper" "footer";
+    grid-template-areas: "header"
+ "wrapper"
+ "footer";
     grid-template-rows: auto 1fr auto;
     min-height: 100vh;
   }
@@ -14086,8 +14088,8 @@ fieldset legend,
 }
 
 .br-button.is-primary {
-  background: #1351b4;
-  border: 1px solid #1351b4;
+  background: #071d41;
+  border: 1px solid #071d41;
   border-radius: 100px;
   color: #fff;
   display: inline-block;
@@ -14098,9 +14100,9 @@ fieldset legend,
 }
 
 .br-button.is-primary:hover, .br-button.is-primary:focus {
-  background-color: #2670e8;
-  border-color: #2670e8;
-  color: #fff;
+  background-color: #fff;
+  border-color: #071d41;
+  color: #071d41;
 }
 
 .br-button.is-primary:disabled {
