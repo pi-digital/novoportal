@@ -14097,6 +14097,7 @@ fieldset legend,
   height: 44px;
   padding: 0 24px;
   width: 100%;
+  transition: 0.3s;
 }
 
 .br-button.is-primary:hover, .br-button.is-primary:focus {
