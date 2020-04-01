@@ -19,7 +19,8 @@ body, html {
   background: transparent;
   font-size: 8px;
   padding: 0;
-  overflow: visible;
+  overflow-x: hidden;
+  overflow-y: visible;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: 'rawline', sans-serif; 
