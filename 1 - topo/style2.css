@@ -40,6 +40,11 @@ body, html {
   }
 }
 
+a {
+  color: inherit;
+  text-decoration: indianred;  
+}
+
 iframe {
   font-size: 11px;
 }
