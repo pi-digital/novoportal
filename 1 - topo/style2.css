@@ -28,7 +28,7 @@
   font-weight: normal;
   font-variant: normal;
   text-transform: none;
-  line-height: 1;
+  line-height: 175%;
 
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
@@ -39,55 +39,256 @@
   content: "\e900";
   font-size: 50px;
   background: #6989E0;
+  speak: none;
+	text-transform: none;
+	-webkit-font-smoothing: antialiased;
 }
 .icon-M:before {
   content: "\e901";
   font-size: 50px;
   background: #960200;
+  speak: none;
+	text-transform: none;
+	-webkit-font-smoothing: antialiased;
 }
 .icon-DI:before {
   content: "\e902";
   font-size: 50px;
   background: #6cd779;
+  speak: none;
+	text-transform: none;
+	-webkit-font-smoothing: antialiased;
 }
 .icon-IG:before {
   content: "\e903";
   font-size: 50px;
   background: #d19c1d;
+  speak: none;
+	text-transform: none;
+	-webkit-font-smoothing: antialiased;
 }
 .icon-PC:before {
   content: "\e904";
   font-size: 50px;
   background: #e87461;
+  speak: none;
+	text-transform: none;
+	-webkit-font-smoothing: antialiased;
 }
 .icon-TCI:before {
   content: "\e905";
   font-size: 50px;
   background: #714955;
+  speak: none;
+	text-transform: none;
+	-webkit-font-smoothing: antialiased;
 }
 .icon-CTF:before {
   content: "\e906";
   font-size: 50px;
   background: #bcbcbc;
+  speak: none;
+	text-transform: none;
+	-webkit-font-smoothing: antialiased;
 }
 .icon-home:before {
   content: "\e907";
 }
 
+.icon-P:after {
+	top: -7px;
+	left: -7px;
+	padding: 7px;
+	box-shadow: 0 0 0 4px #fff;
+	-webkit-transition: -webkit-transform 0.2s, opacity 0.2s;
+	-webkit-transform: scale(.8);
+	-moz-transition: -moz-transform 0.2s, opacity 0.2s;
+	-moz-transform: scale(.8);
+	-ms-transform: scale(.8);
+	transition: transform 0.2s, opacity 0.2s;
+	transform: scale(.8);
+	opacity: 0;
+}
+
+.icon-P:hover {
+	background: rgba(255,255,255,1);
+	color: #6989E0;
+}
+
+.icon-P:hover:after {
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+	opacity: 1;
+}
+
+.icon-M:after {
+	top: -7px;
+	left: -7px;
+	padding: 7px;
+	box-shadow: 0 0 0 4px #fff;
+	-webkit-transition: -webkit-transform 0.2s, opacity 0.2s;
+	-webkit-transform: scale(.8);
+	-moz-transition: -moz-transform 0.2s, opacity 0.2s;
+	-moz-transform: scale(.8);
+	-ms-transform: scale(.8);
+	transition: transform 0.2s, opacity 0.2s;
+	transform: scale(.8);
+	opacity: 0;
+}
+
 .icon-M:hover {
-  top: -7px;
-  left: -7px;
-  padding: 7px;
-  background: #fff;
-  box-shadow: 0 0 0 4px #fff;
-  -webkit-transition: -webkit-transform 0.2s, opacity 0.2s;
-  -webkit-transform: scale(.8);
-  -moz-transition: -moz-transform 0.2s, opacity 0.2s;
-  -moz-transform: scale(.8);
-  -ms-transform: scale(.8);
-  transition: transform 0.2s, opacity 0.2s;
-  transform: scale(.8);
-  opacity: 0;
+	background: rgba(255,255,255,1);
+	color: #960200;
+}
+
+.icon-M:hover:after {
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+	opacity: 1;
+}
+
+.icon-DI:after {
+	top: -7px;
+	left: -7px;
+	padding: 7px;
+	box-shadow: 0 0 0 4px #fff;
+	-webkit-transition: -webkit-transform 0.2s, opacity 0.2s;
+	-webkit-transform: scale(.8);
+	-moz-transition: -moz-transform 0.2s, opacity 0.2s;
+	-moz-transform: scale(.8);
+	-ms-transform: scale(.8);
+	transition: transform 0.2s, opacity 0.2s;
+	transform: scale(.8);
+	opacity: 0;
+}
+
+.icon-DI:hover {
+	background: rgba(255,255,255,1);
+	color: #6cd779;
+}
+
+.icon-DI:hover:after {
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+	opacity: 1;
+}
+
+.icon-IG:after {
+	top: -7px;
+	left: -7px;
+	padding: 7px;
+	box-shadow: 0 0 0 4px #fff;
+	-webkit-transition: -webkit-transform 0.2s, opacity 0.2s;
+	-webkit-transform: scale(.8);
+	-moz-transition: -moz-transform 0.2s, opacity 0.2s;
+	-moz-transform: scale(.8);
+	-ms-transform: scale(.8);
+	transition: transform 0.2s, opacity 0.2s;
+	transform: scale(.8);
+	opacity: 0;
+}
+
+.icon-IG:hover {
+	background: rgba(255,255,255,1);
+	color: #d19c1d;
+}
+
+.icon-IG:hover:after {
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+	opacity: 1;
+}
+
+.icon-PC:after {
+	top: -7px;
+	left: -7px;
+	padding: 7px;
+	box-shadow: 0 0 0 4px #fff;
+	-webkit-transition: -webkit-transform 0.2s, opacity 0.2s;
+	-webkit-transform: scale(.8);
+	-moz-transition: -moz-transform 0.2s, opacity 0.2s;
+	-moz-transform: scale(.8);
+	-ms-transform: scale(.8);
+	transition: transform 0.2s, opacity 0.2s;
+	transform: scale(.8);
+	opacity: 0;
+}
+
+.icon-PC:hover {
+	background: rgba(255,255,255,1);
+	color: #e87461;
+}
+
+.icon-PC:hover:after {
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+	opacity: 1;
+}
+
+.icon-TCI:after {
+	top: -7px;
+	left: -7px;
+	padding: 7px;
+	box-shadow: 0 0 0 4px #fff;
+	-webkit-transition: -webkit-transform 0.2s, opacity 0.2s;
+	-webkit-transform: scale(.8);
+	-moz-transition: -moz-transform 0.2s, opacity 0.2s;
+	-moz-transform: scale(.8);
+	-ms-transform: scale(.8);
+	transition: transform 0.2s, opacity 0.2s;
+	transform: scale(.8);
+	opacity: 0;
+}
+
+.icon-TCI:hover {
+	background: rgba(255,255,255,1);
+	color: #714955;
+}
+
+.icon-TCI:hover:after {
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+	opacity: 1;
+}
+
+.icon-CTF:after {
+	top: -7px;
+	left: -7px;
+	padding: 7px;
+	box-shadow: 0 0 0 4px #fff;
+	-webkit-transition: -webkit-transform 0.2s, opacity 0.2s;
+	-webkit-transform: scale(.8);
+	-moz-transition: -moz-transform 0.2s, opacity 0.2s;
+	-moz-transform: scale(.8);
+	-ms-transform: scale(.8);
+	transition: transform 0.2s, opacity 0.2s;
+	transform: scale(.8);
+	opacity: 0;
+}
+
+.icon-CTF:hover {
+	background: rgba(255,255,255,1);
+	color: #bcbcbc;
+}
+
+.icon-CTF:hover:after {
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+	opacity: 1;
 }
 
 *, *::after, *::before {
@@ -668,7 +869,7 @@ iframe {
 .footer-wrapper {
   position: absolute;
   color: white;
-  top: 15%;
+  top: 20%;
   left: 75%;
   height: 7rem;
   z-index: 999;
