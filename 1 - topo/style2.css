@@ -37,24 +37,38 @@
 
 .icon-P:before {
   content: "\e900";
+  font-size: 50px;
+  background: #6989E0;
 }
 .icon-M:before {
   content: "\e901";
+  font-size: 50px;
+  background: #EE4654;
 }
 .icon-DI:before {
   content: "\e902";
+  font-size: 50px;
+  background: #6cd779;
 }
 .icon-IG:before {
   content: "\e903";
+  font-size: 50px;
+  background: #d19c1d;
 }
 .icon-PC:before {
   content: "\e904";
+  font-size: 50px;
+  background: #e87461;
 }
 .icon-TCI:before {
   content: "\e905";
+  font-size: 50px;
+  background: #714955;
 }
 .icon-CTF:before {
   content: "\e906";
+  font-size: 50px;
+  background: #bcbcbc;
 }
 .icon-home:before {
   content: "\e907";
@@ -638,7 +652,7 @@ iframe {
 .footer-wrapper {
   position: absolute;
   color: white;
-  bottom: 65%;
+  top: 15%;
   left: 75%;
   height: 7rem;
   z-index: 999;
