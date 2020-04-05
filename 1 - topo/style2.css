@@ -40,7 +40,7 @@
   font-size: 50px;
   background: #6989E0;
   border-radius: 50%;
-  border: 2px solid #6989E0;
+  border: 10px solid #6989E0;
   speak: none;
 	text-transform: none;
 	-webkit-font-smoothing: antialiased;
@@ -50,7 +50,7 @@
   font-size: 50px;
   background: #960200;
   border-radius: 50%;
-  border: 2px solid #960200;
+  border: 10px solid #960200;
   speak: none;
 	text-transform: none;
 	-webkit-font-smoothing: antialiased;
@@ -60,7 +60,7 @@
   font-size: 50px;
   background: #6cd779;
   border-radius: 50%;
-  border: 2px solid #6cd779;
+  border: 10px solid #6cd779;
   speak: none;
 	text-transform: none;
 	-webkit-font-smoothing: antialiased;
@@ -70,7 +70,7 @@
   font-size: 50px;
   background: #d19c1d;
   border-radius: 50%;
-  border: 2px solid #d19c1d;
+  border: 10px solid #d19c1d;
   speak: none;
 	text-transform: none;
 	-webkit-font-smoothing: antialiased;
@@ -80,7 +80,7 @@
   font-size: 50px;
   background: #e87461;
   border-radius: 50%;
-  border: 2px solid #e87461;
+  border: 10px solid #e87461;
   speak: none;
 	text-transform: none;
 	-webkit-font-smoothing: antialiased;
@@ -90,7 +90,7 @@
   font-size: 50px;
   background: #714955;
   border-radius: 50%;
-  border: 2px solid #714955;
+  border: 10px solid #714955;
   speak: none;
 	text-transform: none;
 	-webkit-font-smoothing: antialiased;
@@ -100,7 +100,7 @@
   font-size: 50px;
   background: #bcbcbc;
   border-radius: 50%;
-  border: 2px solid #bcbcbc;
+  border: 10px solid #bcbcbc;
   speak: none;
 	text-transform: none;
 	-webkit-font-smoothing: antialiased;
