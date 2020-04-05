@@ -291,6 +291,20 @@
 	opacity: 1;
 }
 
+. w3-container {
+content: "";
+display: table;
+clear: both;
+padding: 0.01em 16px;
+}
+
+. w3-tooltip {
+position: relative;
+}
+. w3-text {
+display: none;
+}
+
 *, *::after, *::before {
   box-sizing: border-box;
 }
