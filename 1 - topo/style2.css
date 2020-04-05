@@ -688,7 +688,7 @@ iframe {
 .footer-wrapper {
   position: absolute;
   color: white;
-  top: 20%;
+  top: 17.5%;
   left: 75%;
   height: 7rem;
   z-index: 999;
@@ -707,7 +707,7 @@ iframe {
 }
 .footer-wrapper li {
   position: relative;
-  padding: 1.5rem;
+  padding: 2rem 1.5rem;
   text-transform: uppercase;
   cursor: pointer;
   display: block;
