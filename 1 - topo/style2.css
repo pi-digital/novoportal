@@ -74,6 +74,22 @@
   content: "\e907";
 }
 
+.icon:after {
+  top: -7px;
+  left: -7px;
+  padding: 7px;
+  background: #fff;
+  box-shadow: 0 0 0 4px #fff;
+  -webkit-transition: -webkit-transform 0.2s, opacity 0.2s;
+  -webkit-transform: scale(.8);
+  -moz-transition: -moz-transform 0.2s, opacity 0.2s;
+  -moz-transform: scale(.8);
+  -ms-transform: scale(.8);
+  transition: transform 0.2s, opacity 0.2s;
+  transform: scale(.8);
+  opacity: 0;
+}
+
 *, *::after, *::before {
   box-sizing: border-box;
 }
