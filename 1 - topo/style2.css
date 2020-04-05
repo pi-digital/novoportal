@@ -39,6 +39,8 @@
   content: "\e900";
   font-size: 50px;
   background: #6989E0;
+  border-radius: 50%;
+  border: 2px solid #6989E0;
   speak: none;
 	text-transform: none;
 	-webkit-font-smoothing: antialiased;
@@ -47,6 +49,8 @@
   content: "\e901";
   font-size: 50px;
   background: #960200;
+  border-radius: 50%;
+  border: 2px solid #960200;
   speak: none;
 	text-transform: none;
 	-webkit-font-smoothing: antialiased;
@@ -55,6 +59,8 @@
   content: "\e902";
   font-size: 50px;
   background: #6cd779;
+  border-radius: 50%;
+  border: 2px solid #6cd779;
   speak: none;
 	text-transform: none;
 	-webkit-font-smoothing: antialiased;
@@ -63,6 +69,8 @@
   content: "\e903";
   font-size: 50px;
   background: #d19c1d;
+  border-radius: 50%;
+  border: 2px solid #d19c1d;
   speak: none;
 	text-transform: none;
 	-webkit-font-smoothing: antialiased;
@@ -71,6 +79,8 @@
   content: "\e904";
   font-size: 50px;
   background: #e87461;
+  border-radius: 50%;
+  border: 2px solid #e87461;
   speak: none;
 	text-transform: none;
 	-webkit-font-smoothing: antialiased;
@@ -79,6 +89,8 @@
   content: "\e905";
   font-size: 50px;
   background: #714955;
+  border-radius: 50%;
+  border: 2px solid #714955;
   speak: none;
 	text-transform: none;
 	-webkit-font-smoothing: antialiased;
@@ -87,6 +99,8 @@
   content: "\e906";
   font-size: 50px;
   background: #bcbcbc;
+  border-radius: 50%;
+  border: 2px solid #bcbcbc;
   speak: none;
 	text-transform: none;
 	-webkit-font-smoothing: antialiased;
@@ -95,215 +109,6 @@
   content: "\e907";
 }
 
-.icon-P:after {
-	top: -7px;
-	left: -7px;
-	padding: 7px;
-	box-shadow: 0 0 0 4px #fff;
-	-webkit-transition: -webkit-transform 0.2s, opacity 0.2s;
-	-webkit-transform: scale(.8);
-	-moz-transition: -moz-transform 0.2s, opacity 0.2s;
-	-moz-transform: scale(.8);
-	-ms-transform: scale(.8);
-	transition: transform 0.2s, opacity 0.2s;
-	transform: scale(.8);
-	opacity: 0;
-}
-
-.icon-P:hover {
-	background: rgba(255,255,255,1);
-	color: #6989E0;
-}
-
-.icon-P:hover:after {
-	-webkit-transform: scale(1);
-	-moz-transform: scale(1);
-	-ms-transform: scale(1);
-	transform: scale(1);
-	opacity: 1;
-}
-
-.icon-M:after {
-	top: -7px;
-	left: -7px;
-	padding: 7px;
-	box-shadow: 0 0 0 4px #fff;
-	-webkit-transition: -webkit-transform 0.2s, opacity 0.2s;
-	-webkit-transform: scale(.8);
-	-moz-transition: -moz-transform 0.2s, opacity 0.2s;
-	-moz-transform: scale(.8);
-	-ms-transform: scale(.8);
-	transition: transform 0.2s, opacity 0.2s;
-	transform: scale(.8);
-	opacity: 0;
-}
-
-.icon-M:hover {
-	background: rgba(255,255,255,1);
-	color: #960200;
-}
-
-.icon-M:hover:after {
-	-webkit-transform: scale(1);
-	-moz-transform: scale(1);
-	-ms-transform: scale(1);
-	transform: scale(1);
-	opacity: 1;
-}
-
-.icon-DI:after {
-	top: -7px;
-	left: -7px;
-	padding: 7px;
-	box-shadow: 0 0 0 4px #fff;
-	-webkit-transition: -webkit-transform 0.2s, opacity 0.2s;
-	-webkit-transform: scale(.8);
-	-moz-transition: -moz-transform 0.2s, opacity 0.2s;
-	-moz-transform: scale(.8);
-	-ms-transform: scale(.8);
-	transition: transform 0.2s, opacity 0.2s;
-	transform: scale(.8);
-	opacity: 0;
-}
-
-.icon-DI:hover {
-	background: rgba(255,255,255,1);
-	color: #6cd779;
-}
-
-.icon-DI:hover:after {
-	-webkit-transform: scale(1);
-	-moz-transform: scale(1);
-	-ms-transform: scale(1);
-	transform: scale(1);
-	opacity: 1;
-}
-
-.icon-IG:after {
-	top: -7px;
-	left: -7px;
-	padding: 7px;
-	box-shadow: 0 0 0 4px #fff;
-	-webkit-transition: -webkit-transform 0.2s, opacity 0.2s;
-	-webkit-transform: scale(.8);
-	-moz-transition: -moz-transform 0.2s, opacity 0.2s;
-	-moz-transform: scale(.8);
-	-ms-transform: scale(.8);
-	transition: transform 0.2s, opacity 0.2s;
-	transform: scale(.8);
-	opacity: 0;
-}
-
-.icon-IG:hover {
-	background: rgba(255,255,255,1);
-	color: #d19c1d;
-}
-
-.icon-IG:hover:after {
-	-webkit-transform: scale(1);
-	-moz-transform: scale(1);
-	-ms-transform: scale(1);
-	transform: scale(1);
-	opacity: 1;
-}
-
-.icon-PC:after {
-	top: -7px;
-	left: -7px;
-	padding: 7px;
-	box-shadow: 0 0 0 4px #fff;
-	-webkit-transition: -webkit-transform 0.2s, opacity 0.2s;
-	-webkit-transform: scale(.8);
-	-moz-transition: -moz-transform 0.2s, opacity 0.2s;
-	-moz-transform: scale(.8);
-	-ms-transform: scale(.8);
-	transition: transform 0.2s, opacity 0.2s;
-	transform: scale(.8);
-	opacity: 0;
-}
-
-.icon-PC:hover {
-	background: rgba(255,255,255,1);
-	color: #e87461;
-}
-
-.icon-PC:hover:after {
-	-webkit-transform: scale(1);
-	-moz-transform: scale(1);
-	-ms-transform: scale(1);
-	transform: scale(1);
-	opacity: 1;
-}
-
-.icon-TCI:after {
-	top: -7px;
-	left: -7px;
-	padding: 7px;
-	box-shadow: 0 0 0 4px #fff;
-	-webkit-transition: -webkit-transform 0.2s, opacity 0.2s;
-	-webkit-transform: scale(.8);
-	-moz-transition: -moz-transform 0.2s, opacity 0.2s;
-	-moz-transform: scale(.8);
-	-ms-transform: scale(.8);
-	transition: transform 0.2s, opacity 0.2s;
-	transform: scale(.8);
-	opacity: 0;
-}
-
-.icon-TCI:hover {
-	background: rgba(255,255,255,1);
-	color: #714955;
-}
-
-.icon-TCI:hover:after {
-	-webkit-transform: scale(1);
-	-moz-transform: scale(1);
-	-ms-transform: scale(1);
-	transform: scale(1);
-	opacity: 1;
-}
-
-.icon-CTF:after {
-	top: -7px;
-	left: -7px;
-	padding: 7px;
-	box-shadow: 0 0 0 4px #fff;
-	-webkit-transition: -webkit-transform 0.2s, opacity 0.2s;
-	-webkit-transform: scale(.8);
-	-moz-transition: -moz-transform 0.2s, opacity 0.2s;
-	-moz-transform: scale(.8);
-	-ms-transform: scale(.8);
-	transition: transform 0.2s, opacity 0.2s;
-	transform: scale(.8);
-	opacity: 0;
-}
-
-.icon-CTF:hover {
-	background: rgba(255,255,255,1);
-	color: #bcbcbc;
-}
-
-.icon-CTF:hover:after {
-	-webkit-transform: scale(1);
-	-moz-transform: scale(1);
-	-ms-transform: scale(1);
-	transform: scale(1);
-	opacity: 1;
-}
-
-. w3-container {
-content: "";
-display: table;
-clear: both;
-padding: 0.01em 16px;
-}
-
-. w3-tooltip {
-position: relative;
-}
-. w3-text {
-display: none;
-}
 
 *, *::after, *::before {
   box-sizing: border-box;
