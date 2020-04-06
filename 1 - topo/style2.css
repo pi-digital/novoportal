@@ -115,6 +115,12 @@
   content: "\e907";
 }
 
+d {
+  position: relative;
+  top: 25px;
+  left: 10px;
+  font-size: 14px;
+}
 
 *, *::after, *::before {
   box-sizing: border-box;
@@ -713,10 +719,10 @@ iframe {
 }
 .footer-wrapper li {
   position: relative;
-  padding: 2rem 1.5rem;
+  padding: 0.5rem 1.5rem;
   text-transform: uppercase;
   cursor: pointer;
-  display: inline;
+  display: table;
 }
 .footer-wrapper li:last-child {
   border: none;
