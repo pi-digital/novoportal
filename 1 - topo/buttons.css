@@ -15,11 +15,9 @@
 /* Common button styles */
 .button {
 	float: left;
-	min-width: 150px;
-	max-width: 250px;
+	width: 60px;
+	height: 60px;
 	display: block;
-	margin: 1em;
-	padding: 1em 2em;
 	border: none;
 	background: none;
 	color: inherit;
@@ -560,9 +558,9 @@
 
 /* Isi */
 .button--isi {
-	padding: 1.2em 2em;
 	color: #fff;
 	background: #7986cb;
+	border-radius: 50%;
 	overflow: hidden;
 }
 .button--isi::before {
