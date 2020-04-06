@@ -716,7 +716,7 @@ iframe {
   padding: 2rem 1.5rem;
   text-transform: uppercase;
   cursor: pointer;
-  display: block;
+  display: inline;
 }
 .footer-wrapper li:last-child {
   border: none;
