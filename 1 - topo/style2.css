@@ -46,60 +46,66 @@
 }
 .icon-M:before {
   content: "\e901";
+  margin-left: -3px;
   font-size: 50px;
   background: #960200;
   border-radius: 50%;
-  border: 3px solid #fff;
+  border: 3px solid #960200;
   speak: none;
 	text-transform: none;
 	-webkit-font-smoothing: antialiased;
 }
 .icon-DI:before {
   content: "\e902";
+  margin-left: -3px;
   font-size: 50px;
   background: #6cd779;
   border-radius: 50%;
-  border: 3px solid #fff;
+  border: 3px solid #6cd779;
   speak: none;
 	text-transform: none;
 	-webkit-font-smoothing: antialiased;
 }
 .icon-IG:before {
   content: "\e903";
+  margin-left: -3px;
   font-size: 50px;
   background: #d19c1d;
   border-radius: 50%;
-  border: 3px solid #fff;
+  border: 3px solid #d19c1d;
   speak: none;
 	text-transform: none;
 	-webkit-font-smoothing: antialiased;
 }
 .icon-PC:before {
   content: "\e904";
+  margin-left: -3px;
   font-size: 50px;
   background: #e87461;
   border-radius: 50%;
-  border: 3px solid #fff;
+  border: 3px solid #e87461;
   speak: none;
 	text-transform: none;
 	-webkit-font-smoothing: antialiased;
 }
 .icon-TCI:before {
   content: "\e905";
+  margin-left: -3px;
   font-size: 50px;
   background: #714955;
   border-radius: 50%;
-  border: 3px solid #fff;
+  border: 3px solid #714955;
   speak: none;
 	text-transform: none;
 	-webkit-font-smoothing: antialiased;
 }
 .icon-CTF:before {
   content: "\e906";
+  margin-left: -3px;
   font-size: 50px;
   background: #bcbcbc;
   border-radius: 50%;
-  border: 3px solid #fff;
+  border: 3px solid #bcbcbc;
   speak: none;
 	text-transform: none;
 	-webkit-font-smoothing: antialiased;
