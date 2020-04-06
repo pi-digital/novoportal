@@ -34,16 +34,6 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-P:before {
-  content: "\e900";
-  font-size: 50px;
-  background: #6989E0;
-  border-radius: 50%;
-  border: 3px solid #fff;
-  speak: none;
-	text-transform: none;
-	-webkit-font-smoothing: antialiased;
-}
 .icon-M:before {
   content: "\e901";
   margin-left: -3px;
@@ -51,6 +41,17 @@
   background: #960200;
   border-radius: 50%;
   border: 3px solid #960200;
+  speak: none;
+	text-transform: none;
+	-webkit-font-smoothing: antialiased;
+}
+.icon-P:before {
+  content: "\e900";
+  margin-left: -3px;
+  font-size: 50px;
+  background: #6989E0;
+  border-radius: 50%;
+  border: 3px solid #6989E0;
   speak: none;
 	text-transform: none;
 	-webkit-font-smoothing: antialiased;
