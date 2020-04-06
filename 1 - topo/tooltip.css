@@ -200,8 +200,6 @@
   margin-bottom: 0;
   margin-left: -12px;
   border-top-color: transparent;
-  border-right-color: #000;
-  border-right-color: hsla(0, 0%, 20%, 0.9);
 }
 
 .tooltip-right:hover:before,
