@@ -1,4 +1,26 @@
- * Tooltip Styles
+@import "https://fonts.googleapis.com/css?family=Montserrat";
+@import 'https://cdn.rawgit.com/h-ibaldo/Raleway_Fixed_Numerals/master/css/rawline.css';
+@font-face {
+  font-family: Narziss;
+  src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/42764/Narziss_Bold_Drops.woff2);
+}
+@font-face {
+  font-family: Narziss-medium;
+  src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/42764/Narziss_Bold_Drops.woff2);
+}
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?kvnegk');
+  src:  url('fonts/icomoon.eot?kvnegk#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?kvnegk') format('truetype'),
+    url('fonts/icomoon.woff?kvnegk') format('woff'),
+    url('fonts/icomoon.svg?kvnegk#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+* Tooltip Styles
  */
 
 /* Base styles for the element that has a tooltip */
@@ -64,12 +86,10 @@
 .tooltip:after,
 [data-tooltip]:after {
   z-index: 1000;
-  padding: 8px;
-  width: 160px;
-  background-color: #000;
-  background-color: hsla(0, 0%, 20%, 0.9);
+  width: auto;
   color: #fff;
   content: attr(data-tooltip);
+  font-family: 'rawline', sans-serif; 
   font-size: 14px;
   line-height: 1.2;
 }
@@ -92,8 +112,6 @@
 .tooltip-top:before {
   margin-left: -6px;
   margin-bottom: -12px;
-  border-top-color: #000;
-  border-top-color: hsla(0, 0%, 20%, 0.9);
 }
 
 /* Horizontally align top/bottom tooltips */
