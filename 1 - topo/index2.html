@@ -4,9 +4,11 @@
 <title>Topo Navegável - Novo Portal do INPI</title>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 <link rel="stylesheet" href="./style2.css">
-<script src="./modernizr.custom.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="./tooltip.css">
+<link rel="stylesheet" type="text/css" href="./normalize.css" />
+<link rel="stylesheet" type="text/css" href="./base.css" />
+<link rel="stylesheet" type="text/css" href="./buttons.css" />
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 </head>
 <body>
 <!-- partial:index.partial.html -->
@@ -332,11 +334,13 @@
       </ul>
   </div>
     <div class="footer-wrapper">
+      <div class="contenteza">
+      <div class="box bg-1">
         <ul>
         <li class="box" data-id="2">
           <div class="hover-box"></div>
           <div class="box-content">
-            <span class="icon-M" data-toggle="tooltip" data-placement="right" title="Marcas"></span>
+            <button class="button button--isi button--text-thick button--text-upper button--size-s" data-tooltip="Marcas" data-placement="right" data-trigger="hover" class="tooltip"><span class="icon-M"></span></button>
           </div>
         </li>
         <li class="box" data-id="3">
@@ -376,6 +380,8 @@
           </div>
          </li>
       </ul>
+     </div>
+     </div>
     </div>
 </div>
 <!-- partial -->
