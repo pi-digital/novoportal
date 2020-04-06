@@ -15,8 +15,8 @@
 /* Common button styles */
 .button {
 	float: left;
-	width: 60px;
-	height: 60px;
+	width: 65px;
+	height: 65px;
 	display: block;
 	border: none;
 	background: none;
@@ -61,7 +61,6 @@
 
 /* Typography and Roundedness */
 .button--text-upper {
-	letter-spacing: 2px;
 	text-transform: uppercase;
 }
 .button--text-thin {
@@ -559,7 +558,6 @@
 /* Isi */
 .button--isi {
 	color: #fff;
-	background: #7986cb;
 	border-radius: 50%;
 	overflow: hidden;
 }
@@ -573,7 +571,7 @@
 	width: 30px;
 	height: 30px;
 	border-radius: 50%;
-	background: #3f51b5;
+	background: #fff;
 	-webkit-transform-origin: 100% 50%;
 	transform-origin: 100% 50%;
 	-webkit-transform: scale3d(1, 2, 1);
@@ -588,7 +586,6 @@
 }
 .button--isi > span {
 	vertical-align: middle;
-	padding-left: 0.75em;
 }
 .button--isi:hover::before {
 	-webkit-transform: scale3d(9, 9, 1);
