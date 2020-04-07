@@ -624,6 +624,7 @@ f {
     position: relative;
     top: 10px;
     font-size: 14px;
+    font-weight: 700;
 }
 
 *, *::after, *::before {
