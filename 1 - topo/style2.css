@@ -620,6 +620,12 @@ d {
   font-size: 14px;
 }
 
+f {
+    position: relative;
+    top: 10px;
+    font-size: 14px;
+}
+
 *, *::after, *::before {
   box-sizing: border-box;
 }
