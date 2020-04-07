@@ -20,14 +20,6 @@
   font-display: block;
 }
 
-#myVideo {
-  position: relative;
-  right: 0;
-  bottom: 0;
-  width: 100%; 
-  height: 100%;
-}
-
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
@@ -939,7 +931,7 @@ iframe {
 }
 .slider-content .fake-bg.white {
   background-color: #000;
-  background-image: url("output_HD720.mp4");
+  background-image: url("inpi.gif");
 }
 .slider-content .fake-bg.red {
   background-image: url();
