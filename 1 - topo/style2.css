@@ -546,7 +546,7 @@ iframe {
 .slider-content .title-wrapper {
   position: relative;
   color: white;
-  margin-left: auto;
+  margin-left: 15%;
   margin-right: auto;
   width: 60%;
   text-align: left;
