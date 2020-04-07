@@ -653,7 +653,9 @@ body, html {
 
 a {
   color: inherit;
-  text-decoration: indianred;  
+  text-decoration: indianred;
+  font-family: 'Raleway', Arial, sans-serif;
+  font-size: 12px;
 }
 
 span {
@@ -1091,7 +1093,7 @@ iframe {
   position: relative;
   text-align: left;
   cursor: pointer;
-  margin-feft: 5rem;
+  margin-left: 5rem;
   top: 135px;
   font-size: 18px;
 }
