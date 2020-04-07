@@ -656,6 +656,10 @@ a {
   text-decoration: indianred;  
 }
 
+span {
+  display: grid;
+}
+
 iframe {
   font-size: 11px;
 }
