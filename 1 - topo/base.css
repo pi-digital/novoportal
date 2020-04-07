@@ -38,7 +38,7 @@ a {
 	outline: none;
 	display: inline-grid;
 	text-align: center;
-	margin-left: 30px;
+	margin-right: 30px;
 }
 a:hover,
 a:focus {
