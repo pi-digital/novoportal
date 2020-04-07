@@ -588,10 +588,9 @@ iframe {
 }
 .slider-content .title-wrapper span.gallery {
   position: relative;
-  text-align: right;
-  padding: 0 2rem;
+  text-align: left;
   cursor: pointer;
-  margin-right: 5rem;
+  margin-feft: 5rem;
   top: 135px;
   font-size: 18px;
 }
@@ -602,7 +601,6 @@ iframe {
   display: block;
   width: 1px;
   height: 2.5rem;
-  background: white;
   top: 0;
   opacity: 0.9;
 }
@@ -613,7 +611,6 @@ iframe {
   display: block;
   width: 1px;
   height: 2.5rem;
-  background: white;
   top: 0;
   opacity: 0.9;
 }
