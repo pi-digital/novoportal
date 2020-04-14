@@ -14,6 +14,7 @@ body, html {
   display: flex;
   justify-content: center;
   align-items: center;
+  background: #232323;
 }
 .container .box {
   width: 100%;
@@ -41,7 +42,7 @@ body, html {
 }
 .container .box .title h1 {
   font-family: 'Poppins';
-  color: #000;
+  color: #fff;
   font-size: 32px;
   -webkit-animation: mainFadeIn 2s forwards;
   -o-animation: mainFadeIn 2s forwards;
@@ -92,7 +93,7 @@ body, html {
   opacity: 0;
   font-weight: 400;
   font-family: 'Lato';
-  color: #000;
+  color: #fff;
   font-size: 14px;
   text-transform: uppercase;
   letter-spacing: 7.5px;
