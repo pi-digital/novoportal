@@ -10256,6 +10256,7 @@ table td {
       height: 100%; }
   .feature-card .card-title {
     transition: all ease-in-out 0.2s;
+    font-family: 'Rawline';
     font-size: 1.1rem;
     font-weight: 700;
     margin: 0 0 5px;
