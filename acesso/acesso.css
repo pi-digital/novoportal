@@ -170,10 +170,6 @@ src: local('Rawline Black Italic'), url('rawline-900i.woff') format('woff');
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon:hover {
-  color: #06ACFF;
-}
-
 .icon-livro:before {
   content: "\e900";
 }
@@ -10222,6 +10218,11 @@ table td {
       .feature-card a[target="_blank"].btn {
         background-position: right 10px center;
         background-size: 20px; }
+
+.feature-card a:hover {
+  color: #06ACFF;
+}
+
   .feature-card .align {
     transform: translateY(-50%) translateX(-50%);
     -webkit-transform: translateY(-50%) translateX(-50%);
