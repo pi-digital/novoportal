@@ -2135,7 +2135,7 @@ html {
   width: device-width; }
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
-  display: block; }
+  display: flex; }
 
 body {
   margin: 0;
@@ -7308,10 +7308,6 @@ button.bg-dark:focus {
 .mx-5 {
   margin-right: 3rem !important; }
 
-.mb-5,
-.my-5 {
-  margin-bottom: 3rem !important; }
-
 .ml-5,
 .mx-5 {
   margin-left: 3rem !important; }
@@ -7414,17 +7410,9 @@ button.bg-dark:focus {
 .p-5 {
   padding: 3rem !important; }
 
-.pt-5,
-.py-5 {
-  padding-top: 3rem !important; }
-
 .pr-5,
 .px-5 {
   padding-right: 3rem !important; }
-
-.pb-5,
-.py-5 {
-  padding-bottom: 3rem !important; }
 
 .pl-5,
 .px-5 {
