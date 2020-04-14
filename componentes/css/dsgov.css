@@ -31,6 +31,7 @@ body {
   color: #555;
   text-align: left;
   padding: 0 50px;
+  text-align: center;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -14088,7 +14089,7 @@ fieldset legend,
 }
 
 .br-button.is-primary {
-  background: rgba(7, 29, 65, 0.6);
+  background: #071d41;
   border-radius: 100px;
   color: #fff;
   display: inline-block;
