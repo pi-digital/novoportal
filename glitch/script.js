@@ -16,7 +16,17 @@ canvas.width = innerWidth;
 canvas.height = innerHeight;
 
 function texts(color) {
-  ctx.font = "18vh Bungee Outline";
+  ctx.font = "30vh Bungee Inline";
+  ctx.shadowBlur = 30;
+  ctx.shadowColor = color;
+  ctx.fillStyle = "#fff";
+  ctx.setTransform(1, -0.15, 0, 1, 0, -10);
+  ctx.fillText(
+    "INPI",
+    innerWidth / 2,
+    innerHeight / 2 + innerHeight / -5);
+  
+  ctx.font = "20h Bungee Outline";
   ctx.shadowBlur = 30;
   ctx.shadowColor = color;
   ctx.fillStyle = color;
