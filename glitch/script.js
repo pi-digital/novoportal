@@ -46,8 +46,7 @@ function texts(color) {
   ctx.fillText(
     "À SUA IDEIA",
     innerWidth / 2,
-    innerHeight / 2 + innerHeight / 10
-  );
+    innerHeight / 2 + innerHeight / 10);
   
   ctx.textAlign = "center";
   ctx.textBaseline = "middle";
