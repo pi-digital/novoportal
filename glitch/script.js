@@ -22,21 +22,25 @@ function texts(color) {
   ctx.fillStyle = "#fff";
   ctx.setTransform(1, -0.15, 0, 1, 0, -10);
   ctx.fillText(
-    "INPI",
+    "O INPI",
     innerWidth / 2,
-    innerHeight / 2 + innerHeight / -5);
+    innerHeight / 2 + innerHeight / 20 - 5);
   
   ctx.font = "20vh Bungee Outline";
   ctx.shadowBlur = 30;
   ctx.shadowColor = color;
   ctx.fillStyle = color;
   ctx.setTransform(1, -0.15, 0, 1, 0, -10);
-  ctx.fillText("DÊ MAIS VALOR", innerWidth / 2, innerHeight / 2 - 5);
+  ctx.fillText(
+    "DÁ VALOR", innerWidth / 2,
+    innerHeight / 1.375 - 5);
 
   ctx.fillStyle = "white";
   ctx.shadowBlur = 30;
   ctx.shadowColor = color;
-  ctx.fillText("DÊ MAIS VALOR", innerWidth / 2, innerHeight / 2);
+  ctx.fillText(
+    "DÁ VALOR", innerWidth / 2,
+    innerHeight / 1.375);
 
   ctx.font = "18vh Bungee Inline";
   ctx.shadowBlur = 30;
@@ -46,7 +50,8 @@ function texts(color) {
   ctx.fillText(
     "À SUA IDEIA",
     innerWidth / 2,
-    innerHeight / 2 + innerHeight / 10);
+    innerHeight / 1.2 + innerHeight / 20
+  );
   
   ctx.textAlign = "center";
   ctx.textBaseline = "middle";
