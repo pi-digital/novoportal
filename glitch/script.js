@@ -16,7 +16,7 @@ canvas.width = innerWidth;
 canvas.height = innerHeight;
 
 function texts(color) {
-  ctx.font = "18vh rawline Outline";
+  ctx.font = "18vh Bungee Outline";
   ctx.shadowBlur = 30;
   ctx.shadowColor = color;
   ctx.fillStyle = color;
@@ -28,7 +28,7 @@ function texts(color) {
   ctx.shadowColor = color;
   ctx.fillText("DÊ MAIS VALOR", innerWidth / 2, innerHeight / 2);
 
-  ctx.font = "20vh rawline Inline";
+  ctx.font = "20vh Bungee Inline";
   ctx.shadowBlur = 30;
   ctx.shadowColor = color;
   ctx.fillStyle = "#fff";
