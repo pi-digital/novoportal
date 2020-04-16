@@ -26,7 +26,7 @@ function texts(color) {
     innerWidth / 2,
     innerHeight / 2 + innerHeight / -5);
   
-  ctx.font = "20h Bungee Outline";
+  ctx.font = "20vh Bungee Outline";
   ctx.shadowBlur = 30;
   ctx.shadowColor = color;
   ctx.fillStyle = color;
@@ -38,7 +38,7 @@ function texts(color) {
   ctx.shadowColor = color;
   ctx.fillText("DÊ MAIS VALOR", innerWidth / 2, innerHeight / 2);
 
-  ctx.font = "20vh Bungee Inline";
+  ctx.font = "18vh Bungee Inline";
   ctx.shadowBlur = 30;
   ctx.shadowColor = color;
   ctx.fillStyle = "#fff";
@@ -48,7 +48,7 @@ function texts(color) {
     innerWidth / 2,
     innerHeight / 2 + innerHeight / 10
   );
-
+  
   ctx.textAlign = "center";
   ctx.textBaseline = "middle";
 }
