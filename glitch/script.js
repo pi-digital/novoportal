@@ -39,7 +39,7 @@ function texts(color) {
   innerHeight / 2 + innerHeight / 10);
 
 
-  ctx.textAlign = "center";
+  ctx.textAlign = "right";
   ctx.textBaseline = "middle";
 }
 
