@@ -8383,6 +8383,7 @@ table td {
 
 .feature-card a:hover {
   color: #06ACFF;
+  background: rgba(0,0,0,.05);
 }
 
   .feature-card .align {
