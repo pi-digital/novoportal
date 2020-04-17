@@ -5,6 +5,7 @@ body {
 	--default-blue-stroke: #0098ff;
 	--default-grey-black-fill: rgba(0,0,0,.25);
 	--default-strok: #222222;
+	overflow: hidden;
 }
 svg text{
 	fill: var(--default-strok);
