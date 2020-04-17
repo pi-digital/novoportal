@@ -12,13 +12,6 @@ svg text{
 	font-family: monospace;
 	font-weight: bolder;
 }
-unidades {
-	color: #3c3c3c;
-	margin-bottom: 15rem;
-	font-family: Raleway;
-	font-size: 30px;
-	font-weight: bold;
-}
 option {
 	font-family: Raleway;
 	font-size: 14px;
@@ -28,6 +21,14 @@ optgroup {
 	font-size: 16px;
 	font-style: normal;
 	font-weight: bolder;
+}
+
+.unidades {
+	color: #3c3c3c;
+	margin-bottom: 15rem;
+	font-family: Raleway;
+	font-size: 30px;
+	font-weight: bold;
 }
 .mapa-svg-estados {
 	fill: #F1F1F1;
