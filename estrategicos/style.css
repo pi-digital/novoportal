@@ -32,7 +32,7 @@
     font-size: 80%;
 }
 body {
-    font-family: 'rawline', sans-serif;
+    font-family: Raleway,sans-serif;
     color: #282828;
 }
 .tile.box-colorido {
@@ -78,4 +78,20 @@ h1, h2, h3, h4, h5, h6 {
 }
 .tile.box-colorido p {
     margin-top: 10px;
+}
+#content a:link, #content a:visited, dl.portlet a:link, dl.portlet a:visited {
+    border-bottom: none;
+}
+.tile.box-colorido a {
+    color: #00d6d1 !important;
+    background: #fff;
+    border-radius: 30px;
+    display: inline-block;
+    padding: 11px 29px;
+    font-size: .875rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+* :link, :visited {
+    text-decoration: none;
 }
