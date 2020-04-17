@@ -12,6 +12,16 @@ svg text{
 	font-family: monospace;
 	font-weight: bolder;
 }
+.class-select {
+	color: #3c3c3c;
+	margin-bottom: 15rem;
+	font-family: Raleway;
+	font-size: 30px;
+	border: none;
+	background: none;
+	font-weight: bold;
+	margin-left: -100px;
+}
 .mapa-svg-estados {
 	fill: #F1F1F1;
 	-webkit-transition: .8s ease;
