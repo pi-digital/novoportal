@@ -15,9 +15,10 @@ svg text{
 option {
 	font-size: 14px;
 }
-label {
+optgroup {
 	font-size: 16px;
 	font-style: normal;
+	font-weight: bolder;
 }
 .mapa-svg-estados {
 	fill: #F1F1F1;
