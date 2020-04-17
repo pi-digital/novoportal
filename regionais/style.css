@@ -26,8 +26,9 @@ optgroup {
 .unidades {
 	color: #3c3c3c;
 	margin-bottom: 15rem;
+	margin-left: -100px;
 	font-family: Raleway;
-	font-size: 30px;
+	font-size: 35px;
 	font-weight: bold;
 }
 .mapa-svg-estados {
@@ -99,13 +100,11 @@ optgroup {
 
 .class-select {
 	color: #3c3c3c;
-	margin-bottom: 15rem;
 	font-family: Raleway;
 	font-size: 14px;
 	background: none;
 	font-weight: bold;
-	margin-left: -100px;
-	margin-top: 10px;
+	margin-top: 20px;
 	padding: 10px 10px;
 	border-radius: 20px;
 }
