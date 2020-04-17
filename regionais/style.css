@@ -45,7 +45,7 @@ svg text{
 
 .mapa-svg-estados-active {
 	cursor: pointer;
-	stroke: var(--default-blue-stroke);
+	stroke: var(--default-grey-black-fill);
 	fill: var(--default-grey-black-fill);
 	stroke-dashoffset: 0%;
 	-webkit-transition: .8s ease;
