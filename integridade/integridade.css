@@ -145,11 +145,11 @@ src: local('Rawline Black Italic'), url('rawline-900i.woff') format('woff');
 
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?cmu7kb');
-  src:  url('fonts/icomoon.eot?cmu7kb#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?cmu7kb') format('truetype'),
-    url('fonts/icomoon.woff?cmu7kb') format('woff'),
-    url('fonts/icomoon.svg?cmu7kb#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?h2juni');
+  src:  url('fonts/icomoon.eot?h2juni#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?h2juni') format('truetype'),
+    url('fonts/icomoon.woff?h2juni') format('woff'),
+    url('fonts/icomoon.svg?h2juni#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
