@@ -20,9 +20,11 @@ unidades {
 	font-weight: bold;
 }
 option {
+	font-family: Raleway;
 	font-size: 14px;
 }
 optgroup {
+	font-family: Raleway;
 	font-size: 16px;
 	font-style: normal;
 	font-weight: bolder;
