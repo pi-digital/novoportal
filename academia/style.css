@@ -96,6 +96,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: .875rem;
     text-transform: uppercase;
     font-weight: 700;
+    margin-right: 50px;
 }
 * :link, :visited {
     text-decoration: none;
