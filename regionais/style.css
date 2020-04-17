@@ -22,6 +22,13 @@ svg text{
 	font-weight: bold;
 	margin-left: -100px;
 }
+.option {
+	font-size: 14px;
+}
+.label {
+	font-size: 16px;
+	font-style: normal;
+}
 .mapa-svg-estados {
 	fill: #F1F1F1;
 	-webkit-transition: .8s ease;
