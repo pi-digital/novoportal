@@ -43,7 +43,7 @@ body {
     margin-bottom: 12px;
 }
 .tile.box-colorido > div {
-    background: linear-gradient(to right, #6989E0, #960200);
+    background: #fff;
     padding: 0px 40px;
     color: #fff !important;
     font-size: 1.3rem;
@@ -58,7 +58,7 @@ body {
     margin-top: 0.5em;
 }
 .tile.box-colorido h1 {
-    color: #fff;
+    color: #0c326f;
     font-size: 2.95rem;
     line-height: 2.5rem;
     letter-spacing: -.0625rem;
