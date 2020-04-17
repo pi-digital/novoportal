@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en" >
 <head>
+  <meta charset="UTF-8">
+  <title>CodePen - Mapa Dinâmico Brasil SVG</title>
   <link rel="stylesheet" href="./style.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
 
@@ -10,14 +12,13 @@
 <html>
 <head>
 <link rel="shortcut icon" href="../favicon.ico">
-    <!-- Fonte Rawline-->
-    <link rel="stylesheet" href="https://cdn.dsgovserprodesign.estaleiro.serpro.gov.br/design-system/fonts/rawline/css/rawline.css">
-    <!-- Fonte Raleway-->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900&amp;display=swap">
-    <!-- Design System de Governo-->
-    <link rel="stylesheet" href="../componentes/css/dsgov.css">
-    <!-- Fontawesome-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js"></script>
+<link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+<link rel="stylesheet" type="text/css" href="css/demo.css" />
+<link rel="stylesheet" type="text/css" href="css/cs-select.css" />
+<link rel="stylesheet" type="text/css" href="css/cs-skin-overlay.css" />
+<link rel="stylesheet" href="assets/css/reset.css"/>
+<link rel="stylesheet" href="assets/css/style.css"/>
 </head>
 <body>
 <div class="map-area-transform">
@@ -108,9 +109,9 @@ class="b"/>
 </g>
 </svg>
 </div>
-<div class="br-select is-focus">
-<label for="focus">Unidades Regionais</label>
-<select id="focus" name="estados-brasil-sotreq">
+<div class="unidades" style="display: grid">
+Unidades Regionais
+<select class="class-select cs-skin-overlay" name="estados-brasil-sotreq">
 <option value="" disabled selected>Selecione</option>
 <optgroup label="Capital">
 <option value="state-df">Distrito Federal</option>
@@ -136,7 +137,6 @@ class="b"/>
 </select>
 </div>
 </div>
-<script src="../componentes/js/dsgov.js"></script>
 <script async defer src="https://buttons.github.io/buttons.js"></script>
 <script src="assets/js/jquery.min.js"></script>
 <script src="assets/js/script.js"></script>
