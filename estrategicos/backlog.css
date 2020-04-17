@@ -43,7 +43,7 @@ body {
 }
 .tile.box-colorido > div {
     background: #3ab09e;
-    padding: 20px 40px;
+    padding: 0px 40px;
     color: #fff !important;
     font-size: 1.3rem;
     line-height: 120%;
@@ -58,8 +58,8 @@ body {
 }
 .tile.box-colorido h1 {
     color: #fff;
-    font-size: 3.75rem;
-    line-height: 3.063rem;
+    font-size: 2.95rem;
+    line-height: 2.5rem;
     letter-spacing: -.0625rem;
 }
 h1, h2, h3, h4, h5, h6 {
