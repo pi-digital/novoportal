@@ -12,16 +12,6 @@ svg text{
 	font-family: monospace;
 	font-weight: bolder;
 }
-.class-select {
-	color: #3c3c3c;
-	margin-bottom: 15rem;
-	font-family: Raleway;
-	font-size: 30px;
-	border: none;
-	background: none;
-	font-weight: bold;
-	margin-left: -100px;
-}
 .option {
 	font-size: 14px;
 }
@@ -97,11 +87,14 @@ svg text{
 }
 
 .class-select {
-	padding: 10px 10px;
-	border-radius: 5px;
 	color: #3c3c3c;
-	margin-bottom: 2rem;
-	font-family: 'Montserrat', sans-serif;
+	margin-bottom: 15rem;
+	font-family: Raleway;
+	font-size: 30px;
+	border: none;
+	background: none;
+	font-weight: bold;
+	margin-left: -100px;
 }
 
 @font-face {
