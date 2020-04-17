@@ -82,8 +82,8 @@ h1, h2, h3, h4, h5, h6 {
     border-bottom: none;
 }
 .tile.box-colorido a {
-    color: #00d6d1 !important;
-    background: #fff;
+    color: #fff;
+    background: #0c326f;
     border-radius: 30px;
     display: inline-block;
     padding: 11px 29px;
