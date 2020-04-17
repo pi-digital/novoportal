@@ -33,6 +33,7 @@ body {
     font-family: Raleway,sans-serif;
     color: #282828;
     margin: 0;
+    border: 4px solid #0c326f;
 }
 .tile.box-colorido {
     display: flex;
