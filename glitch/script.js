@@ -16,7 +16,7 @@ canvas.width = innerWidth;
 canvas.height = innerHeight;
 
 function texts(color) {
-  ctx.font = "30vh Bungee Inline";
+  ctx.font = "25vh Bungee Inline";
   ctx.shadowBlur = 30;
   ctx.shadowColor = color;
   ctx.fillStyle = "#fff";
@@ -24,25 +24,25 @@ function texts(color) {
   ctx.fillText(
     "O INPI",
     innerWidth / 2,
-    innerHeight / 2 + innerHeight / 40 - 50);
+    innerHeight / 2 + innerHeight / 40 - 0);
   
-  ctx.font = "20vh Bungee Outline";
+  ctx.font = "17vh Bungee Outline";
   ctx.shadowBlur = 30;
   ctx.shadowColor = color;
   ctx.fillStyle = color;
   ctx.setTransform(1, -0.15, 0, 1, 0, -10);
   ctx.fillText(
     "DÁ VALOR", innerWidth / 2,
-    innerHeight / 1.6 - 5);
+    innerHeight / 1.45 - 3.5);
 
   ctx.fillStyle = "white";
   ctx.shadowBlur = 30;
   ctx.shadowColor = color;
   ctx.fillText(
     "DÁ VALOR", innerWidth / 2,
-    innerHeight / 1.6);
+    innerHeight / 1.45);
 
-  ctx.font = "18vh Bungee Inline";
+  ctx.font = "15vh Bungee Inline";
   ctx.shadowBlur = 30;
   ctx.shadowColor = color;
   ctx.fillStyle = "#fff";
@@ -50,7 +50,7 @@ function texts(color) {
   ctx.fillText(
     "À SUA IDEIA",
     innerWidth / 2,
-    innerHeight / 1.3 + innerHeight / 50
+    innerHeight / 1.25 + innerHeight / 50
   );
   
   ctx.textAlign = "center";
