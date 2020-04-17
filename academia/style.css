@@ -33,7 +33,8 @@ body {
     font-family: Raleway,sans-serif;
     color: #282828;
     margin: 0;
-    background-image: url("dumont.jpg")
+    background-image: url("dumont.jpg");
+    background-position: -10px;
 }
 .tile.box-colorido {
     display: flex;
