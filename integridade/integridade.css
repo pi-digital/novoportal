@@ -170,8 +170,8 @@ src: local('Rawline Black Italic'), url('rawline-900i.woff') format('woff');
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-file-text2:before {
-  content: "\e98c";
+.icon-document:before {
+  content: "\e911";
 }
 .icon-eye:before {
   content: "\e900";
