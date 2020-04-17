@@ -40,7 +40,6 @@ body {
 }
 .tile {
     width: 100%;
-    margin-bottom: 12px;
 }
 .tile.box-colorido > div {
     background: #fff;
