@@ -1,0 +1,150 @@
+body.template-compose #content .tile {
+    padding-top: 2em;
+    padding-bottom: 0;
+    outline: 1px dashed hsla(0,0%,39%,.5);
+    outline-offset: 4px;
+}
+.template-compose #content .tile {
+    min-height: 100px;
+    margin-bottom: 1em;
+}
+div, span {
+    margin: 0;
+        margin-bottom: 0px;
+    padding: 0;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    border: 0;
+    letter-spacing: normal;
+    vertical-align: baseline;
+}
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.brasil-quote-tile {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 334px;
+}
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+    font-family: rawline,sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: #555;
+    line-height: 1.75;
+    letter-spacing: normal;
+}
+.brasil-quote-tile .quote-article::before {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: block;
+    height: 334px;
+    content: '.';
+    text-indent: -3000px;
+    opacity: .8;
+    background-color: transparent;
+    background-image: -o-linear-gradient(transparent, #000);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#000));
+    background-image: linear-gradient(transparent, #000);
+}
+element {
+}
+.brasil-quote-tile .quote-article {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 50%;
+}
+.brasil-quote-tile .quote-article::before {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: block;
+    height: 334px;
+    content: '.';
+    text-indent: -3000px;
+    opacity: .8;
+    background-color: transparent;
+    background-image: -o-linear-gradient(transparent, #000);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#000));
+    background-image: linear-gradient(transparent, #000);
+}
+.brasil-quote-tile .quote-article .quote-article-content {
+    -ms-flex-item-align: end;
+    align-self: flex-end;
+}
+.brasil-quote-tile .quote-article .tile-subtitle::before {
+    display: none;
+}
+element {
+}
+#content p, #content table, #content dl, dl.portlet p, dl.portlet {
+    margin-bottom: 1em;
+}
+.brasil-quote-tile.quote-blue .quote, .brasil-quote-tile.quote-blue .tile-subtitle {
+    background-color: #06ACFF;
+}
+.brasil-quote-tile .quote-article .tile-subtitle {
+    line-height: .875rem;
+    display: inline-block;
+    margin: 0 115px 0 30px;
+        margin-bottom: 0px;
+    padding: 5px 10px;
+    color: #FFF;
+}
+.brasil-quote-tile .quote-article h2 {
+    font-size: 1.75rem;
+    font-weight: 800;
+    margin: 5px 115px 50px 30px;
+    color: #FFF;
+}
+#content .brasil-quote-tile a, #content .brasil-quote-tile a:link, #content .brasil-quote-tile a:visited, #content .brasil-quote-tile a:hover {
+    color: #FFF !important;
+}
+a, a:active, a:hover, a:link, a:visited {
+    color: #1351b4;
+    font-weight: 500;
+}
+a:visited, dl.portlet a:visited {
+    color: #427597;
+}
+a:link, a:visited {
+    color: #205c90;
+}
+* :link, :visited {
+    text-decoration: none;
+}
+h2 a, h3 a, h4 a {
+    border-bottom: none !important;
+}
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+    font-family: rawline,sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: #555;
+    line-height: 1.75;
+    margin: 0;
+    padding: 0;
+    border: 0;
+        border-bottom-color: currentcolor;
+        border-bottom-style: none;
+        border-bottom-width: 0px;
+    letter-spacing: normal;
+    vertical-align: baseline;
+}
+a {
+    outline: none;
+}
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
