@@ -14090,10 +14090,10 @@ fieldset legend,
 }
 
 .br-button.is-primary {
-  background: #071d41;
+  background: #fff;
   border-color: #071d41;
   border-radius: 100px;
-  color: #fff;
+  color: #071d41;
   display: inline-block;
   font-weight: 600;
   height: 40px;
