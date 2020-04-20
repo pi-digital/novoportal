@@ -2,7 +2,7 @@
 @import "https://cdn.rawgit.com/h-ibaldo/Raleway_Fixed_Numerals/master/css/rawline.css";
 body {
   min-height: 100vh;
-  background: #06ACFF;
+  background: #232323;
   overflow: hidden;
 }
 
@@ -58,7 +58,7 @@ body {
   width: 40px;
   height: 40px;
   border-radius: 100%;
-  background-color: #06ACFF;
+  background-color: #232323;
   left: calc(50% - 25px);
   top: 40px;
   border: 5px solid #b3b3b3;
@@ -68,7 +68,7 @@ body {
   z-index: -100;
   height: 55px;
   width: 50px;
-  background-color: #b3b3b3;
+  background-color: #808080;
 }
 .rocket .fin-left {
   left: -30px;
