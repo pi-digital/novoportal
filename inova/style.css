@@ -8,7 +8,7 @@ body {
 
 .inova {
   position: absolute;
-  top: 25%;
+  top: 15%;
   width: 50%;
   left: calc(50% - 60px);
   font-family: 'rawline', sans-serif;
@@ -16,7 +16,7 @@ body {
 
 .rocket {
   position: absolute;
-  top: 20%;
+  top: 5%;
   width: 80px;
   left: calc(35% - 60px);
 }
