@@ -8,7 +8,7 @@ body {
 
 .inova {
   position: absolute;
-  top: 15%;
+  top: 5%;
   width: 50%;
   left: calc(50% - 60px);
   font-family: 'rawline', sans-serif;
