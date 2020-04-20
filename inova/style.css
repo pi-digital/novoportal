@@ -61,7 +61,7 @@ body {
   background-color: #06ACFF;
   left: calc(50% - 25px);
   top: 40px;
-  border: 5px solid #b4b2b2;
+  border: 5px solid #fff;
 }
 .rocket .fin {
   position: absolute;
