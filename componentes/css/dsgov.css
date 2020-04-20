@@ -14090,12 +14090,13 @@ fieldset legend,
 
 .br-button.is-primary {
   background: #071d41;
+  border: #071d41;
   border-radius: 100px;
   color: #fff;
   display: inline-block;
   font-weight: 600;
   height: 40px;
-  padding: 0 15px;
+  padding: 0 25px;
   width: auto;
   transition: 0.3s;
 }
