@@ -14103,9 +14103,9 @@ fieldset legend,
 }
 
 .br-button.is-primary:hover, .br-button.is-primary:focus {
-  background-color: #fff;
+  background-color: #071d41;
   border-color: #071d41;
-  color: #071d41;
+  color: #fff;
 }
 
 .br-button.is-primary:disabled {
