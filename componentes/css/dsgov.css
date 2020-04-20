@@ -14090,7 +14090,7 @@ fieldset legend,
 
 .br-button.is-primary {
   background: #071d41;
-  border: #071d41;
+  border-color: #071d41;
   border-radius: 100px;
   color: #fff;
   display: inline-block;
