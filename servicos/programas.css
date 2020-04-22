@@ -8398,16 +8398,16 @@ table td {
   @media (min-width: 1150px) {
     .feature-card:hover {
       background-color: #F8F8F8;
-      border-color: #06ACFF;
-      color: #06ACFF; }
+      border-color: #e87461;
+      color: #e87461; }
       .feature-card:hover .card-title,
       .feature-card:hover .card-desc,
       .feature-card:hover .card-title a,
       .feature-card:hover .icon:before {
-        color: #06ACFF; }
+        color: #e87461; }
       .feature-card:hover .btn {
-        border-color: #06ACFF;
-        color: #06ACFF; } }
+        border-color: #e87461;
+        color: #e87461; } }
   .feature-card .btn {
     background: transparent; }
   .feature-card .icon {
