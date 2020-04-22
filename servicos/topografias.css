@@ -8369,7 +8369,7 @@ table td {
     .feature-card {
       transition: none; } }
   .feature-card a {
-    color: #222222;
+    color: #0c326f;
     display: block;
     height: 100%;
     width: 100%;
@@ -8382,7 +8382,7 @@ table td {
         background-size: 20px; }
 
 .feature-card a:hover {
-  color: #06ACFF;
+  color: #714955;
   background: rgba(0,0,0,.05);
 }
 
