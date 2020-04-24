@@ -1,0 +1,60 @@
+@import 'https://cdn.rawgit.com/h-ibaldo/Raleway_Fixed_Numerals/master/css/rawline.css';
+
+h1{
+  font-family: 'rawline', sans-serif;
+  font-weight: normal;
+  font-size: 80px;
+  color: #333333;
+}
+section{
+  background: #ff574a;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  -webkit-transition: opacity 350ms linear;
+  -moz-transition: opacity 350ms linear;
+  -ms-transition: opacity 350ms linear;
+  -o-transition: opacity 350ms linear;
+  transition: opacity 350ms linear;
+}
+
+section > * {
+    position: relative;
+    z-index: 2;
+}
+
+section:after{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-color: transparent transparent #f6f2f2 transparent;
+  border-width: 0 0 400px 400px;
+}
+
+
+
+@media(min-width: 768px){
+  section:after{
+    border-width: 0 0 1200px 500px;
+  }
+}
+
+@media(min-width: 992px){
+  section:after{
+    border-width: 0 0 1200px 700px;
+  }
+}
+
+
+.content{
+  background: transparent;
+  text-align: center;
+  padding: 0 4%;
+}
