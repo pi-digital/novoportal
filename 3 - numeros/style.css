@@ -151,7 +151,7 @@ body {
 
 .wrapper {
   position: absolute;
-  top: 42.5%;
+  top: 30%;
   left: 50%;
   width: 90%;
   font-size: 0;
@@ -175,8 +175,8 @@ p {
   margin: 0 0;
   font-family: 'rawline';
   font-size: 32px;
-  font-weight: 600;
-  line-height: 42px;
+  font-weight: 900;
+  line-height: 30px;
   text-transform: uppercase;
   color: #fff;
 }
