@@ -284,14 +284,14 @@ body, html {
   0% {
     width: 0px;
     height: 0px;
-    background: blue;
+    background: #fff;
     border: 0px solid #ddd;
     opacity: 0;
   }
   50% {
     width: 10px;
     height: 10px;
-    background: blue;
+    background: #fff;
     opacity: 1;
     bottom: 45px;
   }
@@ -302,16 +302,16 @@ body, html {
     width: 15px;
   }
   80% {
-    width: 10px;
-    height: 10px;
+    width: 15px;
+    height: 15px;
     bottom: 20px;
   }
   100% {
-    width: 7px;
-    height: 7px;
-    background: blue;
+    width: 10px;
+    height: 10px;
+    background: #fff;
     border: 0px solid #222;
-    bottom: 13px;
+    bottom: 10px;
   }
 }
 @keyframes secFadeIn {
