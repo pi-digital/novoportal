@@ -6,7 +6,7 @@ body {
 	--default-grey-black-fill: rgba(0,0,0,.25);
 	--default-strok: #222222;
 	overflow: hidden;
-	background:linear-gradient(135deg,#ffffff 55%,#0098ff 50%);
+	background:linear-gradient(135deg,#ffffff 54%,#0098ff 50%);
 	background-position: 250px;
 	background-repeat: no-repeat;
 }
@@ -35,7 +35,7 @@ optgroup {
 	line-height: normal;	
 	position: absolute;
 	right: 20px;
-	bottom: 30px;
+	bottom: 0px;
 	text-decoration: none;
 }
 
