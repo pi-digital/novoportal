@@ -28,17 +28,17 @@ div:first-of-type {    /* For increasing performance
                        ID/Class should've been used. 
                        For a small demo 
                        it's okaish for now */
-  animation: showup 7s infinite;
+  animation: showup 10s infinite;
 }
 
 div:last-of-type {
   width:0px;
-  animation: reveal 7s infinite;
+  animation: reveal 10s infinite;
 }
 
 div:last-of-type span {
-  margin-left:-750px;
-  animation: slidein 7s infinite;
+  margin-left:-725px;
+  animation: slidein 10s infinite;
 }
 
 @keyframes showup {
@@ -49,8 +49,8 @@ div:last-of-type span {
 }
 
 @keyframes slidein {
-    0% { margin-left:-750px; }
-    20% { margin-left:-750px; }
+    0% { margin-left:-725px; }
+    20% { margin-left:-725px; }
     35% { margin-left:0px; }
     100% { margin-left:0px; }
 }
@@ -58,9 +58,9 @@ div:last-of-type span {
 @keyframes reveal {
     0% {opacity:0;width:0px;}
     20% {opacity:1;width:0px;}
-    30% {width:750px;}
+    30% {width:725px;}
     80% {opacity:1;}
-    100% {opacity:0;width:750px;}
+    100% {opacity:0;width:725px;}
 }
 
 p {
