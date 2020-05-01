@@ -37,7 +37,7 @@ div:last-of-type {
 }
 
 div:last-of-type span {
-  margin-left:-725px;
+  margin-left:-810px;
   animation: slidein 10s infinite;
 }
 
@@ -49,8 +49,8 @@ div:last-of-type span {
 }
 
 @keyframes slidein {
-    0% { margin-left:-725px; }
-    20% { margin-left:-725px; }
+    0% { margin-left:-810px; }
+    20% { margin-left:-810px; }
     35% { margin-left:0px; }
     100% { margin-left:0px; }
 }
@@ -58,9 +58,9 @@ div:last-of-type span {
 @keyframes reveal {
     0% {opacity:0;width:0px;}
     20% {opacity:1;width:0px;}
-    30% {width:725px;}
+    30% {width:810px;}
     80% {opacity:1;}
-    100% {opacity:0;width:725px;}
+    100% {opacity:0;width:810px;}
 }
 
 p {
@@ -68,6 +68,13 @@ p {
   color:#071d41;
   font-weight: 600;
   margin: 0;
+}
+
+@media (max-width: 600px) {
+  div {
+    display: contents;
+    padding-top: 7.5vh;
+  }
 }
 
 @media (max-width: 600px) {
