@@ -27,6 +27,7 @@ span,a {
 }
 span {
   top:50%;
+  right: 10%;
 }
 a {
   color:#bbb;
