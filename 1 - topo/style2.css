@@ -2009,14 +2009,14 @@ body, html {
 @media (min-width: 860px) {
   body, html {
     font-size: 10px;
-    padding: 3rem 5rem;
+    padding: 0;
     height: 100%;
   }
 }
 @media (min-width: 1200px) {
   body, html {
     font-size: 12px;
-    padding: 2rem 3rem;
+    padding: 0;
     height: 100%;
   }
 }
