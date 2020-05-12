@@ -6,9 +6,9 @@ body {
 	--default-grey-black-fill: rgba(0,0,0,.25);
 	--default-strok: #222222;
 	overflow: hidden;
-	background-position: 250px;
 	background-repeat: no-repeat;
 	background-image: url("283.jpg");
+	background-size: 50%;
 }
 svg text{
 	fill: var(--default-strok);
