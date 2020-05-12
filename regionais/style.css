@@ -8,6 +8,7 @@ body {
 	overflow: hidden;
 	background-position: 250px;
 	background-repeat: no-repeat;
+	background-image: url("283.jpg");
 }
 svg text{
 	fill: var(--default-strok);
