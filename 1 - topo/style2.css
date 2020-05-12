@@ -2291,7 +2291,8 @@ iframe {
   background-repeat: no-repeat;
 }
 .slider-content .fake-bg.white {
-  background-image: url();
+  background-color: rgb(7, 29, 65, 0);
+  background-image: url("798portal-2.png");
 }
 .slider-content .fake-bg.red {
   background-image: url();
