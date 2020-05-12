@@ -9,7 +9,6 @@ body {
 	background-repeat: no-repeat;
 	background-image: url("283.jpg");
 	background-size: 100%;
-	background-position: -15% 0;
 }
 svg text{
 	fill: var(--default-strok);
