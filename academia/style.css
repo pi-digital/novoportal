@@ -8360,7 +8360,7 @@ table td {
 
 .feature-card {
   transition: all ease-in-out 0.2s;
-  height: 240px;
+  height: 120px;
   background-color: #F1F1F1;
   position: relative;
   cursor: pointer;
