@@ -221,7 +221,6 @@ p {
 .letter:nth-child(2):before {
   content: "8502713649";
   margin-top: -192px;
-  animation: infinite;
   -webkit-animation-name: letter2;
           animation-name: letter2;
   -webkit-animation-duration: 1.3866666667s;
@@ -252,7 +251,6 @@ p {
 .letter:nth-child(3):before {
   content: "1289570634";
   margin-top: 0px;
-  animation: infinite;
   -webkit-animation-name: letter3;
           animation-name: letter3;
   -webkit-animation-duration: 0s;
@@ -283,7 +281,6 @@ p {
 .letter:nth-child(4):before {
   content: "4176025398";
   margin-top: 0px;
-  animation: infinite;
   -webkit-animation-name: letter4;
           animation-name: letter4;
   -webkit-animation-duration: 0s;
@@ -314,7 +311,6 @@ p {
 .letter:nth-child(5):before {
   content: "8614937250";
   margin-top: -192px;
-  animation: infinite;
   -webkit-animation-name: letter5;
           animation-name: letter5;
   -webkit-animation-duration: 2.6666666667s;
@@ -345,7 +341,6 @@ p {
 .letter:nth-child(6):before {
   content: "3486170259";
   margin-top: 0px;
-  animation: infinite;
   -webkit-animation-name: letter6;
           animation-name: letter6;
   -webkit-animation-duration: 0s;
@@ -376,7 +371,6 @@ p {
 .letter:nth-child(7):before {
   content: "8092147536";
   margin-top: -192px;
-  animation: infinite;
   -webkit-animation-name: letter7;
           animation-name: letter7;
   -webkit-animation-duration: 2.6311111111s;
@@ -407,7 +401,6 @@ p {
 .letter:nth-child(8):before {
   content: "0172683459";
   margin-top: -48px;
-  animation: infinite;
   -webkit-animation-name: letter8;
           animation-name: letter8;
   -webkit-animation-duration: 0.2666666667s;
@@ -438,7 +431,6 @@ p {
 .letter:nth-child(9):before {
   content: "8571946032";
   margin-top: -24px;
-  animation: infinite;
   -webkit-animation-name: letter9;
           animation-name: letter9;
   -webkit-animation-duration: 0.8s;
@@ -469,7 +461,6 @@ p {
 .letter:nth-child(10):before {
   content: "8269534017";
   margin-top: -96px;
-  animation: infinite;
   -webkit-animation-name: letter10;
           animation-name: letter10;
   -webkit-animation-duration: 1.792s;
@@ -500,7 +491,6 @@ p {
 .letter:nth-child(11):before {
   content: "1360259847";
   margin-top: -120px;
-  animation: infinite;
   -webkit-animation-name: letter11;
           animation-name: letter11;
   -webkit-animation-duration: 2.4s;
@@ -531,7 +521,6 @@ p {
 .letter:nth-child(12):before {
   content: "7650948321";
   margin-top: -48px;
-  animation: infinite;
   -webkit-animation-name: letter12;
           animation-name: letter12;
   -webkit-animation-duration: 1.04s;
@@ -562,7 +551,6 @@ p {
 .letter:nth-child(13):before {
   content: "5139682470";
   margin-top: -96px;
-  animation: infinite;
   -webkit-animation-name: letter13;
           animation-name: letter13;
   -webkit-animation-duration: 1.6s;
@@ -593,7 +581,6 @@ p {
 .letter:nth-child(14):before {
   content: "7594361028";
   margin-top: -168px;
-  animation: infinite;
   -webkit-animation-name: letter14;
           animation-name: letter14;
   -webkit-animation-duration: 3.15s;
@@ -624,7 +611,6 @@ p {
 .letter:nth-child(15):before {
   content: "1398267540";
   margin-top: -72px;
-  animation: infinite;
   -webkit-animation-name: letter15;
           animation-name: letter15;
   -webkit-animation-duration: 0.93s;
@@ -655,7 +641,6 @@ p {
 .letter:nth-child(16):before {
   content: "7824513096";
   margin-top: -72px;
-  animation: infinite;
   -webkit-animation-name: letter16;
           animation-name: letter16;
   -webkit-animation-duration: 1.74s;
