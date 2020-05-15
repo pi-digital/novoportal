@@ -12,6 +12,46 @@
     <!-- Design System de Governo-->
     <link rel="stylesheet" href="../css/dsgov.css">
     <!-- Fontawesome-->
+	  <style>
+		  .content-wrap {
+	position: relative;
+	background: #fff;
+}
+
+.content-wrap section {
+	display: none;
+	margin: 0 auto;
+	padding: 1em;
+	max-width: 1200px;
+	text-align: center;
+}
+
+.content-wrap section.content-current {
+	display: block;
+}
+
+.content-wrap section p {
+	margin: 0;
+	padding: 10px;
+	color: #1693eb;
+	font-weight: 400;
+	font-size: 20px;
+	text-shadow: 1px 1px 1px #fff;
+	line-height: 1.25em;
+}
+
+.content-wrap section h5 {
+	font-family: 'Roboto Condensed';
+	text-transform: uppercase;
+	display: block;
+	padding-left: 30px;
+	letter-spacing: 2px;
+	font-weight: 300;
+	font-size: 0.75em;
+	text-align: left;
+	color: rgb(51, 51, 51);
+}
+	  </style>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js"></script>
   </head>
   <body>
@@ -28,7 +68,7 @@
           <li class="item"><a href="#section-8"><span class="name">Contratos de<br>Tecnologia e<br>de Franquia</span></a></li>
         </ul>
       </nav>
-      <div>
+      <div class="content-wrap">
 						<section id="section-1">
             <iframe src="https://pi-digital.github.io/novoportal/servicos/marcas-tiny.html"></iframe>
             </section>
