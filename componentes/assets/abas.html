@@ -12,65 +12,29 @@
     <!-- Design System de Governo-->
     <link rel="stylesheet" href="../css/dsgov.css">
     <!-- Fontawesome-->
-	  <style>
-.content-wrap {
-	position: relative;
-	background: #fff;
-}
-
-.content-wrap section {
-	display: none;
-	margin: 0 auto;
-	padding: 1em;
-	max-width: 1200px;
-	text-align: center;
-}
-
-.content-wrap section.content-current {
-	display: block;
-}
-
-.content-wrap section p {
-	margin: 0;
-	padding: 10px;
-	color: #1693eb;
-	font-weight: 400;
-	font-size: 20px;
-	text-shadow: 1px 1px 1px #fff;
-	line-height: 1.25em;
-}
-
-.content-wrap section h5 {
-	font-family: 'Roboto Condensed';
-	text-transform: uppercase;
-	display: block;
-	padding-left: 30px;
-	letter-spacing: 2px;
-	font-weight: 300;
-	font-size: 0.75em;
-	text-align: left;
-	color: rgb(51, 51, 51);
-}
-	  </style>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js"></script>
   </head>
   <body>
-    <div class="container-fluid">
-      <nav>
-        <ul class="br-tabs mt-10">
-          <li class="item is-active"><a href="#section-1"><span class="name">Acesso<br>Rápido</span></a></li>
-          <li class="item"><a href="#section-2"><span class="name">Marcas</span></a></li>
-          <li class="item"><a href="#section-3"><span class="name">Patentes</span></a></li>
-          <li class="item"><a href="#section-4"><span class="name">Desenhos<br>Industriais</span></a></li>
-          <li class="item"><a href="#section-5"><span class="name">Indicações<br>Geográficas</span></a></li>
-          <li class="item"><a href="#section-6"><span class="name">Programas de<br>Computador</span></a></li>
-          <li class="item"><a href="#section-7"><span class="name">Topografias<br>de Circuitos<br>Integrados</span></a></li>
-          <li class="item"><a href="#section-8"><span class="name">Contratos de<br>Tecnologia e<br>de Franquia</span></a></li>
-        </ul>
-      </nav>
-      <div class="content-wrap">
-						<section id="section-1">
-            <a href="https://www.gov.br/inpi/pt-br/servicos/marcas/guia-basico" target="_top">
+<div class="container">
+  <h2>Dynamic Tabs</h2>
+  <p>To make the tabs toggleable, add the data-toggle="tab" attribute to each link. Then add a .tab-pane class with a unique ID for every tab and wrap them inside a div element with class .tab-content.</p>
+
+  <ul class="nav nav-tabs">
+    <li class="active"><a data-toggle="tab" href="#home">Acesso<br>Rápido</a></li>
+    <li><a data-toggle="tab" href="#menu1">Marcas</a></li>
+    <li><a data-toggle="tab" href="#menu2">Patentes</a></li>
+    <li><a data-toggle="tab" href="#menu3">Desenhos<br>Industriais</a></li>
+    <li><a data-toggle="tab" href="#menu4">Indicações<br>Geográficas</a></li>
+    <li><a data-toggle="tab" href="#menu5">Programas de<br>Computador</a></li>
+    <li><a data-toggle="tab" href="#menu6">Topografias<br>de Circuitos<br>Integrados</a></li>
+    <li><a data-toggle="tab" href="#menu7">Contratos de<br>Tecnologia e<br>de Franquia</a></li>
+  </ul>
+  <div class="tab-content">
+    <div id="home" class="tab-pane fade in active">
+<a href="https://www.gov.br/inpi/pt-br/servicos/marcas/guia-basico" target="_top">
 <span class="icon-compass2"></span><f>Guia<br>Básico</f>
 </a>
 <a href="https://www.gov.br/inpi/pt-br/servicos/marcas/servicos" target="_top">
@@ -90,30 +54,36 @@
 </a>
 <a href="https://www.gov.br/inpi/pt-br/servicos/marcas" target="_top">
 <span class="icon-clipboard"></span><f>Outros</f>
-            </section>
-						<section id="section-2">
-            <iframe src="https://pi-digital.github.io/novoportal/servicos/marcas-tiny.html"></iframe>            
-            </section>
-						<section id="section-3">
-            <iframe src="https://pi-digital.github.io/novoportal/servicos/marcas-tiny.html"></iframe>            
-            </section>
-						<section id="section-4">
-            <iframe src="https://pi-digital.github.io/novoportal/servicos/marcas-tiny.html"></iframe>            
-            </section>
-						<section id="section-5">
-            <iframe src="https://pi-digital.github.io/novoportal/servicos/marcas-tiny.html"></iframe>            
-            </section>
-						<section id="section-6">
-            <iframe src="https://pi-digital.github.io/novoportal/servicos/marcas-tiny.html"></iframe>            
-            </section>
-						<section id="section-7">
-            <iframe src="https://pi-digital.github.io/novoportal/servicos/marcas-tiny.html"></iframe>            
-            </section>
-						<section id="section-8">
-            <iframe src="https://pi-digital.github.io/novoportal/servicos/marcas-tiny.html"></iframe>            
-            </section>
-      </div>
     </div>
-    <script src="../js/dsgov.js"></script>
+    <div id="menu1" class="tab-pane fade">
+      <h3>Menu 1</h3>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+    <div id="menu2" class="tab-pane fade">
+      <h3>Menu 2</h3>
+      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+    </div>
+    <div id="menu3" class="tab-pane fade">
+      <h3>Menu 3</h3>
+      <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+    </div>
+    <div id="menu4" class="tab-pane fade">
+      <h3>Menu 3</h3>
+      <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+    </div>
+    <div id="menu5" class="tab-pane fade">
+      <h3>Menu 3</h3>
+      <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+    </div>
+    <div id="menu6" class="tab-pane fade">
+      <h3>Menu 3</h3>
+      <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+    </div>
+    <div id="menu7" class="tab-pane fade">
+      <h3>Menu 3</h3>
+      <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+    </div>
+  </div>
+</div>
   </body>
 </html>
