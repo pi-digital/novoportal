@@ -692,10 +692,7 @@
 .tabs-style-linebox nav a:hover::after,
 .tabs-style-linebox nav a:focus::after,
 .tabs-style-linebox nav li.tab-current a::after {
-	#section-linebox-1 {
-		background: #1351b4;}
-	#section-linebox-2 {
-		background: red;}
+	background: #1351b4;}
 }
 
 @media screen and (max-width: 58em) {
