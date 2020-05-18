@@ -16,6 +16,7 @@
 .clearfix:after { clear: both; }
 
 body {
+	background: #e7ecea;
 	color: #74777b;
 	font-weight: 400;
 	font-size: 1em;
@@ -23,10 +24,9 @@ body {
 }
 
 a {
-	color: #1351b4;
+	color: #2CC185;
 	text-decoration: none;
 	outline: none;
-	display: grid;
 }
 
 a:hover, a:focus {
