@@ -2005,8 +2005,6 @@
   content: "\eb5f";
 }
 
-
-
 /* Nav */
 .tabs nav {
 	text-align: center;
@@ -2058,7 +2056,7 @@
 
 .tabs nav a span {
 	vertical-align: middle;
-	font-size: 1.25em;
+	font-size: 0.75em;
 }
 
 .tabs nav li.tab-current a {
@@ -2078,7 +2076,7 @@
 	display: none;
 	margin: 0 auto;
 	padding: 1em;
-	max-width: 1000px;
+	max-width: 1200px;
 	text-align: center;
 }
 
