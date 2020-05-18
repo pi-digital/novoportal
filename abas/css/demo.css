@@ -16,15 +16,15 @@
 .clearfix:after { clear: both; }
 
 body {
-	background: #e7ecea;
 	color: #74777b;
 	font-weight: 400;
 	font-size: 1em;
 	font-family: 'Raleway', Arial, sans-serif;
+	border-top: 1px solid #74777b;
 }
 
 a {
-	color: #2CC185;
+	color: #1351b4;
 	text-decoration: none;
 	outline: none;
 	display: grid;
