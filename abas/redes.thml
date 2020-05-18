@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<meta name="keywords" content="tabs, inspiration, web design, css, modern, effects, svg" />
+		<meta name="author" content="Codrops" />
+		<link href="https://cdn.rawgit.com/h-ibaldo/Raleway_Fixed_Numerals/master/css/rawline.css" rel="stylesheet"> 
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/tabs.css" />
+		<link rel="stylesheet" type="text/css" href="css/tabstyles.css" />
+  		<script src="js/modernizr.custom.js"></script>
+		<style>
+			.grid-container {
+  					display: grid;
+    					grid-template-columns: auto auto auto auto auto auto;
+    					grid-gap: 10px;
+    					padding: 10px;
+  					}
+
+  			.grid-container > div {
+    					text-align: center;
+    					padding: 20px 0;
+    					font-size: 18px;
+					font-weight: 800;
+  					}
+			
+			f {
+					padding-top: 10px;
+					}
+		</style>
+	</head>
+	<body>
+			<section>
+							<div class="grid-container">
+								<div class="item1">
+									<a href="https://www.twitter.com/inpibrasil" target="_top">
+									<span class="icon-twitter" style="font-size: 40px"></span><f>Twitter</f>
+									</a>	
+								</div>
+								<div class="item2">
+									<a href="https://www.facebook.com/inpibrasil" target="_top">
+									<span class="icon-facebook" style="font-size: 40px"></span><f>Facebook</f>
+									</a>	
+								</div>
+  								<div class="item3">
+									<a href="https://www.youtube.com/user/INPIBR" target="_top">
+                							<span class="icon-youtube" style="font-size: 40px"></span><f>Revista da<br>Propriedade<br>Industrial</f>
+              								</a>
+								</div>
+								<div class="item4">
+									<a href="https://www.instagram.com/inpibrasil" target="_top">
+									<span class="icon-instagram" style="font-size: 40px"></span><f>Instagram</f>
+									</a>
+								</div>
+								<div class="item5">
+									<a href="https://www.linkedin.com/company/inpibrasil" target="_top">
+									<span class="icon-linkedin" style="font-size: 40px"></span><f>Linkedin</f>
+									</a>
+								</div>
+						</section>
+			</section>
+		<script src="js/cbpFWTabs.js"></script>
+		<script>
+			(function() {
+
+				[].slice.call( document.querySelectorAll( '.tabs' ) ).forEach( function( el ) {
+					new CBPFWTabs( el );
+				});
+
+			})();
+		</script>
+	</body>
+</html>
