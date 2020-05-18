@@ -689,10 +689,16 @@
 	transform: translate3d(0,0,0);
 }
 
-.tabs-style-linebox nav a:hover::after,
-.tabs-style-linebox nav a:focus::after,
-.tabs-style-linebox nav li.tab-current a::after {
-	background: #1351b4;}
+.tabs-style-linebox nav a.section-linebox-1:hover::after,
+.tabs-style-linebox nav a.section-linebox-1:focus::after,
+.tabs-style-linebox nav li.tab-current a.section-linebox-1::after {
+	background: #1351b4;
+}
+
+.tabs-style-linebox nav a.section-linebox-2:hover::after,
+.tabs-style-linebox nav a.section-linebox-2:focus::after,
+.tabs-style-linebox nav li.tab-current a.section-linebox-2::after {
+	background: red;
 }
 
 @media screen and (max-width: 58em) {
