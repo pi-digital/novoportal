@@ -2158,7 +2158,7 @@
 	}
 }
 
-span.gallery {
+.gallery {
   position: relative;
   text-align: left;
   cursor: pointer;
@@ -2166,7 +2166,7 @@ span.gallery {
   top: 175px;
   font-size: 18px;
 }
-span.gallery::before {
+.gallery::before {
   content: "";
   position: absolute;
   left: -2rem;
@@ -2176,7 +2176,7 @@ span.gallery::before {
   top: 0;
   opacity: 0.9;
 }
-span.gallery::after {
+.gallery::after {
   content: "";
   position: absolute;
   right: -2rem;
