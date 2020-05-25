@@ -33,6 +33,34 @@ body {
 					width: 90px;
   					}
 
+			.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+			
+			
 .p {
   padding-bottom: 15px;
 }
@@ -170,7 +198,9 @@ body {
 	<div class="grid-containerd">
 		<div class="itema">
 			<a href="http://www.antigo.inpi.gov.br/" target="_top">
-				<span class="icon-enter"></span><f>Antigo<br>Portal</f>
+				<div class="tooltip"><span class="icon-enter"></span>
+ 					<span class="tooltiptext"><f>Antigo<br>Portal</f></span>
+				</div>
 			</a>	
 		</div>
 		<div class="itemb">
