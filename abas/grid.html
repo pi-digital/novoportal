@@ -20,9 +20,9 @@ body {
 	
 .grid-containerd {
     position: relative;
-    display: inline-flex;
-    padding: 10px;
-    right: 0;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+    grid-gap: 10px;
     line-height: 1.25;
 }
 
@@ -31,7 +31,6 @@ body {
     padding: 0px 5px 5px 0;;
     font-size: 12px;
     font-weight: 600;
-    width: 90px;
 }
 
 .tooltip {
@@ -78,8 +77,17 @@ body {
 
 .item0 {
   grid-area: 1 / 1 / span 1 / span 4;
-  color: #000;
-  text-align: center;
+  box-shadow: 3px 3px 7px rgba(0,0,0,.4);
+  background-color: #0c326f;
+  color: #fff;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.item- {
+  grid-area: 1 / 1 / span 1 / span 4;
+  color: #fff;
+  text-align: left;
   padding-left: 25px;
   padding-right: 25px;
 }
@@ -193,44 +201,53 @@ body {
 <div class="grid-container">
   <div class="item0">
 	<div class="grid-containerd">
+		<div class="item-">
+			<h2 style="text-align: left; margin: 0">Acesso Rápido</h2>
+		</div>
 		<div class="itema">
-			<a style="color: #071d41" href="http://www.antigo.inpi.gov.br/" target="_top">
+			<a style="color: white" href="http://www.antigo.inpi.gov.br/" target="_top">
 				<span class="icon-enter"></span>
- 					<f>Antigo<br>Portal</f>
+ 					<f>Antigo Portal</f>
 			</a>	
 		</div>
 		<div class="itemb">
-			<a style="color: #071d41" href="https://www.gov.br/inpi/pt-br/cadastro-no-e-inpi" target="_top">
+			<a style="color: white" href="https://www.gov.br/inpi/pt-br/acesso-a-informacao-1/institucional/enderecos-e-telefones" target="_top">
+				<span class="icon-location"></span>
+ 					<f>Endereços e Meios de Contato</f>
+			</a>	
+		</div>
+		<div class="itemc">
+			<a style="color: white" href="https://www.gov.br/inpi/pt-br/cadastro-no-e-inpi" target="_top">
 				<span class="icon-power-cord"></span>
-					<f>Cadastro<br>no e-INPI</f>
-			</a>	
-		</div>
-		<div class="itemb">
-			<a style="color: #071d41" href="https://www.gov.br/inpi/pt-br/servicos/sistemas-de-peticionamento" target="_top">
-				<span class="icon-attachment"></span>
-					<f>Sistemas de<br>Peticionamento</f>
-			</a>	
-		</div>
-  		<div class="itemc">
-			<a style="color: #071d41" href="http://revistas.inpi.gov.br/rpi/" target="_top">
-                		<span class="icon-newspaper"></span>
-					<f>Revista da<br>Propriedade<br>Industrial</f>
+					<f>Cadastro no e-INPI</f>
 			</a>	
 		</div>
 		<div class="itemd">
-			<a style="color: #071d41" href="https://gru.inpi.gov.br/pePI/servlet/LoginController?action=login" target="_top">
+			<a style="color: white" href="https://www.gov.br/inpi/pt-br/servicos/sistemas-de-peticionamento" target="_top">
+				<span class="icon-attachment"></span>
+					<f>Sistemas de Peticionamento</f>
+			</a>	
+		</div>
+  		<div class="iteme">
+			<a style="color: white" href="http://revistas.inpi.gov.br/rpi/" target="_top">
+                		<span class="icon-newspaper"></span>
+					<f>Revista da Propriedade Industrial</f>
+			</a>	
+		</div>
+		<div class="itemf">
+			<a style="color: white" href="https://gru.inpi.gov.br/pePI/servlet/LoginController?action=login" target="_top">
 				<span class="icon-eye-plus"></span>
 				<f>BuscaWeb</f>
 			</a>	
 		</div>
-		<div class="iteme">
-			<a style="color: #071d41" href="http://disponibilidade.inpi.gov.br/" target="_top">
+		<div class="itemg">
+			<a style="color: white" href="http://disponibilidade.inpi.gov.br/" target="_top">
 				<span class="icon-wrench"></span>
-				<f>Disponibilidade<br>de Sistemas</f>
+				<f>Disponibilidade de Sistemas</f>
 			</a>	
 		</div>
-		<div class="itemf">
-			<a style="color: #071d41" href="https://mail.inpi.gov.br/" target="_top">
+		<div class="itemh">
+			<a style="color: white" href="https://mail.inpi.gov.br/" target="_top">
 				<span class="icon-envelop"></span>
 				<f>Webmail</f>
 			</a>	
