@@ -1516,7 +1516,9 @@
   content: "\eaab";
 }
 .icon-sort-alpha-asc:before {
-  content: "\eaac";.icon-virus-solid:before {
+  content: "\eaac";
+}
+.icon-virus-solid:before {
   content: "\eb67";
 }
 .icon-envelope-regular:before {
