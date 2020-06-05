@@ -41,11 +41,11 @@ polygonTemplate.polygon.fillOpacity = 0.6;
 
 // Create hover state and set alternative fill color
 var hs = polygonTemplate.states.create("hover");
-hs.properties.fill = am4core.color("#ccedc4");
+hs.properties.fill = am4core.color("#1351b4");
 
 // Create active state
 var as = polygonTemplate.states.create("active");
-as.properties.fill = am4core.color("#80b3ff");
+as.properties.fill = am4core.color("#0c326f");
 
 chart.events.on("ready", function(ev) {
   var brazil = polygonSeries.getPolygonById("BR");
@@ -71,7 +71,7 @@ circle.radius = 2;
 circle.propertyFields.fill = "color";
 
 var circle2 = imageSeries.mapImages.template.createChild(am4core.Circle);
-circle2.radius = 2;
+circle2.radius = 1;
 circle2.propertyFields.fill = "color";
 
 circle2.events.on("inited", function(event){
