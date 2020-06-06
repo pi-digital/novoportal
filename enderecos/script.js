@@ -45,7 +45,7 @@ hs.properties.fill = am4core.color("#bfbfbf");
 
 // Create active state
 var as = polygonTemplate.states.create("active");
-as.properties.fill = am4core.color("#3077e8");
+as.properties.fill = am4core.color("#a6a6a6");
 
 chart.events.on("ready", function(ev) {
   var brazil = polygonSeries.getPolygonById("BR");
@@ -67,11 +67,11 @@ imageSeries.mapImages.template.tooltipText = "{title}";
 imageSeries.mapImages.template.propertyFields.url = "url";
 
 var circle = imageSeries.mapImages.template.createChild(am4core.Circle);
-circle.radius = 1;
+circle.radius = 2;
 circle.propertyFields.fill = "color";
 
 var circle2 = imageSeries.mapImages.template.createChild(am4core.Circle);
-circle2.radius = 1;
+circle2.radius = 2;
 circle2.propertyFields.fill = "color";
 
 
@@ -80,7 +80,7 @@ circle2.events.on("inited", function(event){
 })
 
 function animateBullet(circle) {
-    var animation = circle.animate([{ property: "scale", from: 1, to: 30 }, { property: "opacity", from: 1, to: 0 }], 3000, am4core.ease.circleOut);
+    var animation = circle.animate([{ property: "scale", from: 1, to: 30 }, { property: "opacity", from: 1, to: 0 }], 5000, am4core.ease.circleOut);
     animation.events.on("animationended", function(event){
       animateBullet(event.target.object);
     })
