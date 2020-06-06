@@ -41,7 +41,7 @@ polygonTemplate.polygon.fillOpacity = 0.6;
 
 // Create hover state and set alternative fill color
 var hs = polygonTemplate.states.create("hover");
-hs.properties.fill = am4core.color("#1351b4");
+hs.properties.fill = chart.colors.getIndex(0);
 
 // Create active state
 var as = polygonTemplate.states.create("active");
@@ -68,15 +68,10 @@ imageSeries.mapImages.template.propertyFields.url = "url";
 
 var circle = imageSeries.mapImages.template.createChild(am4core.Circle);
 circle.radius = 1;
-circle.stroke = am4core.color("#000");
+circle.stroke = am4core.color("#fff");
 circle.propertyFields.fill = am4core.color("#1351b4");
 
-var circle2 = imageSeries.mapImages.template.createChild(am4core.Circle);
-circle2.radius = 1;
-circle2.stroke = am4core.color("#fff");
-circle2.propertyFields.fill = am4core.color("#1351b4");
-
-circle2.events.on("inited", function(event){
+circle.events.on("inited", function(event){
   animateBullet(event.target);
 })
 
