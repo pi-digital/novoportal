@@ -41,11 +41,11 @@ polygonTemplate.polygon.fillOpacity = 0.6;
 
 // Create hover state and set alternative fill color
 var hs = polygonTemplate.states.create("hover");
-hs.properties.fill = chart.colors.getIndex(0);
+hs.properties.fill = am4core.color("#bfbfbf");
 
 // Create active state
 var as = polygonTemplate.states.create("active");
-as.properties.fill = am4core.color("#999999");
+as.properties.fill = am4core.color("#0c326f");
 
 chart.events.on("ready", function(ev) {
   var brazil = polygonSeries.getPolygonById("BR");
@@ -176,7 +176,7 @@ polygonSeries.data = [{
 
 // Add line series
 var lineSeries = chart.series.push(new am4maps.MapLineSeries());
-lineSeries.mapLines.template.strokeWidth = 2;
+lineSeries.mapLines.template.strokeWidth = 3;
 lineSeries.mapLines.template.stroke = am4core.color("#ffff00");
 lineSeries.mapLines.template.nonScalingStroke = true;
 
