@@ -45,7 +45,7 @@ hs.properties.fill = am4core.color("#bfbfbf");
 
 // Create active state
 var as = polygonTemplate.states.create("active");
-as.properties.fill = am4core.color("#a6a6a6");
+as.properties.fill = am4core.color("#808080");
 
 chart.events.on("ready", function(ev) {
   var brazil = polygonSeries.getPolygonById("BR");
@@ -67,11 +67,11 @@ imageSeries.mapImages.template.tooltipText = "{title}";
 imageSeries.mapImages.template.propertyFields.url = "url";
 
 var circle = imageSeries.mapImages.template.createChild(am4core.Circle);
-circle.radius = 1.5;
+circle.radius = 1;
 circle.propertyFields.fill = "color";
 
 var circle2 = imageSeries.mapImages.template.createChild(am4core.Circle);
-circle2.radius = 1.5;
+circle2.radius = 1;
 circle2.propertyFields.fill = "color";
 
 
