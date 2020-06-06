@@ -82,58 +82,73 @@ function animateBullet(circle) {
     })
 }
 
+var colorSet = am4core.color("#1351b4");
+
 imageSeries.data = [ {
   "title": "Sede, INPI (Rio de Janeiro, RJ)",
   "latitude": -22.9110137,
   "longitude": -43.2093727,
+  "color":colorSet
 }, {
   "title": "Regional, INPI (São Paulo, SP)",
   "latitude": -23.5506507,
   "longitude": -46.6333824,
+  "color":colorSet
 }, {
   "title": "Regional, INPI (Brasília, DF)",
   "latitude": -15.7934036,
   "longitude": -47.8823172,
+  "color":colorSet
 }, {
   "title": "Regional, INPI (Goiânia, GO)",
   "latitude": -16.680882,
   "longitude": -49.2532691,
+  "color":colorSet
 }, {
   "title": "Escritório Regional - Recife, PE",
   "latitude": -8.04255435,
   "longitude": -34.92770629,
+  "color":colorSet
 }, {
   "title": "Escritório Regional - Fortaleza, CE",
   "latitude": -3.7304512,
   "longitude": -38.5217989,
+  "color":colorSet
 }, {
   "title": "Escritório Regional - Campina Grande, PB",
   "latitude": -7.2233728,
   "longitude": -35.88797621,
+  "color":colorSet
 }, {
   "title": "Escritório Regional, INPI - Aracaju, SE",
   "latitude": -11.01868955,
   "longitude": -37.0944378,
+  "color":colorSet
 }, {
   "title": "Escritório Regional, INPI - Belo Horizonte, MG",
   "latitude": -19.9227318,
   "longitude": -43.9450948,
+  "color":colorSet
 }, {
   "title": "Escritório Regional, INPI - Vitória, ES",
   "latitude": -20.2872412,
   "longitude": -40.32680602,
+  "color":colorSet
 }, {
   "title": "Regional, INPI - Porto Alegre, RS",
   "latitude": -30.10091665,
   "longitude": -51.18878819,
+  "color":colorSet
 }, {
   "title": "Regional, INPI - Curitiba, PR",
   "latitude": -25.4295963,
   "longitude": -49.2712724,
+  "color":colorSet
 }, {
   "title": "Regional, INPI - Florianópolis, SC",
   "latitude": -27.5973002,
   "longitude": -48.5496098,
+  "color":colorSet
 } ];
 
 // Configure series
