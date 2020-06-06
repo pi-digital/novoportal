@@ -80,7 +80,7 @@ circle2.events.on("inited", function(event){
 })
 
 function animateBullet(circle) {
-    var animation = circle.animate([{ property: "scale", from: 1, to: 10 }, { property: "opacity", from: 1, to: 0 }], 1000, am4core.ease.circleOut);
+    var animation = circle.animate([{ property: "scale", from: 1, to: 10 }, { property: "opacity", from: 1, to: 0 }], 3000, am4core.ease.circleOut);
     animation.events.on("animationended", function(event){
       animateBullet(event.target.object);
     })
@@ -89,22 +89,22 @@ function animateBullet(circle) {
 var colorSet = new am4core.ColorSet();
 
 imageSeries.data = [ {
-  "title": "Sede, INPI (Rio de Janeiro, RJ)",
+  "title": "Sede, INPI - Rio de Janeiro, RJ",
   "latitude": -22.9110137,
   "longitude": -43.2093727,
   "color":colorSet.next()
 }, {
-  "title": "Regional, INPI (São Paulo, SP)",
+  "title": "Escritório Regional - São Paulo, SP",
   "latitude": -23.5506507,
   "longitude": -46.6333824,
   "color":colorSet.next()
 }, {
-  "title": "Regional, INPI (Brasília, DF)",
+  "title": "Escritório Regional - Brasília, DF",
   "latitude": -15.7934036,
   "longitude": -47.8823172,
   "color":colorSet.next()
 }, {
-  "title": "Regional, INPI (Goiânia, GO)",
+  "title": "Escritório Regional - Goiânia, GO",
   "latitude": -16.680882,
   "longitude": -49.2532691,
   "color":colorSet.next()
