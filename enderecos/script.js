@@ -80,7 +80,7 @@ circle2.events.on("inited", function(event){
 })
 
 function animateBullet(circle) {
-    var animation = circle.animate([{ property: "scale", from: 1, to: 25 }, { property: "opacity", from: 1, to: 0 }], 2000, am4core.ease.circleOut);
+    var animation = circle.animate([{ property: "scale", from: 1, to: 10 }, { property: "opacity", from: 1, to: 0 }], 1000, am4core.ease.circleOut);
     animation.events.on("animationended", function(event){
       animateBullet(event.target.object);
     })
