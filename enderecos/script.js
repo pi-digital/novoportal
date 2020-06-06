@@ -82,7 +82,7 @@ function animateBullet(circle) {
     })
 }
 
-var colorSet = am4core.color("#1351b4");
+var colorSet = new am4core.ColorSet();
 
 imageSeries.data = [ {
   "title": "Sede, INPI (Rio de Janeiro, RJ)",
