@@ -67,11 +67,11 @@ imageSeries.mapImages.template.tooltipText = "{title}";
 imageSeries.mapImages.template.propertyFields.url = "url";
 
 var circle = imageSeries.mapImages.template.createChild(am4core.Circle);
-circle.radius = 2;
+circle.radius = 1.5;
 circle.propertyFields.fill = "color";
 
 var circle2 = imageSeries.mapImages.template.createChild(am4core.Circle);
-circle2.radius = 2;
+circle2.radius = 1.5;
 circle2.propertyFields.fill = "color";
 
 
