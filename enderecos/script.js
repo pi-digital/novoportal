@@ -45,7 +45,7 @@ hs.properties.fill = chart.colors.getIndex(0);
 
 // Create active state
 var as = polygonTemplate.states.create("active");
-as.properties.fill = am4core.color("#0c326f");
+as.properties.fill = am4core.color("#999999");
 
 chart.events.on("ready", function(ev) {
   var brazil = polygonSeries.getPolygonById("BR");
