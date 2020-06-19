@@ -149,8 +149,8 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 var demos = [{
-        date: "March 25, 2018",
-        content: "Presentation: Perspective on Technology-Based Solutions National Association of Workforce Innovation – The Forum 2018"
+        date: "Estratégia de Governo Digital",
+        content: "https://www.gov.br/governodigital/pt-br/EGD2020"
     },
     {
         date: "April 12, 2018",
@@ -187,7 +187,7 @@ var demos = [{
 ];
 
 var development = [{
-        date: "December 26, 2017",
+        date: "Princípio de Pareto",
         content: "CMS installation"
     },
     {
