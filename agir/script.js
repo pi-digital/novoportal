@@ -150,117 +150,34 @@ document.addEventListener("DOMContentLoaded", function() {
 
 var demos = [{
         date: "Centrado no Cidadão",
-        content: "Uniformização vs. Dispersão",
-        content: "Simples e Intuitivo vs. Complexo e Textual",
-        content: "Antecipação vs. Reação",
     },
     {
-        date: "Integração",
-        content: "Modernização de Ferramentas"
+        date: "Uniformização vs. Dispersão",
     },
     {
-        date: "May 14, 2018",
-        content: "Demonstration at the Committee Meeting"
+        date: "Simples e Intuitivo vs. Complexo e Textual",
     },
     {
-        date: "June 8, 2018",
-        content: "Demonstration to Central Staff"
+        date: "Antecipação vs. Reação",
     },
     {
-        date: "June 21, 2018",
-        content: "Demonstration to West Staff"
+        date: "Ferramentas Modernas";
     },
     {
-        date: "July 12, 2018",
-        content: "Demonstration to Board of Directors"
+        date: "Integração de Serviços",
     },
     {
-        date: "August 2, 2018",
-        content: "CFO addressed project during opening."
+        date: "Serviços Preditivos e Personalizados",
     },
     {
-        date: "",
-        content: "Demonstration at Innovation Expo"
-    },
-    {
-        date: "August 7, 2018",
-        content: "Demonstration for County Progress Planning"
+        date: "Painéis de Avaliação e Monitoramento",
     },
 ];
 
 var development = [{
         date: "Princípio de Pareto",
-        content: "CMS installation"
-    },
-    {
-        date: "January 10, 2018",
-        content: "Data Manager"
-    },
-    {
-        date: "February 12, 2018",
-        content: "Initial search feature"
-    },
-    {
-        date: "March 12, 2018",
-        content: "Site migration to production"
-    },
-    {
-        date: "March 14, 2018",
-        content: "Optimized search algorithm"
-    },
-    {
-        date: "May 15, 2018",
-        content: "Initial contact form"
-    },
-    {
-        date: "June 1, 2018",
-        content: "First version of new site"
-    },
-    {
-        date: "June 14, 2018",
-        content: "New marketing materials to include business card, rack cards, and quick reference guide"
-    },
-    {
-        date: "August 8, 2018",
-        content: "Redesign"
-    },
-    {
-        date: "August 23, 2018",
-        content: "Inquiry system"
-    },
-    {
-        date: "August 27, 2018",
-        content: "100 Day Update Report"
     },
 ];
 
 var rollout = [
-      {
-        date: "April 12, 2018",
-        content: "Demonstration to IT Directors"
-    },
-    {
-        date: "May 14, 2018",
-        content: "Demonstration at Committee Meeting"
-    },
-      {
-        date: "March 14, 2019",
-        content: "Regional Webcasts"
-    },
-        {
-        date: "May 1, 2019",
-        content: "Region 6 Adoption"
-    },
-        {
-        date: "May 14, 2018",
-        content: "Region 11 Adoption"
-    },
-  {
-        date: "June 1, 2019",
-        content: "Region 22 Adoption"
-    },
-        {
-        date: "June 10, 2018",
-        content: "Feature update statewide webcasts"
-    },
 ]
