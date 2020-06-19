@@ -149,12 +149,14 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 var demos = [{
-        date: "Estratégia de Governo Digital",
-        content: "https://www.gov.br/governodigital/pt-br/EGD2020"
+        date: "Centrado no Cidadão",
+        content: "Uniformização vs. Dispersão",
+        content: "Simples e Intuitivo vs. Complexo e Textual",
+        content: "Antecipação vs. Reação",
     },
     {
-        date: "April 12, 2018",
-        content: "Demonstration to Regional IT Directors"
+        date: "Integração",
+        content: "Modernização de Ferramentas"
     },
     {
         date: "May 14, 2018",
