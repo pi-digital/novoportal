@@ -10285,7 +10285,7 @@ table td {
         background-size: 20px; }
 
 .feature-card a:hover {
-  color: #268744;
+  color: blue;
   background: rgba(0,0,0,.05);
 }
 
@@ -10301,16 +10301,16 @@ table td {
   @media (min-width: 1150px) {
     .feature-card:hover {
       background-color: #F8F8F8;
-      border-color: #268744;
-      color: #268744; }
+      border-color: blue;
+      color: blue; }
       .feature-card:hover .card-title,
       .feature-card:hover .card-desc,
       .feature-card:hover .card-title a,
       .feature-card:hover .icon:before {
-        color: #268744; }
+        color: blue; }
       .feature-card:hover .btn {
-        border-color: #268744;
-        color: #268744; } }
+        border-color: blue;
+        color: blue; } }
   .feature-card .btn {
     background: transparent; }
   .feature-card .icon {
