@@ -10301,16 +10301,16 @@ table td {
   @media (min-width: 1150px) {
     .feature-card:hover {
       background-color: #F8F8F8;
-      border-color: blue;
-      color: blue; }
+      border-color: orange;
+      color: orange; }
       .feature-card:hover .card-title,
       .feature-card:hover .card-desc,
       .feature-card:hover .card-title a,
       .feature-card:hover .icon:before {
-        color: blue; }
+        color: orange; }
       .feature-card:hover .btn {
-        border-color: blue;
-        color: blue; } }
+        border-color: orange;
+        color: orange; } }
   .feature-card .btn {
     background: transparent; }
   .feature-card .icon {
