@@ -107,7 +107,7 @@ body-ouvid {
 }
 
 .copy-ouvid {
-  font-family: var(--font-serif);
+  font-family: 'Rawline';
   font-size: 1.125rem;
   font-style: italic;
   line-height: 1.35;
@@ -142,7 +142,7 @@ body-ouvid {
     transform: translateY(calc(100% - 4.5rem));
   }
   .content-ouvid > *:not(.title) {
-    opacity: 0;
+    opacity: 1;
     transform: translateY(1rem);
     transition: transform var(--d) var(--e), opacity var(--d) var(--e);
   }
