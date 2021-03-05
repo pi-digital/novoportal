@@ -25,7 +25,7 @@
 
 .timeline:after {display: inline-block; content: ""; width: 100%;}
 
-.timeline li {
+.timeline lid {
 	display: inline-block;
 	width: 20px;
 	height: 20px;
@@ -36,7 +36,7 @@
 	border-radius: 50%;
 }
 
-.timeline li:before {
+.timeline lid:before {
 	display: inline-block;
 	content: attr(data-year);
 	font-size: 26px;
@@ -45,14 +45,14 @@
 	transform: translateX(-50%);
 }
 
-.timeline li:nth-child(odd):before {
+.timeline lid:nth-child(odd):before {
 	top: -40px;
 }
-.timeline li:nth-child(even):before {
+.timeline lid:nth-child(even):before {
 	bottom: -40px;
 }
 
-.timeline li:after {
+.timeline lid:after {
 	display: inline-block;
 	width: 13vh;
 	content: attr(data-text);
@@ -62,12 +62,12 @@
 	transform: translateX(-50%);
 }
 
-.timeline li:nth-child(odd):after {
+.timeline lid:nth-child(odd):after {
 	bottom: 0;
 	margin-bottom: -10px;
 	transform: translate(-50%, 100%);
 }
-.timeline li:nth-child(even):after {
+.timeline lid:nth-child(even):after {
 	top: 0;
 	margin-top: -10px;
 	transform: translate(-50%, -100%);
