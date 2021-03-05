@@ -127,7 +127,7 @@ html, body,
 
 .back {
 	position: fixed;
-	top: 2.6em;
+	top: 8.5em;
 	z-index: 500;
 	display: block;
 	visibility: hidden;
@@ -136,7 +136,7 @@ html, body,
 	border-radius: 50%;
 	color: #47a3da;
 	text-align: center;
-	font-size: 22px;
+	font-size: 30px;
 	line-height: 44px;
 	opacity: 0;
 	pointer-events: none;
