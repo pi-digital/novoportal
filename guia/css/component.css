@@ -200,7 +200,6 @@ html, body,
 .page-left {
 	left: 0;
 	outline: 5px solid #34495e; /* avoid rounding gaps */
-	background: #34495e;
 	color: #fff;
 	text-align: right;
 	-webkit-transform: translateX(-100%);
@@ -208,7 +207,7 @@ html, body,
 }
 
 .splitlayout.open-left {
-	background: #34495e;
+	background: #fff;
 }
 
 /* Inner page content */
@@ -289,13 +288,13 @@ html, body,
 }
 
 .open-right .side-right {
-	z-index: 200;
+	z-index: 1;
 	-webkit-transform: translateX(-150%);
 	transform: translateX(-150%);
 }
 
 .close-right .side-right {
-	z-index: 200;
+	z-index: 1;
 }
 
 .open-right .side-right .intro-content {
