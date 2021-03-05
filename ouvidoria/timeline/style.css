@@ -54,7 +54,7 @@
 
 .timeline li:after {
 	display: inline-block;
-	width: 13vh;
+	width: 9vh;
 	content: attr(data-text);
 	font-size: 16px;
 	position: absolute;
