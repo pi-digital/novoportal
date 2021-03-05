@@ -1,11 +1,11 @@
 html, body, 
-.container {
+.container-ceu {
 	position: relative;
 	width: 100%;
 	height: 100%;
 }
 
-body {
+.body-ceu {
 	overflow-y: scroll;
 	background: #333;
 }
