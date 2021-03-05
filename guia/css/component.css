@@ -21,7 +21,7 @@ html, body,
 .side {
 	position: fixed;
 	top: 0;
-	z-index: 100;
+	z-index: 1;
 	width: 50%;
 	height: 100%;
 	text-align: center;
@@ -315,13 +315,13 @@ html, body,
 }
 
 .open-left .side-left {
-	z-index: 200;
+	z-index: 1;
 	-webkit-transform: translateX(150%);
 	transform: translateX(150%);
 }
 
 .close-left .side-left {
-	z-index: 200;
+	z-index: 1;
 }
 
 .open-left .side-left .intro-content {
