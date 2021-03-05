@@ -5,7 +5,7 @@
 	box-sizing: border-box;
 }
 
-body-time {
+.body-time {
 	min-height: 100vh;
 	background: #0D1959;
 	color: #fff;
