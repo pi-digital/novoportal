@@ -5,8 +5,8 @@
 	box-sizing: border-box;
 }
 
-html, body {min-height: 100vh;}
-body {
+body-time {
+	min-height: 100vh;
 	background: #0D1959;
 	color: #fff;
 	font-family: 'Palanquin Dark';
