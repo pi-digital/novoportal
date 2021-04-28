@@ -14,8 +14,8 @@ img {
 }
 
 body {
-  background: #2b2a2b;
-  color: white;
+  background: #ffffff;
+  color: #022d69;
   margin: 0;
   padding: 0;
 }
@@ -26,18 +26,12 @@ main {
   margin: auto;
 }
 
-h1 {
-  font-family: "Poppins", sans-serif;
-}
-
 h2 {
-  color: #ed666f;
-  font-family: "Poppins", sans-serif;
+  color: #1351b4;
   font-weight: 500;
 }
 
 h3 {
-  font-family: "Poppins", sans-serif;
   font-weight: 500;
   margin: 0.5rem 0;
 }
@@ -67,7 +61,7 @@ article {
 article p {
   font-family: "Karla", sans-serif;
   font-size: 0.95rem;
-  color: #c8c8c8;
+  color: #000000;
 }
 article:nth-child(4) {
   grid-area: 1/2/4/3;
@@ -89,13 +83,13 @@ article:nth-child(4) {
 }
 @media screen and (min-width: 1025px) {
   article:nth-child(4) {
-    border-right: 1px solid #4d4d4d;
+    border-right: 1px solid #022d69;
     padding-right: 1rem;
   }
 }
 @media screen and (min-width: 600px) {
   article:nth-child(4n) {
-    border-left: 1px solid #4d4d4d;
+    border-left: 1px solid #022d69;
     border-bottom: 0;
     padding-left: 1rem;
   }
@@ -103,11 +97,10 @@ article:nth-child(4) {
 
 .footer-note {
   text-align: center;
-  font-family: "Karla", sans-serif;
   font-size: 0.9rem;
-  background: white;
+  background: #022d69;
   padding: 1rem;
-  color: black;
+  color: #ffffff;
   border-radius: 5px;
 }
 .footer-note a {
