@@ -60,7 +60,7 @@ article {
 }
 article p {
   font-family: "Karla", sans-serif;
-  font-size: 0.95rem;
+  font-size: 1.6rem;
   color: #000000;
 }
 article:nth-child(4) {
@@ -97,7 +97,7 @@ article:nth-child(4) {
 
 .footer-note {
   text-align: center;
-  font-size: 0.9rem;
+  font-size: 1.6rem;
   background: #022d69;
   padding: 1rem;
   color: #ffffff;
