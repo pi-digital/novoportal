@@ -661,6 +661,7 @@
 .tabs-style-linebox nav a:hover,
 .tabs-style-linebox nav a:focus {
 	color: #0c326f;
+	text-decoration: none;
 }
 
 .tabs-style-linebox nav li.tab-current a {
