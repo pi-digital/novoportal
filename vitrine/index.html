@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<!--[if lte IE 8]>
+<html lang="da" class="no-js lt-ie9"><![endif]--><!--[if gte IE 9]><!--><html lang="en" class="no-js" ng-controller="GlobalController as GlobalCtrl">
+<!--<![endif]-->
+<head>
+
+
+    <meta charset="utf-8">
+    <!-- Add to web.config -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>IP-Marketplace</title>
+
+    <link rel="stylesheet" href="css/css-main.min.css" type="text/css">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="format-detection" content="telephone=no">
+    
+<script type="text/javascript">
+<!--
+window["_tsbp_"] = { ba : "X-TS-BP-Action", bh : "X-TS-AJAX-Request"};
+//-->
+</script>
+<script type="text/javascript" src="/TSbd/0886ad3733ab200051b74592173e15d33c746f9723ff57d18b9a4189a591f809de99d6630de0c26e?type=2"></script>
+<script src="js/js-modernizr.js"></script>
+    <script src="js/jQuery-jquery-2.1.1.min.js"></script>
+    <script src="js/1.13.1-jquery.validate.min.js"></script>
+    <script src="js/5.1-jquery.validate.unobtrusive.min.js"></script>
+    <script src="/DependencyHandler.axd?s=L3VtYnJhY29fY2xpZW50L3VpL2pxdWVyeS5qczsvdW1icmFjb19jbGllbnQvQXBwbGljYXRpb24vSlF1ZXJ5L2pxdWVyeS52YWxpZGF0ZS5taW4uanM7L3VtYnJhY29fY2xpZW50L0FwcGxpY2F0aW9uL0pRdWVyeS9qcXVlcnkudmFsaWRhdGUudW5vYnRydXNpdmUubWluLmpzOw&amp;t=Javascript&amp;cdv=993554199" type="text/javascript"></script>
+	<script type="text/javascript" src="js/js-cookies.js"></script>
+</head>
+<body class="fade-ng-cloak ng-cloak">
+    
+<header class="header">
+    <div class="container">
+      
+
+            
+            <!--<img class="mobile__logo" src="/static/dist/img/logo.png"/>-->
+            <svg class="mobile__logo" role="img"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/static/dist/svg/icons.svg#logo"></use></svg>
+            <div class="sitenav animate-from-right" data-module="mobile-menu">
+                <input type="checkbox" id="sitenav__trigger" class="sitenav__trigger">
+                <label for="sitenav__trigger" aria-label="&Aring;bn menu" class="sitenav__btn sitenav__btn--bottom-right">
+                    <svg role="img" class="arrow-left">
+                        <use xlink:href="/static/dist/svg/icons.svg#icon-mobilenav"></use>
+                    </svg>
+                    <span class="visuallyhidden">&Aring;bn menu</span>
+                </label>
+
+                <nav role="navigation" class="sitenav__nav" aria-label="Hoved navigation mobil">
+                    <ul>
+                                <li class="sitenav__item sitenav--haschildren">
+                                    <input type="checkbox" role="menuitemcheckbox" id="sitenav__item--2">
+                                    <label for="sitenav__item--2" aria-label="Check to open level 2">
+                                        Listings for sale
+                                        <svg role="img" class="arrow-right">
+                                            <use xlink:href="/static/dist/svg/icons.svg#right-arrow"></use>
+                                        </svg>
+                                    </label>
+                                    <ul class="sitenav__lvl-2">
+                                        <li class="sitenav__item">
+                                            <a href="listings-for-sale.html">Listings for sale</a>
+                                        </li>
+                                            <li class="sitenav__item"><a href="search?type=Patent.html">Patents for sale</a></li>
+                                            <li class="sitenav__item"><a href="search?type=Design.html">Designs for sale</a></li>
+                                            <li class="sitenav__item"><a href="search?type=Trademark.html">Trademarks for sale</a></li>
+                                        <li class="sitenav__item sitenav__item--back">
+                                            <label for="sitenav__item--2" aria-label="Click to go back" tabindex="0">
+                                                <svg role="img" class="arrow-left">
+                                                    <use xlink:href="/static/dist/svg/icons.svg#left-arrow"></use>
+                                                </svg>
+                                                Go back
+                                            </label> <!-- Refers to checkbox id="sitenav__item--2" -->
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="sitenav__item sitenav--haschildren">
+                                    <input type="checkbox" role="menuitemcheckbox" id="sitenav__item--2">
+                                    <label for="sitenav__item--2" aria-label="Check to open level 2">
+                                        Create a listing
+                                        <svg role="img" class="arrow-right">
+                                            <use xlink:href="/static/dist/svg/icons.svg#right-arrow"></use>
+                                        </svg>
+                                    </label>
+                                    <ul class="sitenav__lvl-2">
+                                        <li class="sitenav__item">
+                                            <a href="create-a-listing.html">Create a listing</a>
+                                        </li>
+                                            <li class="sitenav__item"><a href="create-patent-listing.html">Create patent listing</a></li>
+                                            <li class="sitenav__item"><a href="create-design-listing.html">Create design listing</a></li>
+                                            <li class="sitenav__item"><a href="create-trademark-listing.html">Create trademark listing</a></li>
+                                        <li class="sitenav__item sitenav__item--back">
+                                            <label for="sitenav__item--2" aria-label="Click to go back" tabindex="0">
+                                                <svg role="img" class="arrow-left">
+                                                    <use xlink:href="/static/dist/svg/icons.svg#left-arrow"></use>
+                                                </svg>
+                                                Go back
+                                            </label> <!-- Refers to checkbox id="sitenav__item--2" -->
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="sitenav__item sitenav--haschildren">
+                                    <input type="checkbox" role="menuitemcheckbox" id="sitenav__item--2">
+                                    <label for="sitenav__item--2" aria-label="Check to open level 2">
+                                        About IP Marketplace
+                                        <svg role="img" class="arrow-right">
+                                            <use xlink:href="/static/dist/svg/icons.svg#right-arrow"></use>
+                                        </svg>
+                                    </label>
+                                    <ul class="sitenav__lvl-2">
+                                        <li class="sitenav__item">
+                                            <a href="about-ip-marketplace.html">About IP Marketplace</a>
+                                        </li>
+                                            <li class="sitenav__item"><a href="what-is-ip-marketplace.html">What is IP Marketplace?</a></li>
+                                            <li class="sitenav__item"><a href="terms-and-conditions.html">Terms and conditions</a></li>
+                                            <li class="sitenav__item"><a href="cooperations.html">Cooperations</a></li>
+                                        <li class="sitenav__item sitenav__item--back">
+                                            <label for="sitenav__item--2" aria-label="Click to go back" tabindex="0">
+                                                <svg role="img" class="arrow-left">
+                                                    <use xlink:href="/static/dist/svg/icons.svg#left-arrow"></use>
+                                                </svg>
+                                                Go back
+                                            </label> <!-- Refers to checkbox id="sitenav__item--2" -->
+                                        </li>
+                                    </ul>
+                                </li>
+                                                    <li class="sitenav__item"><a href="login.html">Login</a></li>
+                            <li class="sitenav__item"><a href="create-profile.html">Opret</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+
+            
+            <nav class="menu menu--lvl-1 flexbox" touch-menu>
+<li class="menu__item">
+                <a class="menu__link menu__link--logo" href="ip-marketplace.html">
+                    <!--<img class="menu__logo" src="/static/dist/img/logo.png"/>-->
+                    <svg class="menu__logo" role="img"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/static/dist/svg/icons.svg#logo"></use></svg>
+                </a>
+            </li>
+
+                <li id="menu-item-0" class="menu__item" ng-click="toggleMenu($event)">
+                    <a href="listings-for-sale.html" class="menu__link menu__link--std menu__link--lvl-1">Listings for sale</a>
+
+                        <ul class="menu menu--lvl-2">
+                                <li class="menu__item--lvl-2"><a href="search?type=Patent.html" class="menu__link menu__link--std menu__link--lvl-2">Patents for sale</a></li>
+                                <li class="menu__item--lvl-2"><a href="search?type=Design.html" class="menu__link menu__link--std menu__link--lvl-2">Designs for sale</a></li>
+                                <li class="menu__item--lvl-2"><a href="search?type=Trademark.html" class="menu__link menu__link--std menu__link--lvl-2">Trademarks for sale</a></li>
+                        </ul>
+
+                </li>
+                <li id="menu-item-1" class="menu__item" ng-click="toggleMenu($event)">
+                    <a href="create-a-listing.html" class="menu__link menu__link--std menu__link--lvl-1">Create a listing</a>
+
+                        <ul class="menu menu--lvl-2">
+                                <li class="menu__item--lvl-2"><a href="create-patent-listing.html" class="menu__link menu__link--std menu__link--lvl-2">Create patent listing</a></li>
+                                <li class="menu__item--lvl-2"><a href="create-design-listing.html" class="menu__link menu__link--std menu__link--lvl-2">Create design listing</a></li>
+                                <li class="menu__item--lvl-2"><a href="create-trademark-listing.html" class="menu__link menu__link--std menu__link--lvl-2">Create trademark listing</a></li>
+                        </ul>
+
+                </li>
+                <li id="menu-item-2" class="menu__item" ng-click="toggleMenu($event)">
+                    <a href="about-ip-marketplace.html" class="menu__link menu__link--std menu__link--lvl-1">About IP Marketplace</a>
+
+                        <ul class="menu menu--lvl-2">
+                                <li class="menu__item--lvl-2"><a href="what-is-ip-marketplace.html" class="menu__link menu__link--std menu__link--lvl-2">What is IP Marketplace?</a></li>
+                                <li class="menu__item--lvl-2"><a href="terms-and-conditions.html" class="menu__link menu__link--std menu__link--lvl-2">Terms and conditions</a></li>
+                                <li class="menu__item--lvl-2"><a href="cooperations.html" class="menu__link menu__link--std menu__link--lvl-2">Cooperations</a></li>
+                        </ul>
+
+                </li>
+                                <!--Use this line if error occurs-->
+                <li class="menu__item" click-outside>
+                    True
+            
+                    <button class="menu__link menu__link--std menu__link--btn menu__link--lvl-1" ng-click="toggleSelect()">Login</button>
+                    <div class="login-box" ng-show="isPopupVisible">
+<form action="/" class="form form--std" enctype="multipart/form-data" method="post" name="LoginForm">                            <div class="login-box__toggle" ng-click="loginBox.login = !loginBox.login; loginBox.forgot = false">
+                                <p class="login-box__toggle--text">Login</p>
+                                <svg class="login-box__toggle--arrow" role="img" ng-if="loginBox.login"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/static/dist/svg/icons.svg#up-arrow"></use></svg>
+                                <svg class="login-box__toggle--arrow" role="img" ng-if="!loginBox.login"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/static/dist/svg/icons.svg#down-arrow"></use></svg>
+                            </div>
+                                                    <div ng-show="loginBox.login">
+                                                        <div class="form__item">
+                                                            <label class="form__label" for="loginModel_Username">Username</label>
+                                                            <input class="form__input form__input--text" data-val="true" data-val-required="The Username field is required." id="loginModel_Username" name="loginModel.Username" ng-model="login.user" placeholder="Enter your e-mail address" type="text" value="">
+                                                            <span class="field-validation-valid" data-valmsg-for="loginModel.Username" data-valmsg-replace="true"></span>
+                                                        </div>
+
+                                                        <div class="form__item">
+                                                            <label class="form__label" for="loginModel_Password">Password</label>
+                                                            <input class="form__input form__input--text" data-val="true" data-val-required="The Password field is required." id="loginModel_Password" name="loginModel.Password" ng-model="login.pass" placeholder="Enter your password" type="password">
+                                                            <span class="field-validation-valid" data-valmsg-for="loginModel.Password" data-valmsg-replace="true"></span>
+                                                        </div>
+                                                        <button class="form__submit btn btn--inv" ng-disabled="login.user.length === 0 || login.pass.length === 0">Login</button>
+                                                    </div>
+<input name="ufprt" type="hidden" value="B6CEA5A5297FEF73808A50EDA8CBAC30C8BC5181296D249E9012A7AC59A2983724A4DE4798E979C4F4F7C3A11EB76908F281A09E3C7DEAB46D61A4B7B2BB2236A7979B02BD19B16D405D7CC7AF24CE164F31EB0F7A280C9802EFD782EE41F74320E656ADC7569D03830A94899356AC8F52F0C2AD8DD353EC0C28CE4468484C2F74CAD86C054F3541CD81732B31B863C5"></form>                        <form action="/" class="form form--std" enctype="multipart/form-data" method="post" name="ForgotPasswordForm">                            <div class="login-box__toggle" ng-click="loginBox.forgot = !loginBox.forgot; loginBox.login = false">
+                                <p class="login-box__toggle--text">Forgot password?</p>
+                                <svg class="login-box__toggle--arrow" role="img" ng-if="loginBox.forgot"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/static/dist/svg/icons.svg#up-arrow"></use></svg>
+                                <svg class="login-box__toggle--arrow" role="img" ng-if="!loginBox.forgot"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/static/dist/svg/icons.svg#down-arrow"></use></svg>
+                            </div>
+                                                    <div ng-show="loginBox.forgot">
+                                                        <div class="form__item">
+                                                            <label class="form__label" for="login__forgot">Email address</label>
+                                                            <input class="form__input form__input--text" id="login__forgot" name="email" type="email" ng-model="forgotPsw.email" required placeholder="Enter your email address">
+                                                            <span class="field-validation-error" ng-if="!ForgotPasswordForm.email.$valid &amp;&amp; !ForgotPasswordForm.email.$pristine">Email address is incorrect</span>
+                                                        </div>
+                                                        <button class="form__submit btn btn--inv" ng-disabled="!ForgotPasswordForm.email.$valid">Send new password</button>
+                                                    </div>
+<input name="ufprt" type="hidden" value="8578F2E33680F8DA6475708F79CF7D24DFA5BD318C7E3DAEB7AF14AD95CFD9CC4A6467DAE0A48FEBC98A77A3E730A81D622281DE19BE5986D620855C49FAF160E94255E9AA446F6590B02A0F0BFAD3ED925C1C8A67A77C4F5682587CC9048C19E85DF4DBACC654AC2CE13DE7DB5F3B38E07332F80D9B0012330A5E6347C41B37A3B0F224F0A1A3731A7B71E9EBD2D4E2"></form>                        <h2>Not a user already?</h2>
+                        <p>You must register as a user to create a listing or contact the owner of an IP</p>
+                        <a href="create-profile.html">Create a profile</a>
+                    </div>
+                </li>
+        </nav>
+    </div>
+</header>
+<main>
+    
+
+
+    
+<!-- Hero -->
+<div class="hero bg-imagehandler" data-src-xxs="/media/1043/pvs-frontpage-hero.png?anchor=center&amp;mode=crop&amp;width=480&amp;height=1000" data-src-xs="/media/1043/pvs-frontpage-hero.png?anchor=center&amp;mode=crop&amp;width=768&amp;height=900" data-src-sm="/media/1043/pvs-frontpage-hero.png?anchor=center&amp;mode=crop&amp;width=1024&amp;height=900" data-src-md="/media/1043/pvs-frontpage-hero.png?anchor=center&amp;mode=crop&amp;width=1280&amp;height=900" data-src-lg="/media/1043/pvs-frontpage-hero.png?anchor=center&amp;mode=crop&amp;width=1366&amp;height=900" data-src-xl="/media/1043/pvs-frontpage-hero.png?anchor=center&amp;mode=crop&amp;width=1600&amp;height=1000" data-src-xxl="/media/1043/pvs-frontpage-hero.png?anchor=center&amp;mode=crop&amp;width=2500&amp;height=1000">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 offset-md-2">
+                <form class="hero__form" action="/search" autocomplete="off" ng-controller="SearchFrontpageController as searchCtrl">
+                    <div class="hero__search search-bar">
+                        <input class="hero__search__input search-bar__input" type="text" name="q" value="" placeholder="Search listings for sale" ng-model="searchCtrl.searchQuery" ng-change="searchCtrl.getResults()">
+                        <a class="hero__search__submit search-bar__submit" ng-href="/search?q={{searchCtrl.searchQuery}}" href="ip-marketplace.html"></a>
+                    </div>
+                    <div class="hero__suggestions" ng-if="searchCtrl.results.length &gt; 0">
+                        <a class="hero__suggestions--link" ng-href="{{result.Link}}" ng-repeat="result in searchCtrl.results" href="ip-marketplace.html">
+                            <h3 class="hero__suggestions--title">{{result.Title}}</h3>
+                            <p class="hero__suggestions--text">{{result.BusinessPotential | characters: 120}}</p>
+                        </a>
+                        <div class="hero__suggestions--more" ng-if="searchCtrl.moreResults">
+                            <a class="hero__suggestions--more--link" ng-href="/search?q={{searchCtrl.searchQuery}}" href="ip-marketplace.html">See all {{searchCtrl.count}} results</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-12">
+                <div class="hero__main"></div>
+                <div class="row">
+                    <div class="col-sm-6 col-md-4 offset-md-2">
+                        <h2 class="hero__heading section-heading--lg">Buy and sell patents, trademarks and designs</h2>
+                        <p class="hero__p">At IP Marketplace you can put your patents, patent applications, utility models, design and trademarks - so called IP rights - up for sale or out-licensing. You can also use IP Marketplace when searching for IP rights to buy or in-license, or when you are looking for partners for innovation projects that builds on patentable knowledge.</p>
+                            <a class="btn btn--purple" href="create-a-listing.html">Create a listing</a>
+                    </div>
+                    <div class="col-sm-6 col-md-5 offset-md-1">
+                        <div class="hero__case">
+    <div class="hero__case__title">IP for sale</div>
+    <div class="hero__case__card card card--frontpage">
+        <a class="card__link" href="disposable-toilet-single-use-toilet.html">
+            <div class="hero__case__type card__type">
+                Patent
+                <svg class="hero__case__icon card__icon" role="img"><use xlink:href="/media/1023/pvs_icon__patent.svg#Layer_1"></use></svg>
+            </div>
+            <div class="card__content">
+                <h2 class="card__heading">Disposable Toilet - Single Use Toilet</h2>
+                <p class="card__body" ng-model="GlobalCtrl.cardBody">
+                        </p><div>The present invention is a disposable sanitary toilet designed for the health care industry to eliminate the need for cleaning and sterilizing bed pans. Eliminating exposure of the healthcare professional and caregiver to excreted fecal pathogens.<br...>
+                
+            </br...></div>
+            <p class="card__text__link">Find out more</p>
+          
+    </div>
+</a></div>
+
+
+
+                    </div>
+                </div>  
+            </div>
+        </div>
+    
+    </div>
+</div>
+<div class="container">
+    <div class="listings">
+    <div class="row">
+            <div class="col-md-4 item-margin--lg">
+                <div class="listing">
+                    <a class="listing__link" href="search?type=patent.html">
+                        <img class="listing__icon" src="images/1023-pvs_icon__patent.svg">
+                        <h3 class="listing__text listing__text--heading section-heading--lg">Patents</h3>
+                        <p class="listing__text listing__text--p">See the patents and utility models that are listed on IP Marketplace here.</p>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4 item-margin--lg">
+                <div class="listing">
+                    <a class="listing__link" href="search?type=design.html">
+                        <img class="listing__icon" src="images/1022-pvs_icon__design.svg">
+                        <h3 class="listing__text listing__text--heading section-heading--lg">Designs</h3>
+                        <p class="listing__text listing__text--p">See the designs that are listed on IP Marketplace here.</p>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4 item-margin--lg">
+                <div class="listing">
+                    <a class="listing__link" href="search?type=trademark.html">
+                        <img class="listing__icon" src="images/1024-pvs_icon__trademark.svg">
+                        <h3 class="listing__text listing__text--heading section-heading--lg">Trademarks</h3>
+                        <p class="listing__text listing__text--p">See the trademarks that are listed on IP Marketplace here.</p>
+                    </a>
+                </div>
+            </div>
+    </div>
+
+</div>
+
+<div class="spots">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="spots__top">
+                <img class="spots__icon" src="images/1025-pvs_icon__cases.svg">
+                <h2 class="spots__heading section-heading--xl">Inspiration and co-operations</h2>
+            </div>
+        </div>
+            <div class="col-md-4 item-margin--lg">
+                <a href="sell-your-ip-right.html">
+                    <div class="spot spot--black">
+                        <div class="spot__top imagehandler" data-src-xxs="/media/1008/photo-1451187863213-d1bcbaae3fa3.jpeg" data-src-xs="/media/1008/photo-1451187863213-d1bcbaae3fa3.jpeg" data-src-sm="/media/1008/photo-1451187863213-d1bcbaae3fa3.jpeg" data-src-md="/media/1008/photo-1451187863213-d1bcbaae3fa3.jpeg" data-src-lg="/media/1008/photo-1451187863213-d1bcbaae3fa3.jpeg">
+                            <noscript>
+                                <img src="images/1008-photo-1451187863213-d1bcbaae3fa3.jpeg">
+                            </noscript>
+
+                            <div class="spot__overlay spot__overlay--bg"></div>
+                            <div class="spot__overlay spot__overlay--content">
+                                <div class="spot__category">
+                                    Inspiration
+                                </div>
+                                <h3 class="spot__heading">
+                                    Sell your IP right
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="spot__bottom">
+                            <p class="spot__text">You have created something new and have protected your invention with a patent, a trademark or a design right. However, you struggle to turn your invention into a viable business.</p>
+
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4 item-margin--lg">
+                <a href="buy-ip-rights.html">
+                    <div class="spot spot--purple">
+                        <div class="spot__top imagehandler" data-src-xxs="/media/1008/photo-1451187863213-d1bcbaae3fa3.jpeg" data-src-xs="/media/1008/photo-1451187863213-d1bcbaae3fa3.jpeg" data-src-sm="/media/1008/photo-1451187863213-d1bcbaae3fa3.jpeg" data-src-md="/media/1008/photo-1451187863213-d1bcbaae3fa3.jpeg" data-src-lg="/media/1008/photo-1451187863213-d1bcbaae3fa3.jpeg">
+                            <noscript>
+                                <img src="images/1008-photo-1451187863213-d1bcbaae3fa3.jpeg">
+                            </noscript>
+
+                            <div class="spot__overlay spot__overlay--bg"></div>
+                            <div class="spot__overlay spot__overlay--content">
+                                <div class="spot__category">
+                                    Inspiration
+                                </div>
+                                <h3 class="spot__heading">
+                                    Speed up your innovation. Buy IP rights
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="spot__bottom">
+                            <p class="spot__text">Buying IP rights developed by others is an efficient way of strengthening your company&rsquo;s innovative capacity.</p>
+
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4 item-margin--lg">
+                <a href="cooperations.html">
+                    <div class="spot spot--black">
+                        <div class="spot__top imagehandler" data-src-xxs="/media/1008/photo-1451187863213-d1bcbaae3fa3.jpeg" data-src-xs="/media/1008/photo-1451187863213-d1bcbaae3fa3.jpeg" data-src-sm="/media/1008/photo-1451187863213-d1bcbaae3fa3.jpeg" data-src-md="/media/1008/photo-1451187863213-d1bcbaae3fa3.jpeg" data-src-lg="/media/1008/photo-1451187863213-d1bcbaae3fa3.jpeg">
+                            <noscript>
+                                <img src="images/1008-photo-1451187863213-d1bcbaae3fa3.jpeg">
+                            </noscript>
+
+                            <div class="spot__overlay spot__overlay--bg"></div>
+                            <div class="spot__overlay spot__overlay--content">
+                                <div class="spot__category">
+                                    Cooperations
+                                </div>
+                                <h3 class="spot__heading">
+                                    We cooperate worldwide
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="spot__bottom">
+                            <p class="spot__text">Let us help you get your patent, design or trademark distributed worldwide via our partners.</p>
+
+                        </div>
+                    </div>
+                </a>
+            </div>
+    </div>
+</div>
+
+<div class="tools">
+    <div class="row">
+            <div class="col-md-6 item-margin--lg">
+                <div class="tool tool--frontpage tool--black">
+                    <h2 class="tool__heading section-heading--lg">What's your IP right worth?</h2>
+                      <p class="tool__text"></p><p>Many companies want to know the value of their IP rights. To provide input to this work, The Danish Patent and Trademark Office has developed IP Evaluation. You can use the tool to evaluate patents, trademarks and designs when you want to trade these.</p>
+<ul class="tool__list">
+                            <li class="tool__list__item">
+                                <a class="tool__list__link" href="evaluation-tool.html">
+                                    <svg class="tool__list__icon" role="img"><use xlink:href="#Layer_1"></use></svg>
+                                    <span class="tool__list__text">Evaluation tool</span>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-6 item-margin--lg">
+                <div class="tool tool--frontpage tool--purple">
+                    <h2 class="tool__heading section-heading--lg">Standard contracts</h2>
+                      <p class="tool__text"></p><p>If you have reached the stage where you are in negotiations with another company about selling your IP right, it is a good idea to enter a written agreement, before any real co-operation is established.</p>
+<ul class="tool__list">
+                            <li class="tool__list__item">
+                                <a class="tool__list__link" href="standard-contracts.html">
+                                    <svg class="tool__list__icon" role="img"><use xlink:href="#Layer_1"></use></svg>
+                                    <span class="tool__list__text">Standard contracts</span>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+    </div>
+</div>
+
+
+</div>
+
+   <footer class="footer">
+    <div class="container">
+        <div class="row center-v">
+
+            <div class="col-lg-3 offset-lg-1 col-sm-4">
+                <h3 class="footer__title">Danish Patent and Trademark Office</h3>
+                <p class="footer__address">Helgesh&oslash;j All&eacute; 81<br>DK - 2630 Taastrup</p>
+                <p class="footer__contact">Phone: <a class="footer__contact--phone" href="tel:+45%2043%2050%2080%2000">+45 43 50 80 00</a></p>
+                <p class="footer__contact">Fax: <a class="footer__contact--phone" href="tel:+45%2043%2050%2080%2001">+45 43 50 80 01</a></p>
+                <p class="footer__contact">Email: <a class="footer__contact--mail" href="mailto:ipmarketplace@dkpto.dk">ipmarketplace@dkpto.dk</a></p>
+            </div>
+            <div class="col-sm-4">
+                <div class="footer__logo">
+                    <img src="images/1033-pvs_footer_logo.svg">
+                </div>
+            </div>
+            <div class="col-lg-3 offset-lg-1 col-sm-4">
+                <div class="footer__links">
+                    <a class="footer__links--item" href="search?type=Patent.html">Patents for sale</a><br>
+                    <a class="footer__links--item" href="search?type=Trademark.html">Trademarks for sale</a><br>
+                    <a class="footer__links--item" href="search?type=Design.html">Designs for sale</a><br>
+                    <a class="footer__links--item" href="create-a-listing.html">Create a listing</a><br>
+                    <a class="footer__links--item" href="what-is-ip-marketplace.html">What is IP Marketplace?</a><br>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <script>
+        var scriptLoaderSettings = {
+            mainScriptSrc: [
+                '/static/dist/js/main.min.js'
+            ],
+            polyfills: 'default-3.3'
+        };
+
+        var loadMainScript=function(){function a(a){var b=document.createElement("script");b.async=!0,b.src=a,document.body.appendChild(b)}if("object"==typeof scriptLoaderSettings.mainScriptSrc)for(var b=0;b<scriptLoaderSettings.mainScriptSrc.length;b++)a(scriptLoaderSettings.mainScriptSrc[b]);else a(scriptLoaderSettings.mainScriptSrc)};
+        !function(a,b){var c,d=[/^(.+)(\[.+MessengerForiOS.+\][ ]*)/,/^(.+)(\[.+FBIOS.+\][ ]*)/,/^(.+)( Twitter for iPhone)/];for(c=0;c<d.length;++c){var e=d[c],f=a.match(e);if(f){b=b+"&ua="+encodeURIComponent(f[1]+" Safari");break}}var g=document.createElement("script");g.src=b,document.body.appendChild(g)}(navigator.userAgent,"https://cdn.polyfill.io/v2/polyfill.min.js?features="+scriptLoaderSettings.polyfills+"&callback=loadMainScript");
+    </script>
+    <!--<script src="/static/dist/js/main.min.js"></script>-->
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('set', 'anonymizeIp', true);
+  ga('create', 'UA-65929-5', 'auto');
+  ga('send', 'pageview');
+
+    </script>
+</div></main></body>
+</html>
