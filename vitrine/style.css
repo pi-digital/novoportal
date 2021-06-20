@@ -6,10 +6,9 @@ quote::after {
 }
 
 ins {
-  color: rgba(132, 175, 155, 0.75);
+  color: #00cac7;
   cursor: help;
   position: relative;
-  font-size:2em;
 }
 ins::before {
   display: block;
@@ -17,7 +16,6 @@ ins::before {
   position: absolute;
   font-family: "Zilla Slab", serif;
   color: #659b82;
-  font-size: 0.5em;
   transition: all 500ms ease;
   top: -2em;
   left: 0;
