@@ -6,13 +6,12 @@ quote::after {
 }
 
 ins {
-  font-family: "Zilla Slab Highlight", cursive;
   color: rgba(132, 175, 155, 0.75);
   cursor: help;
   position: relative;
+  font-size:2em;
 }
 ins::before {
-  content: "(correction)";
   display: block;
   pointer-events: none;
   position: absolute;
