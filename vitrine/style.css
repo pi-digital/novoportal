@@ -1,5 +1,4 @@
-quote::before {
-  content: "“";
+.vitrine {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -8,6 +7,10 @@ quote::before {
   font-size:2em;
   background:#efefef;
   letter-spacing:-1px;
+}
+
+quote::before {
+  content: "“";
 }
 quote::after {
   content: "”";
