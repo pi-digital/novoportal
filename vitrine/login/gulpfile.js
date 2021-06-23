@@ -7,12 +7,12 @@ const browserSync = require('browser-sync')
 //SCSS
 
 function style() {
-    return gulp.src('./assets/scss/*.scss')
+    return gulp.src('https://pi-digital.github.io/novoportal/vitrine/login/assets/scss/login.scss')
     .pipe(sourceMaps.init())
     .pipe(sass().on('error', sass.logError))
     .pipe(autoprefixer())
     .pipe(sourceMaps.write('./'))
-    .pipe(gulp.dest('./assets/css'))
+    .pipe(gulp.dest('https://pi-digital.github.io/novoportal/vitrine/login/assets/css/login.css'))
     .pipe(browserSync.stream())
 }
 
@@ -25,7 +25,7 @@ function watch() {
         ghostMode: false,
         notify: false
     });
-    gulp.watch('./assets/scss/*.scss', style);
+    gulp.watch('https://pi-digital.github.io/novoportal/vitrine/login/assets/scss/login.scss', style);
     gulp.watch('./*.html').on('change', browserSync.reload);
     gulp.watch('./assets/js/*.js').on('change', browserSync.reload);
 
