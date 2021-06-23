@@ -1,6 +1,5 @@
 body {
-  font-family: "Karla", sans-serif;
-  background-color: #d0d0ce;
+  background-image: linear-gradient(to right, #ffcac6, #fe998c);
   min-height: 100vh; }
 
 .brand-wrapper {
