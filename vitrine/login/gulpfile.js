@@ -12,7 +12,7 @@ function style() {
     .pipe(sass().on('error', sass.logError))
     .pipe(autoprefixer())
     .pipe(sourceMaps.write('./'))
-    .pipe(gulp.dest('https://pi-digital.github.io/novoportal/vitrine/login/assets/css/login.css'))
+    .pipe(gulp.dest('https://pi-digital.github.io/novoportal/vitrine/login/assets/css/login.css')
     .pipe(browserSync.stream())
 }
 
