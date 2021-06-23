@@ -1,6 +1,6 @@
-body {
+body-vitri {
   background-image: linear-gradient(to right, #ffcac6, #fe998c);
-  min-height: 100vh; }
+  min-height: 90vh; }
 
 .brand-wrapper {
   margin-bottom: 19px; }
@@ -82,8 +82,7 @@ body {
 
 /*# sourceMappingURL=login.css.map */
 
-body {
-    font-family: "Karla", sans-serif;
+body-vitri {
     background-color: #d0d0ce;
     min-height: 100vh;
 }
@@ -126,11 +125,11 @@ body {
         margin-bottom: 23px;
     }
 
-    form {
+    form-vitri {
         max-width: 326px;
     }
 
-    .form-control {
+    .form-vitri-control {
         border: 1px solid #d5dae2;
         padding: 15px 25px;
         margin-bottom: 20px;
