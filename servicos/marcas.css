@@ -9488,43 +9488,6 @@ template {
 /**
  * Add the correct display in IE 10.
  */
-[hidden] {
-  display: none; }
-
-html {
-  box-sizing: border-box; }
-
-body {
-  max-width: 100%;
-  min-height: 100vh; }
-  @media (min-width: 1150px) {
-    body {
-      position: static !important; } }
-
-@media (min-width: 320px) and (max-width: 1150px) {
-  body {
-    padding-top: 50px; }
-    body.menu-active {
-      overflow: hidden;
-      -webkit-overflow-scrolling: touch; } }
-
-*,
-*:before,
-*:after {
-  box-sizing: inherit; }
-
-body {
-  font-family: "Raleway";
-  position: relative; }
-  body.high-contrast {
-    background: #000000;
-    color: #FFFFFF; }
-
-h1, h2, h3, h4, h5, h6 {
-  font-weight: 900; }
-
-img {
-  max-width: 100%; }
 
 .entry-header,
 .entry-content {
