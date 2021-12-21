@@ -10166,7 +10166,7 @@ table td {
         background-size: 20px; }
 
 .feature-card a:hover {
-  color: #960200;
+  color: #0c326f;
   background: rgba(0,0,0,.05);
 }
 
@@ -10182,16 +10182,16 @@ table td {
   @media (min-width: 1150px) {
     .feature-card:hover {
       background-color: #F8F8F8;
-      border-color: #960200;
-      color: #960200; }
+      border-color: #0c326f;
+      color: #0c326f; }
       .feature-card:hover .card-title,
       .feature-card:hover .card-desc,
       .feature-card:hover .card-title a,
       .feature-card:hover .icon:before {
-        color: #960200; }
+        color: #0c326f; }
       .feature-card:hover .btn {
-        border-color: #960200;
-        color: #960200; } }
+        border-color: #0c326f;
+        color: #0c326f; } }
   .feature-card .btn {
     background: transparent; }
   .feature-card .icon {
