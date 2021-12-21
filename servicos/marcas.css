@@ -10211,7 +10211,8 @@ table td {
     font-family: 'Rawline';
     font-weight: 700;
     margin: 0 0 5px;
-    position: relative; }
+    position: relative;
+    line-height: 2.4rem;}
     @media screen and (prefers-reduced-motion: reduce) {
       .feature-card .card-title {
         transition: none; } }
