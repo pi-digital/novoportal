@@ -10183,8 +10183,8 @@ table td {
   @media (min-width: 1150px) {
     .feature-card:hover {
       background-color: #F8F8F8;
-      border-color: #0c326f;
-      color: #0c326f; }
+      border-color: #06ACFF;
+      color: #06ACFF; }
       .feature-card:hover .card-title,
       .feature-card:hover .card-desc,
       .feature-card:hover .card-title a,
