@@ -10189,10 +10189,10 @@ table td {
       .feature-card:hover .card-desc,
       .feature-card:hover .card-title a,
       .feature-card:hover .icon:before {
-        color: #0c326f; }
+        color: #06ACFF; }
       .feature-card:hover .btn {
-        border-color: #0c326f;
-        color: #0c326f; } }
+        border-color: #06ACFF;
+        color: #06ACFF; } }
   .feature-card .btn {
     background: transparent; }
   .feature-card .icon {
