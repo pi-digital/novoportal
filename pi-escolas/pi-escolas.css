@@ -10145,11 +10145,12 @@ table td {
 .feature-card {
   transition: all ease-in-out 0.2s;
   height: 240px;
-  background-color: #F1F1F1;
+  background-color: #FFFFFF;
   position: relative;
   cursor: pointer;
   border: 4px solid transparent;
-  border-radius: 20px; }
+  border-radius: 20px;
+  box-shadow: 0 0 5px 5px #ededed; }
   @media screen and (prefers-reduced-motion: reduce) {
     .feature-card {
       transition: none; } }
